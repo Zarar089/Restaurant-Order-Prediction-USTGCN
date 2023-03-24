@@ -39,6 +39,7 @@ def mape(y_true, y_pred):
     :type y_true: numpy.ndarray
     :param y_pred: predicted values of shape (batch_size, out_size)
     :type y_pred: numpy.ndarray
+
     :return: MAPE
     :rtype: float
     """
