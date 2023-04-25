@@ -1,0 +1,3582 @@
+orderDate,categoryTitle,dishTitle,orderQuantity,orderPrice
+2021-08-07,Salad,"Garlic Mushroom with Chicken",2,520
+2021-08-07,"Thin-Crust Pizza","Prawn-Lime Pizza",1,1050
+2021-08-07,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-07,Sandwich,"Club Sandwich",1,260
+2021-08-07,Starter,"Chicken Cheese Balls",3,360
+2021-08-07,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-08-07,Starter,"Cheese Balls",2,200
+2021-08-08,Starter,"French Fries",1,80
+2021-08-08,Starter,"Buffalo Wings",1,190
+2021-08-08,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-08-08,Sandwich,"Club Sandwich",2,520
+2021-08-08,Starter,"Teriyaki Chicken Wings",2,400
+2021-08-08,Drinks,"Coke Can",3,120
+2021-08-08,Meal,"Fish & Chips",2,840
+2021-08-08,"Thin-Crust Pizza","Pizza Seafood Marinara",2,760
+2021-08-08,Drinks,"Water 500ml",2,30
+2021-08-09,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,785
+2021-08-09,"Thin-Crust Pizza","Vegetarian's Delight",1,680
+2021-08-09,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-08-10,Sandwich,"Club Sandwich",2,520
+2021-08-10,Drinks,"Coke Can",1,40
+2021-08-10,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,565
+2021-08-10,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,465
+2021-08-10,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-08-11,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2095
+2021-08-11,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-08-11,Drinks,"Water 500ml",4,60
+2021-08-11,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-08-11,Drinks,"Sprite Can",1,40
+2021-08-11,Starter,"French Fries",2,160
+2021-08-11,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-08-11,Pasta,"Seafood Marinara",1,350
+2021-08-11,Starter,"Cheese Balls",2,200
+2021-08-11,Starter,"Chicken Cheese Balls",1,120
+2021-08-11,Drinks,"Coke Can",1,40
+2021-08-11,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-11,Starter,"Prawn On Toast",1,180
+2021-08-12,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-08-12,"Thin-Crust Pizza","Chicken Supreme Pizza",1,660
+2021-08-12,Drinks,"Sprite Can",4,160
+2021-08-12,Drinks,"Coke Can",4,160
+2021-08-12,Drinks,"Water 500ml",4,60
+2021-08-12,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-12,Starter,"Potato Wedges",1,120
+2021-08-12,Starter,"Chicken Cheese Balls",1,120
+2021-08-12,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-08-12,Starter,"Cheese Balls",2,200
+2021-08-12,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-08-12,"Burger with Fries","BBQ Chicken Burger",1,240
+2021-08-12,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-08-13,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1650
+2021-08-13,Starter,"Potato Wedges",4,480
+2021-08-13,Starter,"Fried Calamari",1,290
+2021-08-13,Sandwich,"Club Sandwich",2,520
+2021-08-13,Drinks,"Water 500ml",14,210
+2021-08-13,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-08-13,Meal,"Teriyaki Chicken",5,1450
+2021-08-13,"Burger with Fries","Classic Chicken Burger",2,460
+2021-08-13,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-13,Meal,"Fish & Chips",2,840
+2021-08-13,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-08-13,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-08-13,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,610
+2021-08-13,"Thin-Crust Pizza","Four Seasons Pizza",2,2060
+2021-08-13,Starter,"Naga Wings",2,360
+2021-08-13,Drinks,Coke,5,150
+2021-08-13,Drinks,"Fanta Can",3,120
+2021-08-13,Drinks,"Coke Can",9,360
+2021-08-14,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,700
+2021-08-14,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-08-14,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-08-14,Starter,"Chicken Cheese Balls",4,480
+2021-08-14,Drinks,"Water 500ml",3,45
+2021-08-14,Pasta,"Seafood Marinara",1,350
+2021-08-14,Drinks,Coke,3,120
+2021-08-14,Drinks,Sprite,1,40
+2021-08-14,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-08-14,Starter,"Teriyaki Chicken Wings",2,400
+2021-08-14,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-08-14,Starter,"Cheese Balls",2,200
+2021-08-14,Starter,"Fried Calamari",2,580
+2021-08-14,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-14,Coffee,Espresso,1,130
+2021-08-15,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-08-15,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,500
+2021-08-15,Starter,"Fried Calamari",2,580
+2021-08-15,Drinks,"Water 500ml",4,60
+2021-08-15,Drinks,Coke,5,200
+2021-08-15,Salad,"Garlic Mushroom with Chicken",1,260
+2021-08-15,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1025
+2021-08-15,Starter,"Cheese Balls",1,100
+2021-08-15,Pasta,"Seafood Marinara",1,350
+2021-08-15,Starter,"Chicken Cheese Balls",4,480
+2021-08-15,Starter,"Naga Wings",1,180
+2021-08-15,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-08-15,"Thin-Crust Pizza","Chicken Supreme Pizza",1,330
+2021-08-15,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-08-15,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,940
+2021-08-15,Coffee,Cappuccino,2,380
+2021-08-15,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,610
+2021-08-15,Starter,"Potato Wedges",1,120
+2021-08-15,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-15,Meal,"Mongolian Beef",1,380
+2021-08-15,Meal,"Moroccan Chicken",1,340
+2021-08-15,"Burger with Fries","Peri Peri Beef Burger",1,340
+2021-08-15,Drinks,Fanta,1,40
+2021-08-16,Drinks,"Water 500ml",3,45
+2021-08-16,Drinks,Fanta,1,40
+2021-08-16,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-16,Starter,"Buffalo Wings",1,190
+2021-08-16,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-08-16,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-08-16,Starter,"French Fries",1,80
+2021-08-16,Starter,"Chicken Cheese Balls",1,120
+2021-08-16,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-08-16,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-08-16,"Thin-Crust Pizza","Pizza Seafood Marinara",2,760
+2021-08-17,Coffee,Americano,1,150
+2021-08-17,Coffee,Cappuccino,2,380
+2021-08-17,Starter,"Potato Wedges",1,120
+2021-08-17,Starter,"Fried Calamari",1,290
+2021-08-17,Pasta,"Seafood Marinara",1,350
+2021-08-17,Pasta,"Spaghetti Bolognese",1,300
+2021-08-17,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-17,Drinks,Coke,5,200
+2021-08-17,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,960
+2021-08-17,"Burger with Fries","Classic Chicken Burger",2,480
+2021-08-17,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-08-17,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-08-17,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-17,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-08-17,Drinks,"Water 500ml",5,75
+2021-08-17,Starter,"Cheese Balls",2,200
+2021-08-17,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1320
+2021-08-17,Starter,"Chicken Cheese Balls",1,120
+2021-08-17,Meal,"Fish & Chips",1,420
+2021-08-17,Starter,"French Fries",1,80
+2021-08-17,Drinks,Sprite,1,40
+2021-08-17,Drinks,Fanta,1,40
+2021-08-18,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1250
+2021-08-18,Coffee,Americano,1,150
+2021-08-18,Coffee,Cappuccino,2,380
+2021-08-18,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-08-18,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-08-18,Starter,"Naga Wings",1,180
+2021-08-18,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-18,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-18,Starter,"Potato Wedges",1,120
+2021-08-18,Starter,"Prawn On Toast",1,180
+2021-08-18,Starter,"Chicken Cheese Balls",2,240
+2021-08-18,"Thin-Crust Pizza","Vegetarian's Delight",1,680
+2021-08-18,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-18,Drinks,Fanta,1,40
+2021-08-18,Drinks,Coke,1,40
+2021-08-18,Salad,"Garlic Mushroom with Chicken",1,260
+2021-08-18,Coffee,"Flavored Latte",1,250
+2021-08-18,Dessert,"Blueberry Cheese Cake",1,250
+2021-08-18,Drinks,"Water 500ml",2,30
+2021-08-18,"Burger with Fries","Classic Chicken Burger",1,240
+2021-08-19,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,465
+2021-08-19,Salad,"Garlic Mushroom with Chicken",1,260
+2021-08-19,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1865
+2021-08-19,Starter,"Cheese Balls",1,100
+2021-08-19,Drinks,"Water 500ml",6,90
+2021-08-19,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-08-19,Starter,"Prawn On Toast",1,180
+2021-08-19,Pasta,"Spaghetti Bolognese",1,300
+2021-08-19,Starter,"Fried Calamari",1,290
+2021-08-19,Starter,"Buffalo Wings",2,380
+2021-08-19,Steak,"T-Bone (330-350 gms)",1,1450
+2021-08-19,Drinks,Coke,4,160
+2021-08-19,Starter,"French Fries",2,160
+2021-08-19,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-19,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-08-19,"Thin-Crust Pizza","Four Seasons Pizza",2,1790
+2021-08-19,Starter,"Potato Wedges",1,120
+2021-08-19,Drinks,Fanta,3,120
+2021-08-19,Coffee,"Caffe Mocha",1,260
+2021-08-19,Coffee,"Flavored Latte",1,250
+2021-08-19,Coffee,Cappuccino,2,380
+2021-08-19,Coffee,Latte,1,195
+2021-08-19,Starter,"Chicken Cheese Balls",1,120
+2021-08-20,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1715
+2021-08-20,Starter,"Chicken Cheese Balls",4,480
+2021-08-20,Drinks,Coke,8,320
+2021-08-20,Drinks,"Water 500ml",12,180
+2021-08-20,Coffee,Espresso,1,130
+2021-08-20,Coffee,Cappuccino,3,570
+2021-08-20,Starter,"Cheese Balls",2,200
+2021-08-20,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-20,Pasta,"Seafood Marinara",3,1050
+2021-08-20,Starter,"Buffalo Wings",3,570
+2021-08-20,"Burger with Fries","Classic Chicken Burger",1,240
+2021-08-20,"Thin-Crust Pizza","Pizza Seafood Marinara",2,940
+2021-08-20,Pasta,"Spaghetti Bolognese",3,900
+2021-08-20,Coffee,Latte,4,780
+2021-08-20,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-20,Drinks,Fanta,2,80
+2021-08-20,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-20,Meal,"Teriyaki Chicken",4,1160
+2021-08-20,Starter,"Potato Wedges",1,120
+2021-08-20,Salad,"Garlic Mushroom with Chicken",2,520
+2021-08-20,Steak,"T-Bone (330-350 gms)",1,1450
+2021-08-20,Coffee,"Caffe Mocha",1,280
+2021-08-20,Dessert,"Blueberry Cheese Cake",3,750
+2021-08-20,Dessert,"Red Velvet Pastry",2,440
+2021-08-21,Dessert,"Blueberry Cheese Cake",1,250
+2021-08-21,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-08-21,Drinks,Coke,7,280
+2021-08-21,Coffee,"Flavored Latte",4,1000
+2021-08-21,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-08-21,Meal,"Mongolian Beef",2,760
+2021-08-21,Pasta,"Seafood Marinara",2,700
+2021-08-21,Drinks,"Water 500ml",15,225
+2021-08-21,Drinks,Fanta,1,40
+2021-08-21,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-21,Salad,"Chicken Cashew Nut Salad",1,290
+2021-08-21,Coffee,Cappuccino,3,570
+2021-08-21,"Thin-Crust Pizza","Classic Margherita Pizza",2,550
+2021-08-21,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-08-21,Coffee,"Caffe Mocha",4,1120
+2021-08-21,Starter,"Potato Wedges",2,240
+2021-08-21,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-21,Meal,"Moroccan Chicken",1,340
+2021-08-21,Starter,"Naga Wings",1,180
+2021-08-21,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-08-21,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,640
+2021-08-21,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-21,Starter,"Buffalo Wings",1,190
+2021-08-21,Coffee,Latte,1,195
+2021-08-21,Drinks,Sprite,1,40
+2021-08-21,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-08-21,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-08-22,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-22,Starter,"Buffalo Wings",2,380
+2021-08-22,"Burger with Fries","BBQ Chicken Burger",1,240
+2021-08-22,Coffee,Cappuccino,5,950
+2021-08-22,Drinks,Fanta,4,160
+2021-08-22,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-08-22,Starter,"Fried Calamari",1,290
+2021-08-22,Coffee,"Flavored Latte",1,250
+2021-08-22,Meal,"Fish & Chips",3,1260
+2021-08-22,Meal,"Teriyaki Chicken",3,870
+2021-08-22,Salad,"Chicken Cashew Nut Salad",2,580
+2021-08-22,Starter,"Chicken Cheese Balls",3,360
+2021-08-22,Starter,"Potato Wedges",2,240
+2021-08-22,Drinks,"Water 500ml",26,390
+2021-08-22,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-08-22,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-08-22,Starter,"French Fries",1,80
+2021-08-22,Steak,"Chicken Butterfly",1,490
+2021-08-22,Soup,"Cream of Mushroom",2,360
+2021-08-22,"Shake & Soda","Oreo Vanilla Shake",9,2520
+2021-08-22,Drinks,Coke,10,400
+2021-08-22,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-22,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-22,Drinks,Sprite,2,80
+2021-08-22,"Thin-Crust Pizza","Prawn-Lime Pizza",2,1800
+2021-08-22,Steak,"T-Bone (330-350 gms)",7,10150
+2021-08-22,Steak,"Sirloin (330 - 350 gms)",1,1290
+2021-08-22,Meal,"Mongolian Beef",5,1900
+2021-08-22,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-08-22,Coffee,"Caffe Mocha",1,280
+2021-08-22,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-08-22,"Pastry & Bakery","Red Velvet Pastry",2,440
+2021-08-23,Starter,"Potato Wedges",1,120
+2021-08-23,Drinks,"Water 500ml",5,75
+2021-08-23,Starter,"French Fries",2,160
+2021-08-23,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-23,Drinks,Sprite,2,80
+2021-08-23,"Burger with Fries","Classic Chicken Burger",1,220
+2021-08-23,Starter,"Buffalo Wings",1,190
+2021-08-23,Coffee,Latte,2,390
+2021-08-23,Meal,"Fish & Chips",1,420
+2021-08-23,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-08-23,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-23,Sandwich,"Club Sandwich",1,260
+2021-08-23,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-23,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-08-23,Drinks,Coke,2,80
+2021-08-23,Coffee,Cappuccino,2,380
+2021-08-23,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,930
+2021-08-23,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-24,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,640
+2021-08-24,"Burger with Fries","Classic Chicken Burger",1,220
+2021-08-24,Starter,"Buffalo Wings",4,760
+2021-08-24,Coffee,Americano,4,600
+2021-08-24,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-24,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-08-24,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-24,Starter,"Cheese Balls",1,100
+2021-08-24,Starter,"French Fries",3,240
+2021-08-24,"Thin-Crust Pizza","Chicken Supreme Pizza",3,990
+2021-08-24,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-08-24,Sandwich,"Club Sandwich",2,520
+2021-08-24,Starter,"Potato Wedges",2,240
+2021-08-24,Drinks,Coke,1,40
+2021-08-24,Drinks,"Water 500ml",3,45
+2021-08-24,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-08-24,Starter,"Chicken Cheese Balls",1,120
+2021-08-24,Drinks,Fanta,1,40
+2021-08-24,Pasta,"Spaghetti Bolognese",1,300
+2021-08-24,Salad,"Garlic Mushroom with Chicken",1,260
+2021-08-24,Salad,"Sauteed Garlic Mushroom",1,200
+2021-08-24,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-08-24,Coffee,Latte,1,195
+2021-08-24,Coffee,Cappuccino,1,190
+2021-08-25,Meal,"Teriyaki Chicken",1,290
+2021-08-25,Sandwich,"Smoked Chicken Sandwich",4,640
+2021-08-25,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1490
+2021-08-25,Drinks,"Water 500ml",2,30
+2021-08-25,Meal,"Fish & Chips",1,420
+2021-08-25,Starter,"Chicken Cheese Balls",2,240
+2021-08-25,Drinks,Coke,5,200
+2021-08-25,Coffee,Latte,1,195
+2021-08-25,Pasta,"Seafood Marinara",1,350
+2021-08-25,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-08-25,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-08-25,Starter,"Potato Wedges",1,120
+2021-08-25,Starter,"Buffalo Wings",1,190
+2021-08-25,Starter,"French Fries",1,80
+2021-08-26,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-08-26,Starter,"Cheese Balls",1,100
+2021-08-26,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-26,"Thin-Crust Pizza","Classic Margherita Pizza",2,550
+2021-08-26,Starter,"French Fries",1,80
+2021-08-26,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,2645
+2021-08-26,Drinks,Coke,3,120
+2021-08-26,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-08-26,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-08-26,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-08-26,Salad,"Sauteed Garlic Mushroom",3,600
+2021-08-26,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-08-26,Drinks,"Water 500ml",2,30
+2021-08-26,Drinks,Sprite,1,40
+2021-08-26,Drinks,Fanta,3,120
+2021-08-26,Coffee,"Flavored Latte",1,250
+2021-08-27,Meal,"Teriyaki Chicken",2,580
+2021-08-27,Drinks,Coke,5,200
+2021-08-27,Starter,"Chicken Cheese Balls",4,480
+2021-08-27,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-08-27,Coffee,Cappuccino,4,760
+2021-08-27,Drinks,Sprite,1,40
+2021-08-27,Starter,"Fried Calamari",2,580
+2021-08-27,Starter,"Buffalo Wings",3,570
+2021-08-27,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1635
+2021-08-27,Drinks,"Water 500ml",5,75
+2021-08-27,Pasta,"Seafood Marinara",2,700
+2021-08-27,Starter,"French Fries",3,240
+2021-08-27,"Thin-Crust Pizza","Four Seasons Pizza",2,1390
+2021-08-27,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-08-27,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-08-27,Starter,"Potato Wedges",2,240
+2021-08-27,Salad,"Sauteed Garlic Mushroom",1,200
+2021-08-27,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-08-27,"Pastry & Bakery","Chocolate Mousse",2,400
+2021-08-27,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-08-27,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-08-27,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-08-27,Coffee,"Flavored Latte",1,250
+2021-08-27,Coffee,"Caffe Mocha",1,280
+2021-08-27,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-28,Coffee,Latte,4,780
+2021-08-28,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-28,Coffee,Cappuccino,15,2850
+2021-08-28,"Thin-Crust Pizza","Four Seasons Pizza",2,1570
+2021-08-28,Salad,"Sauteed Garlic Mushroom",1,200
+2021-08-28,"Thin-Crust Pizza","Prawn-Lime Pizza",3,2250
+2021-08-28,Drinks,"Water 500ml",27,405
+2021-08-28,Meal,"Teriyaki Chicken",10,2900
+2021-08-28,"Pastry & Bakery","Chocolate Mousse",2,400
+2021-08-28,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-28,Starter,"Potato Wedges",4,480
+2021-08-28,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1740
+2021-08-28,Meal,"Fish & Chips",6,2520
+2021-08-28,Meal,"Mongolian Beef",7,2660
+2021-08-28,Drinks,Fanta,1,40
+2021-08-28,Drinks,Sprite,8,320
+2021-08-28,Drinks,Coke,18,720
+2021-08-28,Coffee,"Caffe Mocha",4,1080
+2021-08-28,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-08-28,Starter,"Prawn On Toast",1,180
+2021-08-28,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1745
+2021-08-28,Starter,"French Fries",1,80
+2021-08-28,"Thin-Crust Pizza","Corn & Cheese Pizza",1,400
+2021-08-28,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-28,Pasta,"Fettuccine Baked Pasta",1,360
+2021-08-28,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-08-28,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-28,Pasta,"Spaghetti Bolognese",1,300
+2021-08-28,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-08-28,Coffee,"Flavored Latte",1,250
+2021-08-28,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-08-28,Starter,"Cheese Balls",2,200
+2021-08-29,Starter,"Cheese Balls",2,200
+2021-08-29,Starter,"Buffalo Wings",2,380
+2021-08-29,Coffee,"Flavored Latte",3,750
+2021-08-29,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-08-29,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2195
+2021-08-29,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-08-29,Starter,"Teriyaki Chicken Wings",1,200
+2021-08-29,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,780
+2021-08-29,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-08-29,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-29,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-29,Coffee,Cappuccino,9,1710
+2021-08-29,Coffee,Latte,1,215
+2021-08-29,Drinks,Coke,6,240
+2021-08-29,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-08-29,Drinks,"Water 500ml",6,90
+2021-08-29,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-08-29,Coffee,"Caffe Mocha",2,540
+2021-08-29,Meal,"Teriyaki Chicken",1,290
+2021-08-29,Salad,"Chicken Cashew Nut Salad",1,290
+2021-08-29,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-08-29,"Pastry & Bakery","Chocolate Mousse",1,200
+2021-08-30,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-08-30,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-08-30,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1570
+2021-08-30,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-08-30,Meal,"Mongolian Beef",1,380
+2021-08-30,Starter,"French Fries",3,240
+2021-08-30,Starter,"Chicken Cheese Balls",2,240
+2021-08-30,Drinks,Coke,10,400
+2021-08-30,Salad,"Chicken Cashew Nut Salad",1,290
+2021-08-30,Drinks,"Water 500ml",8,120
+2021-08-30,Coffee,Latte,2,390
+2021-08-30,Coffee,"Caffe Mocha",1,260
+2021-08-30,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1040
+2021-08-30,Coffee,Cappuccino,4,760
+2021-08-30,Pasta,"Spaghetti Bolognese",1,300
+2021-08-30,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-08-30,Starter,"Fried Calamari",1,290
+2021-08-30,"Burger with Fries","Classic Beef Burger",1,290
+2021-08-30,Coffee,Espresso,1,130
+2021-08-30,"Thin-Crust Pizza","Chicken Supreme Pizza",5,2460
+2021-08-30,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-08-30,Starter,"Cheese Balls",1,100
+2021-08-30,Starter,"Naga Wings",1,180
+2021-08-30,Sandwich,"Club Sandwich",2,520
+2021-08-30,Starter,"Buffalo Wings",1,190
+2021-08-30,Starter,"Prawn On Toast",1,180
+2021-08-30,Meal,"Teriyaki Chicken",2,580
+2021-08-30,Starter,"Potato Wedges",1,120
+2021-08-31,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1840
+2021-08-31,"Thin-Crust Pizza","Classic Margherita Pizza",2,820
+2021-08-31,Drinks,"Water 500ml",8,120
+2021-08-31,Pasta,"Seafood Marinara",1,350
+2021-08-31,Starter,"Teriyaki Chicken Wings",2,400
+2021-08-31,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-08-31,Drinks,Fanta,3,120
+2021-08-31,Salad,"Sauteed Garlic Mushroom",1,200
+2021-08-31,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-08-31,"Thin-Crust Pizza","Chicken Supreme Pizza",1,875
+2021-08-31,Starter,"Buffalo Wings",4,760
+2021-08-31,Starter,"Fried Calamari",2,580
+2021-08-31,Soup,"Cream of Mushroom",3,540
+2021-08-31,"Burger with Fries","Classic Chicken Burger",1,240
+2021-08-31,"Thin-Crust Pizza","Four Seasons Pizza",3,1260
+2021-08-31,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-08-31,Coffee,"Flavored Latte",1,250
+2021-08-31,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-08-31,Coffee,"Caffe Mocha",2,540
+2021-08-31,"Shake & Soda","Strawberry Shake",2,540
+2021-08-31,Coffee,Espresso,1,130
+2021-08-31,Starter,"Chicken Cheese Balls",2,240
+2021-08-31,Starter,"Prawn On Toast",2,360
+2021-08-31,Pasta,"Spaghetti Bolognese",1,300
+2021-08-31,Drinks,Coke,5,200
+2021-08-31,Meal,"Mongolian Beef",1,380
+2021-08-31,Meal,"Moroccan Chicken",1,340
+2021-08-31,Coffee,Americano,2,300
+2021-08-31,Coffee,Cappuccino,1,190
+2021-08-31,Coffee,Latte,1,195
+2021-08-31,Starter,"Potato Wedges",2,240
+2021-08-31,Steak,"T-Bone (330-350 gms)",1,1450
+2021-09-01,Coffee,Americano,1,150
+2021-09-01,"Thin-Crust Pizza","Classic Margherita Pizza",2,550
+2021-09-01,Coffee,Cappuccino,4,760
+2021-09-01,Drinks,Coke,6,240
+2021-09-01,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1600
+2021-09-01,Drinks,"Water 500ml",6,90
+2021-09-01,Starter,"Chicken Cheese Balls",1,120
+2021-09-01,Starter,"French Fries",3,240
+2021-09-01,Starter,"Naga Wings",1,180
+2021-09-01,Starter,"Prawn On Toast",1,180
+2021-09-01,Coffee,Latte,2,390
+2021-09-01,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-01,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-09-01,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-01,Sandwich,"Club Sandwich",1,260
+2021-09-01,"Thin-Crust Pizza","Prawn-Lime Pizza",1,1050
+2021-09-01,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1400
+2021-09-01,"Shake & Soda","Strawberry Shake",1,270
+2021-09-01,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-09-01,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-01,Pasta,"Spaghetti Bolognese",1,300
+2021-09-02,Starter,"Chicken Cheese Balls",2,240
+2021-09-02,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-09-02,Starter,"French Fries",4,320
+2021-09-02,Starter,"Buffalo Wings",2,380
+2021-09-02,Meal,"Moroccan Chicken",2,680
+2021-09-02,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2100
+2021-09-02,"Burger with Fries","Classic Chicken Burger",1,220
+2021-09-02,Coffee,Latte,1,195
+2021-09-02,Coffee,"Flavored Latte",1,250
+2021-09-02,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-02,"Thin-Crust Pizza","Chicken Supreme Pizza",3,2625
+2021-09-02,Drinks,Coke,3,120
+2021-09-02,Starter,"Potato Wedges",2,240
+2021-09-02,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-09-02,Starter,"Prawn On Toast",1,180
+2021-09-02,Starter,"Fried Calamari",1,290
+2021-09-02,Pasta,"Spaghetti Bolognese",1,300
+2021-09-02,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-09-02,Drinks,Fanta,2,80
+2021-09-02,Drinks,"Water 500ml",2,30
+2021-09-02,Drinks,Sprite,2,80
+2021-09-02,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-02,Meal,"Teriyaki Chicken",1,290
+2021-09-03,Sandwich,"Club Sandwich",1,260
+2021-09-03,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1810
+2021-09-03,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1440
+2021-09-03,Salad,"Sauteed Garlic Mushroom",2,400
+2021-09-03,Starter,"French Fries",2,160
+2021-09-03,Starter,"Chicken Cheese Balls",3,360
+2021-09-03,Soup,"Cream of Mushroom",4,720
+2021-09-03,Drinks,"Water 500ml",21,315
+2021-09-03,Coffee,Latte,3,585
+2021-09-03,Coffee,"Flavored Latte",1,250
+2021-09-03,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,1220
+2021-09-03,Starter,"Potato Wedges",2,240
+2021-09-03,Coffee,Cappuccino,6,1140
+2021-09-03,Meal,"Mongolian Beef",3,1140
+2021-09-03,Meal,"Moroccan Chicken",1,340
+2021-09-03,Meal,"Teriyaki Chicken",5,1450
+2021-09-03,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-03,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-03,Sandwich,"Smoked Chicken Sandwich",5,800
+2021-09-03,Starter,"Buffalo Wings",2,380
+2021-09-03,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-09-03,Drinks,Coke,6,240
+2021-09-03,Meal,"Fish & Chips",1,420
+2021-09-03,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-03,Coffee,Macchiato,1,175
+2021-09-03,"Thin-Crust Pizza","Four Seasons Pizza",1,1030
+2021-09-03,Drinks,Fanta,1,40
+2021-09-04,Meal,"Moroccan Chicken",2,680
+2021-09-04,Drinks,Coke,3,120
+2021-09-04,Pasta,"Spaghetti Bolognese",2,600
+2021-09-04,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-04,"Burger with Fries","Classic Beef Burger",1,270
+2021-09-04,Drinks,"Water 500ml",2,30
+2021-09-04,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-09-04,Drinks,Fanta,2,80
+2021-09-04,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-04,Starter,"French Fries",1,80
+2021-09-04,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,850
+2021-09-04,"Thin-Crust Pizza","Four Seasons Pizza",1,1030
+2021-09-04,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-09-04,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-09-04,Starter,"Potato Wedges",1,120
+2021-09-04,Steak,"Round Beef (200 - 220 gms)",1,700
+2021-09-04,Coffee,Latte,1,195
+2021-09-04,"Shake & Soda","Strawberry Shake",1,270
+2021-09-04,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-04,"Thin-Crust Pizza","Corn & Cheese Pizza",1,400
+2021-09-05,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-09-05,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-05,Starter,"Buffalo Wings",1,190
+2021-09-05,Meal,"Moroccan Chicken",2,680
+2021-09-05,Meal,"Teriyaki Chicken",4,1160
+2021-09-05,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-05,Drinks,Fanta,3,120
+2021-09-05,Drinks,Coke,3,120
+2021-09-05,Drinks,Sprite,1,40
+2021-09-05,Drinks,"Water 500ml",5,75
+2021-09-05,Coffee,Cappuccino,7,1330
+2021-09-05,"Thin-Crust Pizza","Corn & Cheese Pizza",1,400
+2021-09-05,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2355
+2021-09-05,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-09-05,Starter,"French Fries",1,80
+2021-09-05,Pasta,"Spaghetti Bolognese",1,300
+2021-09-05,Starter,"Chicken Cheese Balls",3,360
+2021-09-05,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-05,Coffee,Espresso,1,130
+2021-09-05,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-09-05,Starter,"Naga Wings",1,180
+2021-09-05,Coffee,"Caffe Mocha",2,540
+2021-09-05,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-05,Coffee,Latte,1,215
+2021-09-05,"Shake & Soda","Strawberry Shake",1,270
+2021-09-06,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,1920
+2021-09-06,Starter,"Chicken Cheese Balls",3,360
+2021-09-06,"Thin-Crust Pizza","Classic Margherita Pizza",2,550
+2021-09-06,Coffee,"Caffe Mocha",3,840
+2021-09-06,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-06,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-06,Drinks,"Water 500ml",14,210
+2021-09-06,Drinks,Coke,4,160
+2021-09-06,Drinks,Sprite,2,80
+2021-09-06,Coffee,Cappuccino,6,1140
+2021-09-06,Salad,"Garlic Mushroom with Chicken",2,520
+2021-09-06,Coffee,Americano,2,380
+2021-09-06,"Thin-Crust Pizza","Four Seasons Pizza",1,1030
+2021-09-06,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-09-06,Starter,"Buffalo Wings",3,570
+2021-09-06,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-06,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,820
+2021-09-06,Starter,"French Fries",3,240
+2021-09-06,Sandwich,"Club Sandwich",1,260
+2021-09-06,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-09-06,Starter,"Prawn On Toast",1,180
+2021-09-06,Starter,"Cheese Balls",1,100
+2021-09-06,Meal,"Moroccan Chicken",2,680
+2021-09-06,Coffee,Latte,1,195
+2021-09-06,Pasta,"Seafood Marinara",1,350
+2021-09-06,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-09-06,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-09-06,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-09-06,Soup,"Cream of Mushroom",1,180
+2021-09-07,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,1745
+2021-09-07,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-07,Drinks,Coke,14,560
+2021-09-07,Meal,"Teriyaki Chicken",4,1160
+2021-09-07,Meal,"Mongolian Beef",1,380
+2021-09-07,Pasta,"Seafood Marinara",1,350
+2021-09-07,Drinks,Fanta,1,40
+2021-09-07,"Shake & Soda","Strawberry Shake",1,270
+2021-09-07,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1320
+2021-09-07,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,680
+2021-09-07,Starter,"Cheese Balls",4,400
+2021-09-07,Steak,"Chicken Butterfly",1,490
+2021-09-07,Drinks,"Water 500ml",11,165
+2021-09-07,Coffee,Latte,1,195
+2021-09-07,Drinks,Sprite,4,160
+2021-09-07,"Thin-Crust Pizza","Four Seasons Pizza",2,1300
+2021-09-07,Starter,"French Fries",6,480
+2021-09-07,Coffee,"Caffe Mocha",3,780
+2021-09-07,"Burger with Fries","Classic Chicken Burger",1,240
+2021-09-07,Coffee,Cappuccino,4,760
+2021-09-07,Starter,"Buffalo Wings",1,190
+2021-09-07,Soup,"Cream of Mushroom",2,360
+2021-09-07,Meal,"Mixed Platter",1,1450
+2021-09-07,Coffee,"Flavored Latte",2,500
+2021-09-07,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-09-07,Meal,"Fish & Chips",1,420
+2021-09-07,"Thin-Crust Pizza","Prawn-Lime Pizza",1,750
+2021-09-07,Salad,"Sauteed Garlic Mushroom",1,200
+2021-09-07,Starter,"Potato Wedges",1,120
+2021-09-07,Soup,"Seafood Clear",1,240
+2021-09-07,"Burger with Fries","Classic Beef Burger",1,290
+2021-09-08,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",2,1050
+2021-09-08,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1920
+2021-09-08,Starter,"French Fries",1,80
+2021-09-08,Salad,"Sauteed Garlic Mushroom",1,200
+2021-09-08,Starter,"Chicken Cheese Balls",3,360
+2021-09-08,"Thin-Crust Pizza","Chicken Supreme Pizza",2,960
+2021-09-08,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-09-08,Coffee,Latte,3,585
+2021-09-08,Coffee,"Flavored Latte",1,250
+2021-09-08,Starter,"Cheese Balls",3,300
+2021-09-08,Drinks,"Water 500ml",6,90
+2021-09-08,Drinks,Fanta,2,80
+2021-09-08,"Shake & Soda","Strawberry Shake",1,270
+2021-09-08,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-08,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-08,"Thin-Crust Pizza","Classic Margherita Pizza",2,670
+2021-09-08,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-08,Pasta,"Seafood Marinara",1,350
+2021-09-08,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-09-08,Drinks,Coke,3,120
+2021-09-08,Meal,"Moroccan Chicken",1,340
+2021-09-08,Drinks,Sprite,1,40
+2021-09-08,Meal,"Teriyaki Chicken",4,1160
+2021-09-08,Sandwich,"Club Sandwich",1,260
+2021-09-08,Coffee,"Caffe Mocha",1,260
+2021-09-08,Coffee,Cappuccino,1,190
+2021-09-08,Tea,"Green Tea & Mint",1,150
+2021-09-08,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-09-09,Drinks,"Water 500ml",6,90
+2021-09-09,Coffee,Cappuccino,7,1330
+2021-09-09,Starter,"Potato Wedges",2,240
+2021-09-09,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-09-09,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1635
+2021-09-09,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1640
+2021-09-09,Coffee,Latte,4,780
+2021-09-09,Drinks,Fanta,2,80
+2021-09-09,Starter,"Naga Wings",2,360
+2021-09-09,Drinks,Coke,2,80
+2021-09-09,Meal,"Mongolian Beef",1,380
+2021-09-09,"Shake & Soda","Apple Soda",1,280
+2021-09-09,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1140
+2021-09-09,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,600
+2021-09-09,"Burger with Fries","BBQ Chicken Burger",1,340
+2021-09-09,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-09,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-09,Pasta,"Seafood Marinara",1,350
+2021-09-09,Coffee,Americano,1,150
+2021-09-09,Starter,"Chicken Cheese Balls",2,240
+2021-09-09,Starter,"French Fries",1,80
+2021-09-09,Starter,"Fried Calamari",2,580
+2021-09-09,Drinks,Sprite,1,40
+2021-09-09,Coffee,"Caffe Mocha",2,520
+2021-09-09,Meal,"Teriyaki Chicken",2,580
+2021-09-09,"Burger with Fries","Classic Chicken Burger",1,220
+2021-09-10,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-09-10,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-10,Starter,"French Fries",7,560
+2021-09-10,Drinks,Coke,17,680
+2021-09-10,"Thin-Crust Pizza","BBQ Chicken  Pizza",8,3420
+2021-09-10,Starter,"Chicken Cheese Balls",2,240
+2021-09-10,"Thin-Crust Pizza","Pizza Seafood Marinara",3,1570
+2021-09-10,"Thin-Crust Pizza","Classic Margherita Pizza",2,550
+2021-09-10,"Thin-Crust Pizza","Prawn-Lime Pizza",2,1090
+2021-09-10,Starter,"Cheese Balls",1,100
+2021-09-10,"Shake & Soda","Apple Soda",2,560
+2021-09-10,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1500
+2021-09-10,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-09-10,Coffee,Americano,3,450
+2021-09-10,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,815
+2021-09-10,Pasta,"Penne Alfredo",1,280
+2021-09-10,Drinks,"Water 500ml",6,90
+2021-09-10,"Shake & Soda","Lime Soda",2,520
+2021-09-10,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-10,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-09-10,Coffee,"Caffe Mocha",2,520
+2021-09-10,Starter,"Buffalo Wings",1,190
+2021-09-10,Pasta,"Seafood Marinara",2,700
+2021-09-10,Drinks,Fanta,1,40
+2021-09-10,Sandwich,"Club Sandwich",1,260
+2021-09-10,Coffee,Cappuccino,7,1330
+2021-09-10,Coffee,Latte,1,195
+2021-09-10,Starter,"Potato Wedges",2,240
+2021-09-10,"Pastry & Bakery","Red Velvet Pastry",2,440
+2021-09-10,"Burger with Fries","Classic Beef Burger",1,290
+2021-09-11,Coffee,Cappuccino,1,190
+2021-09-11,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-11,Meal,"Teriyaki Chicken",1,290
+2021-09-11,Meal,"Mongolian Beef",2,760
+2021-09-11,Drinks,Coke,13,520
+2021-09-11,Meal,"Fish & Chips",2,840
+2021-09-11,Starter,"Fried Calamari",3,870
+2021-09-11,Pasta,"Seafood Marinara",1,350
+2021-09-11,Drinks,Sprite,6,240
+2021-09-11,"Pastry & Bakery","Chocolate Mousse",3,600
+2021-09-11,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-11,Drinks,"Water 500ml",6,90
+2021-09-11,"Thin-Crust Pizza","Chicken Supreme Pizza",2,960
+2021-09-11,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,510
+2021-09-11,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-09-11,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1635
+2021-09-11,Starter,"Naga Wings",2,360
+2021-09-11,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-11,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-09-11,Starter,"Cheese Balls",2,200
+2021-09-11,Starter,"Buffalo Wings",2,380
+2021-09-11,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-09-11,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-09-11,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-11,Starter,"French Fries",3,240
+2021-09-11,"Shake & Soda","Apple Soda",1,280
+2021-09-11,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-11,Pasta,"Spaghetti Bolognese",1,300
+2021-09-11,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-09-11,Soup,"Cream of Mushroom",1,180
+2021-09-11,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-09-11,Starter,"Chicken Cheese Balls",1,120
+2021-09-12,"Thin-Crust Pizza","Classic Margherita Pizza",3,725
+2021-09-12,Drinks,Coke,4,160
+2021-09-12,Drinks,"Water 500ml",7,105
+2021-09-12,Starter,"Chicken Cheese Balls",4,480
+2021-09-12,Starter,"French Fries",8,640
+2021-09-12,"Shake & Soda","Apple Soda",1,280
+2021-09-12,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-09-12,Coffee,"Caffe Mocha",3,840
+2021-09-12,Meal,"Teriyaki Chicken",2,580
+2021-09-12,Starter,"Buffalo Wings",4,760
+2021-09-12,"Pastry & Bakery","Red Velvet Pastry",2,440
+2021-09-12,Coffee,Cappuccino,2,380
+2021-09-12,Pasta,"Spaghetti Bolognese",1,300
+2021-09-12,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-12,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1320
+2021-09-12,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-09-12,Drinks,Fanta,2,80
+2021-09-12,Starter,"Naga Wings",1,180
+2021-09-12,"Burger with Fries","Classic Chicken Burger",1,240
+2021-09-12,Drinks,Sprite,2,80
+2021-09-12,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-12,Starter,"Fried Calamari",1,290
+2021-09-12,Soup,"Cream of Mushroom",1,180
+2021-09-12,Coffee,Latte,1,195
+2021-09-12,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-09-12,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-12,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-09-12,Sandwich,"Club Sandwich",2,520
+2021-09-13,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2210
+2021-09-13,Meal,"Teriyaki Chicken",3,870
+2021-09-13,Drinks,Sprite,3,120
+2021-09-13,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-09-13,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-09-13,Starter,"Chicken Cheese Balls",3,360
+2021-09-13,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-13,Pasta,"Seafood Marinara",3,1050
+2021-09-13,Coffee,"Caffe Mocha",1,280
+2021-09-13,Starter,"French Fries",7,560
+2021-09-13,Starter,"Potato Wedges",2,240
+2021-09-13,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-13,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-09-13,Drinks,Coke,4,160
+2021-09-13,Drinks,Fanta,2,80
+2021-09-13,"Thin-Crust Pizza","Vegetarian's Delight",1,370
+2021-09-13,Soup,"Cream of Mushroom",1,180
+2021-09-13,Starter,"Naga Wings",2,360
+2021-09-13,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-13,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-09-13,Pasta,"Spaghetti Bolognese",1,300
+2021-09-13,Starter,"Cheese Balls",4,400
+2021-09-13,Coffee,Cappuccino,2,380
+2021-09-13,Coffee,"Flavored Latte",1,250
+2021-09-13,Meal,"Mongolian Beef",1,380
+2021-09-13,Meal,"Moroccan Chicken",1,340
+2021-09-13,Starter,"Buffalo Wings",1,190
+2021-09-13,Drinks,"Water 500ml",4,60
+2021-09-13,Coffee,Latte,2,390
+2021-09-13,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-09-14,Coffee,Cappuccino,4,760
+2021-09-14,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-09-14,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-09-14,Pasta,"Seafood Marinara",2,700
+2021-09-14,Coffee,"Caffe Mocha",2,560
+2021-09-14,Meal,"Mongolian Beef",1,380
+2021-09-14,Meal,"Moroccan Chicken",1,340
+2021-09-14,Drinks,Coke,10,400
+2021-09-14,Drinks,"Water 500ml",5,75
+2021-09-14,"Thin-Crust Pizza","Cheesy Sausage Pizza",4,1800
+2021-09-14,Starter,"Buffalo Wings",3,570
+2021-09-14,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-14,Starter,"Cheese Balls",4,400
+2021-09-14,Coffee,Americano,1,170
+2021-09-14,Starter,"Chicken Cheese Balls",1,120
+2021-09-14,"Thin-Crust Pizza","Four Seasons Pizza",2,720
+2021-09-14,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-14,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-14,Starter,"French Fries",10,800
+2021-09-14,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-09-14,"Thin-Crust Pizza","Classic Margherita Pizza",1,285
+2021-09-14,Coffee,Latte,5,1015
+2021-09-14,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-09-14,Coffee,"Flavored Latte",1,250
+2021-09-14,Drinks,Sprite,1,40
+2021-09-14,Starter,"Naga Wings",1,180
+2021-09-14,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1280
+2021-09-14,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-14,Meal,"Fish & Chips",1,420
+2021-09-14,Steak,"Chicken Butterfly",1,490
+2021-09-14,Starter,"Potato Wedges",1,120
+2021-09-15,Starter,"Cheese Balls",4,400
+2021-09-15,Meal,"Teriyaki Chicken",2,580
+2021-09-15,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-09-15,Coffee,Doppio,1,175
+2021-09-15,Coffee,Latte,1,195
+2021-09-15,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-15,Starter,"Chicken Cheese Balls",1,120
+2021-09-15,Starter,"French Fries",5,400
+2021-09-15,Drinks,Coke,7,280
+2021-09-15,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-09-15,Drinks,"Water 500ml",7,105
+2021-09-15,"Thin-Crust Pizza","Pizza Seafood Marinara",3,1140
+2021-09-15,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-15,Drinks,Fanta,1,40
+2021-09-15,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-09-15,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-15,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-15,Soup,"Cream of Mushroom",1,180
+2021-09-15,"Thick-Crust Pizza","Naga Beef Pizza",1,280
+2021-09-15,Starter,"Potato Wedges",4,480
+2021-09-15,Coffee,Cappuccino,3,570
+2021-09-15,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-09-15,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-09-15,Starter,"Teriyaki Chicken Wings",2,400
+2021-09-15,Meal,"Mongolian Beef",1,380
+2021-09-15,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-15,Meal,"Moroccan Chicken",1,340
+2021-09-15,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-15,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-15,Starter,"Naga Wings",1,180
+2021-09-16,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-09-16,Meal,"Moroccan Chicken",1,340
+2021-09-16,Salad,"Chicken Caesar Salad",1,390
+2021-09-16,"Pastry & Bakery","Chocolate Mousse",1,200
+2021-09-16,Coffee,"Flavored Latte",1,250
+2021-09-16,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-09-16,Drinks,Coke,2,80
+2021-09-16,Drinks,Fanta,2,80
+2021-09-16,Pasta,"Seafood Marinara",2,700
+2021-09-16,Soup,"Cream of Mushroom",2,360
+2021-09-16,Drinks,"Water 500ml",4,60
+2021-09-16,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-16,Coffee,Latte,2,390
+2021-09-16,Coffee,Cappuccino,3,570
+2021-09-16,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-16,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-09-16,Salad,"Garlic Mushroom with Chicken",2,520
+2021-09-16,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-16,Coffee,Espresso,1,130
+2021-09-16,Coffee,Americano,1,150
+2021-09-16,"Thin-Crust Pizza","Chicken Supreme Pizza",1,660
+2021-09-16,Starter,"Chicken Cheese Balls",1,120
+2021-09-16,"Shake & Soda","Strawberry Shake",1,270
+2021-09-16,Sandwich,"Club Sandwich",1,260
+2021-09-16,Starter,"Potato Wedges",1,120
+2021-09-17,"Thin-Crust Pizza","BBQ Chicken  Pizza",9,5465
+2021-09-17,Sandwich,"Club Sandwich",4,1040
+2021-09-17,Soup,"Cream of Mushroom",4,720
+2021-09-17,Starter,"Buffalo Wings",4,760
+2021-09-17,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-17,"Thin-Crust Pizza","Vegetarian's Delight",2,1425
+2021-09-17,Meal,"Teriyaki Chicken",4,1160
+2021-09-17,Starter,"Chicken Cheese Balls",10,1200
+2021-09-17,"Thin-Crust Pizza","Classic Margherita Pizza",3,890
+2021-09-17,"Thin-Crust Pizza","Cheesy Sausage Pizza",4,1200
+2021-09-17,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2890
+2021-09-17,Coffee,Latte,3,585
+2021-09-17,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-09-17,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-09-17,Drinks,Coke,13,520
+2021-09-17,Drinks,Sprite,6,240
+2021-09-17,Starter,"Potato Wedges",2,240
+2021-09-17,Coffee,Cappuccino,9,1710
+2021-09-17,Drinks,Fanta,11,440
+2021-09-17,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-17,Starter,"French Fries",4,320
+2021-09-17,Coffee,Espresso,1,130
+2021-09-17,Coffee,"Caffe Mocha",1,280
+2021-09-17,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-17,Starter,"Prawn On Toast",4,720
+2021-09-17,Drinks,"Water 500ml",14,210
+2021-09-17,Meal,"Fish & Chips",1,420
+2021-09-17,"Burger with Fries","Classic Beef Burger",5,1450
+2021-09-17,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-17,Pasta,"Spaghetti Bolognese",1,300
+2021-09-17,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-18,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,960
+2021-09-18,Drinks,Fanta,1,40
+2021-09-18,Drinks,Coke,7,280
+2021-09-18,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-18,"Thin-Crust Pizza","Four Seasons Pizza",2,1120
+2021-09-18,Drinks,"Water 500ml",7,105
+2021-09-18,Coffee,Cappuccino,8,1520
+2021-09-18,"Thin-Crust Pizza","Pizza Seafood Marinara",2,1370
+2021-09-18,Meal,"Teriyaki Chicken",7,2030
+2021-09-18,Starter,"Buffalo Wings",1,190
+2021-09-18,Starter,"Chicken Cheese Balls",3,360
+2021-09-18,Starter,"Teriyaki Chicken Wings",2,400
+2021-09-18,Starter,"French Fries",2,160
+2021-09-18,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-09-18,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-18,Drinks,Sprite,1,40
+2021-09-18,Meal,"Mongolian Beef",3,1140
+2021-09-18,Coffee,Americano,1,150
+2021-09-18,"Thick-Crust Pizza","Naga Beef Pizza",1,280
+2021-09-18,Pasta,"Penne Alfredo",1,280
+2021-09-18,"Thin-Crust Pizza","Prawn-Lime Pizza",2,1090
+2021-09-18,Soup,"Seafood Clear",1,240
+2021-09-18,Pasta,"Seafood Marinara",1,350
+2021-09-18,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-18,Coffee,"Caffe Mocha",1,260
+2021-09-19,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,960
+2021-09-19,Drinks,Sprite,4,160
+2021-09-19,"Thin-Crust Pizza","Chicken Supreme Pizza",3,990
+2021-09-19,Drinks,"Water 500ml",9,135
+2021-09-19,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-19,Meal,"Teriyaki Chicken",2,580
+2021-09-19,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-19,Starter,"Fried Calamari",1,290
+2021-09-19,Soup,"Cream of Mushroom",1,180
+2021-09-19,Drinks,Coke,1,40
+2021-09-19,"Thin-Crust Pizza","Classic Margherita Pizza",4,880
+2021-09-19,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-09-19,"Shake & Soda","Lime Soda",1,260
+2021-09-19,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-09-19,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-19,Starter,"Naga Wings",2,360
+2021-09-19,Starter,"French Fries",2,160
+2021-09-19,Starter,"Chicken Cheese Balls",1,120
+2021-09-19,Soup,"Seafood Clear",1,240
+2021-09-19,Coffee,Cappuccino,2,380
+2021-09-20,"Thin-Crust Pizza","BBQ Chicken  Pizza",11,6180
+2021-09-20,Starter,"Cheese Balls",4,400
+2021-09-20,Pasta,"Penne Alfredo",1,280
+2021-09-20,Sandwich,"Club Sandwich",1,260
+2021-09-20,Meal,"Teriyaki Chicken",1,290
+2021-09-20,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",3,1560
+2021-09-20,"Thin-Crust Pizza","Cheesy Sausage Pizza",5,1955
+2021-09-20,Starter,"Teriyaki Chicken Wings",2,400
+2021-09-20,Pasta,"Seafood Marinara",3,1050
+2021-09-20,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-09-20,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,1520
+2021-09-20,Drinks,Coke,13,520
+2021-09-20,Starter,"Fried Calamari",1,290
+2021-09-20,Starter,"Chicken Cheese Balls",3,360
+2021-09-20,Starter,"French Fries",2,160
+2021-09-20,Starter,"Potato Wedges",1,120
+2021-09-20,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-09-20,Drinks,"Water 500ml",6,90
+2021-09-20,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,1060
+2021-09-20,"Thin-Crust Pizza","Prawn-Lime Pizza",1,750
+2021-09-20,Starter,"Naga Wings",1,180
+2021-09-20,Coffee,Americano,2,300
+2021-09-20,Coffee,Cappuccino,2,380
+2021-09-20,Drinks,Sprite,3,120
+2021-09-20,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-20,Starter,"Prawn On Toast",1,180
+2021-09-20,Drinks,Fanta,2,80
+2021-09-20,Starter,"Buffalo Wings",1,190
+2021-09-21,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,1180
+2021-09-21,Starter,"Potato Wedges",4,480
+2021-09-21,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-21,Drinks,Coke,7,280
+2021-09-21,Coffee,Cappuccino,7,1330
+2021-09-21,Coffee,Latte,4,780
+2021-09-21,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-21,Pasta,"Penne Alfredo",1,280
+2021-09-21,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-21,"Pastry & Bakery","Chocolate Mousse",2,400
+2021-09-21,Drinks,"Water 500ml",11,165
+2021-09-21,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,2705
+2021-09-21,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-09-21,"Thin-Crust Pizza","Four Seasons Pizza",3,1260
+2021-09-21,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-09-21,Starter,"Fried Calamari",1,290
+2021-09-21,Starter,"French Fries",3,240
+2021-09-21,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-21,"Shake & Soda","Strawberry Shake",1,270
+2021-09-21,Drinks,Sprite,4,160
+2021-09-21,Drinks,Fanta,1,40
+2021-09-21,"Thin-Crust Pizza","Chicken Supreme Pizza",1,660
+2021-09-21,Starter,"Buffalo Wings",1,190
+2021-09-21,Meal,"Moroccan Chicken",5,1700
+2021-09-21,"Burger with Fries","Classic Beef Burger",1,290
+2021-09-21,Soup,"Cream of Mushroom",1,180
+2021-09-22,"Thin-Crust Pizza","Four Seasons Pizza",2,1340
+2021-09-22,Sandwich,"Club Sandwich",1,260
+2021-09-22,Starter,"French Fries",3,240
+2021-09-22,Coffee,Cappuccino,6,1140
+2021-09-22,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,3380
+2021-09-22,Salad,"Chicken Caesar Salad",1,390
+2021-09-22,Meal,"Teriyaki Chicken",1,290
+2021-09-22,Starter,"Chicken Cheese Balls",4,480
+2021-09-22,Drinks,"Water 500ml",7,105
+2021-09-22,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-09-22,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-22,Drinks,Fanta,1,40
+2021-09-22,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1470
+2021-09-22,Drinks,Coke,1,40
+2021-09-22,Starter,"Cheese Balls",2,200
+2021-09-22,"Thin-Crust Pizza","Prawn-Lime Pizza",2,1090
+2021-09-22,Soup,"Cream of Mushroom",1,180
+2021-09-22,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-22,Coffee,Latte,1,195
+2021-09-22,"Pastry & Bakery",Cookie,1,120
+2021-09-23,Starter,"Chicken Cheese Balls",5,600
+2021-09-23,Starter,"Prawn On Toast",1,180
+2021-09-23,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-23,Coffee,Espresso,1,130
+2021-09-23,Drinks,"Water 500ml",5,75
+2021-09-23,Salad,"Chicken Caesar Salad",1,390
+2021-09-23,Meal,"Teriyaki Chicken",7,2030
+2021-09-23,Starter,"Fried Calamari",1,290
+2021-09-23,Coffee,Americano,2,300
+2021-09-23,Soup,"Cream of Mushroom",2,360
+2021-09-23,Starter,"French Fries",2,160
+2021-09-23,"Thin-Crust Pizza","Classic Margherita Pizza",2,820
+2021-09-23,"Thin-Crust Pizza","Pizza Seafood Marinara",2,1720
+2021-09-23,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1290
+2021-09-23,Drinks,Coke,3,120
+2021-09-23,Drinks,Sprite,5,200
+2021-09-23,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-09-23,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-09-23,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1105
+2021-09-23,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-23,Coffee,Cappuccino,1,190
+2021-09-23,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-09-23,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-23,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,780
+2021-09-23,Starter,"Potato Wedges",1,120
+2021-09-23,Coffee,Latte,1,195
+2021-09-23,Sandwich,"Club Sandwich",1,260
+2021-09-24,Starter,"French Fries",6,480
+2021-09-24,"Thin-Crust Pizza","Chicken Supreme Pizza",7,3780
+2021-09-24,Drinks,Coke,24,960
+2021-09-24,Drinks,"Water 500ml",25,375
+2021-09-24,"Thin-Crust Pizza","Pizza Seafood Marinara",2,940
+2021-09-24,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-09-24,Starter,"Teriyaki Chicken Wings",2,400
+2021-09-24,Meal,"Moroccan Chicken",10,3400
+2021-09-24,"Pastry & Bakery","Red Velvet Pastry",2,440
+2021-09-24,"Thin-Crust Pizza","BBQ Chicken  Pizza",10,5190
+2021-09-24,"Shake & Soda","Strawberry Shake",2,540
+2021-09-24,"Pastry & Bakery",Croissant,2,240
+2021-09-24,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-09-24,Starter,"Fried Calamari",3,870
+2021-09-24,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-09-24,"Pastry & Bakery","Chocolate Mousse",3,600
+2021-09-24,Starter,"Naga Wings",3,540
+2021-09-24,"Pastry & Bakery","Brownie with Ice Cream",3,690
+2021-09-24,Coffee,Cappuccino,11,2090
+2021-09-24,"Thin-Crust Pizza","Four Seasons Pizza",6,3140
+2021-09-24,Drinks,Fanta,11,440
+2021-09-24,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-09-24,Starter,"Potato Wedges",3,360
+2021-09-24,"Shake & Soda","Oreo Vanilla Shake",4,1120
+2021-09-24,Coffee,"Caffe Mocha",1,280
+2021-09-24,Sandwich,"Club Sandwich",2,520
+2021-09-24,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-09-24,Coffee,Latte,5,1015
+2021-09-24,"Thin-Crust Pizza","Beef Pepperoni Pizza",6,3480
+2021-09-24,Pasta,"Seafood Marinara",2,700
+2021-09-24,Coffee,"Flavored Latte",1,250
+2021-09-24,Starter,"Buffalo Wings",1,190
+2021-09-24,"Pastry & Bakery",Cookie,1,120
+2021-09-24,Soup,"Cream of Mushroom",7,1260
+2021-09-24,"Burger with Fries","Classic Chicken Burger",1,220
+2021-09-24,Starter,"Cheese Balls",1,100
+2021-09-24,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-24,"Thick-Crust Pizza","Naga Beef Pizza",2,1330
+2021-09-24,Salad,"Chicken Caesar Salad",1,390
+2021-09-24,Pasta,"Penne Alfredo",1,280
+2021-09-24,"Shake & Soda","Blueberry Cheesecake Shake",3,900
+2021-09-24,"Burger with Fries","Classic Beef Burger",1,290
+2021-09-24,Drinks,Sprite,4,160
+2021-09-25,"Pastry & Bakery",Cookie,4,480
+2021-09-25,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,910
+2021-09-25,"Thin-Crust Pizza","Corn & Cheese Pizza",2,820
+2021-09-25,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,700
+2021-09-25,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-09-25,Coffee,Cappuccino,6,1140
+2021-09-25,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-09-25,Starter,"French Fries",2,160
+2021-09-25,Coffee,Americano,4,620
+2021-09-25,Drinks,"Water 500ml",10,150
+2021-09-25,Soup,"Cream of Mushroom",2,360
+2021-09-25,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-09-25,Sandwich,"Croissant Sandwich",2,380
+2021-09-25,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,500
+2021-09-25,Meal,"Teriyaki Chicken",1,290
+2021-09-25,Drinks,Coke,15,600
+2021-09-25,Starter,"Cheese Balls",1,100
+2021-09-25,Salad,"Garlic Mushroom with Chicken",2,520
+2021-09-25,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-25,Coffee,Latte,3,585
+2021-09-25,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-09-25,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1320
+2021-09-25,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-25,Salad,"Sauteed Garlic Mushroom",1,200
+2021-09-25,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,960
+2021-09-25,Starter,"Prawn On Toast",1,180
+2021-09-25,Starter,"Buffalo Wings",1,190
+2021-09-25,Coffee,"Caffe Mocha",1,280
+2021-09-25,Drinks,Sprite,1,40
+2021-09-25,Starter,"Potato Wedges",1,120
+2021-09-25,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-09-25,Pasta,"Penne Alfredo",1,280
+2021-09-26,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2065
+2021-09-26,Starter,"Naga Wings",1,180
+2021-09-26,"Thin-Crust Pizza","Classic Margherita Pizza",3,660
+2021-09-26,Starter,"Buffalo Wings",1,190
+2021-09-26,Sandwich,"Smoked Chicken Sandwich",4,640
+2021-09-26,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,900
+2021-09-26,Meal,"Fish & Chips",1,420
+2021-09-26,Drinks,Coke,22,880
+2021-09-26,Coffee,Latte,2,390
+2021-09-26,Coffee,"Flavored Latte",1,250
+2021-09-26,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-09-26,Coffee,Espresso,2,280
+2021-09-26,Pasta,"Fettuccine Baked Pasta",2,720
+2021-09-26,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-09-26,Starter,"Chicken Cheese Balls",3,360
+2021-09-26,Drinks,Sprite,1,40
+2021-09-26,Drinks,"Water 500ml",6,90
+2021-09-26,Sandwich,"Croissant Sandwich",1,190
+2021-09-26,Coffee,Cappuccino,3,570
+2021-09-26,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-26,Soup,"Seafood Clear",1,240
+2021-09-26,Soup,"Cream of Mushroom",1,180
+2021-09-26,Starter,"Fried Calamari",2,580
+2021-09-26,"Thin-Crust Pizza","Four Seasons Pizza",1,1030
+2021-09-26,Pasta,"Penne Alfredo",2,560
+2021-09-26,Steak,"T-Bone (330-350 gms)",1,1450
+2021-09-26,Steak,"Chicken Butterfly",1,490
+2021-09-26,"Shake & Soda","Apple Soda",1,280
+2021-09-26,Drinks,Fanta,2,80
+2021-09-26,Coffee,"Caffe Mocha",1,260
+2021-09-26,Sandwich,"Club Sandwich",1,260
+2021-09-26,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-26,Starter,"French Fries",2,160
+2021-09-26,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-26,Meal,"Moroccan Chicken",2,680
+2021-09-27,Coffee,Espresso,2,260
+2021-09-27,Meal,"Teriyaki Chicken",3,870
+2021-09-27,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-09-27,Drinks,"Water 500ml",6,90
+2021-09-27,"Thin-Crust Pizza","Chicken Supreme Pizza",2,960
+2021-09-27,Starter,"French Fries",2,160
+2021-09-27,Tea,"Green Tea & Mint",2,300
+2021-09-27,Coffee,Cappuccino,3,570
+2021-09-27,"Pastry & Bakery",Cookie,2,240
+2021-09-27,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-09-27,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-09-27,Starter,"Chicken Cheese Balls",3,360
+2021-09-27,Coffee,Latte,3,585
+2021-09-27,Drinks,Sprite,2,80
+2021-09-27,Pasta,"Fettuccine Baked Pasta",1,360
+2021-09-27,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-09-27,Pasta,"Penne Alfredo",1,280
+2021-09-27,Salad,"Chicken Cashew Nut Salad",2,580
+2021-09-27,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-09-27,Drinks,Fanta,2,80
+2021-09-27,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-09-27,Coffee,Americano,1,170
+2021-09-27,Drinks,Coke,5,200
+2021-09-27,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-09-27,Salad,"Sauteed Garlic Mushroom",1,200
+2021-09-27,Meal,"Moroccan Chicken",1,340
+2021-09-27,Soup,"Cream of Mushroom",2,360
+2021-09-27,Starter,"Buffalo Wings",1,190
+2021-09-27,Sandwich,"Croissant Sandwich",1,190
+2021-09-27,Salad,"Garlic Mushroom with Chicken",1,260
+2021-09-27,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,640
+2021-09-28,Starter,"Cheese Balls",2,200
+2021-09-28,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-09-28,Coffee,Cappuccino,1,190
+2021-09-28,"Pastry & Bakery",Cookie,1,120
+2021-09-28,Drinks,"Water 500ml",6,90
+2021-09-28,Starter,"Chicken Cheese Balls",3,360
+2021-09-28,Pasta,"Penne Alfredo",1,280
+2021-09-28,Coffee,Americano,1,150
+2021-09-28,"Pastry & Bakery",Croissant,1,120
+2021-09-28,Meal,"Moroccan Chicken",1,340
+2021-09-28,Coffee,Latte,3,585
+2021-09-28,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-09-28,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1610
+2021-09-28,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-09-28,"Thin-Crust Pizza","Chicken Supreme Pizza",4,3070
+2021-09-28,Starter,"French Fries",4,320
+2021-09-28,Soup,"Cream of Mushroom",2,360
+2021-09-28,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-28,Sandwich,"Croissant Sandwich",1,190
+2021-09-28,Drinks,Coke,6,240
+2021-09-28,Meal,"Teriyaki Chicken",2,580
+2021-09-28,Salad,"Chicken Caesar Salad",1,390
+2021-09-28,"Shake & Soda","Apple Soda",1,280
+2021-09-28,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-28,Drinks,Fanta,4,160
+2021-09-28,Starter,"Potato Wedges",2,240
+2021-09-28,Starter,"Naga Wings",1,180
+2021-09-28,Starter,"Buffalo Wings",1,190
+2021-09-29,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-09-29,Starter,"Chicken Cheese Balls",3,360
+2021-09-29,Drinks,Coke,5,200
+2021-09-29,Soup,"Cream of Mushroom",4,720
+2021-09-29,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-29,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,2380
+2021-09-29,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1745
+2021-09-29,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-09-29,Starter,"Fried Calamari",2,580
+2021-09-29,Meal,"Fish & Chips",2,840
+2021-09-29,Pasta,"Penne Alfredo",1,280
+2021-09-29,Coffee,Cappuccino,5,1070
+2021-09-29,"Thin-Crust Pizza","Four Seasons Pizza",4,2155
+2021-09-29,"Shake & Soda","Apple Soda",2,560
+2021-09-29,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-09-29,Starter,"French Fries",2,160
+2021-09-29,Drinks,"Water 500ml",7,105
+2021-09-29,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-09-29,"Shake & Soda","Strawberry Shake",1,270
+2021-09-29,Starter,"Naga Wings",1,180
+2021-09-29,Starter,"Cheese Balls",2,200
+2021-09-29,Meal,"Moroccan Chicken",2,680
+2021-09-29,Drinks,Fanta,1,40
+2021-09-29,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-09-29,Coffee,Espresso,3,390
+2021-09-29,Meal,"Teriyaki Chicken",1,290
+2021-09-29,Drinks,Sprite,2,80
+2021-09-29,Sandwich,"Club Sandwich",1,260
+2021-09-29,Sandwich,"Croissant Sandwich",1,190
+2021-09-30,Starter,"Chicken Cheese Balls",1,120
+2021-09-30,"Thin-Crust Pizza","Chicken Supreme Pizza",6,2280
+2021-09-30,Coffee,Cappuccino,5,950
+2021-09-30,Pasta,"Fettuccine Baked Pasta",2,720
+2021-09-30,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1415
+2021-09-30,Soup,"Cream of Mushroom",4,720
+2021-09-30,Starter,"Naga Wings",2,360
+2021-09-30,Drinks,Coke,14,560
+2021-09-30,Drinks,"Water 500ml",11,165
+2021-09-30,Starter,"Potato Wedges",4,480
+2021-09-30,Starter,"Teriyaki Chicken Wings",1,200
+2021-09-30,Starter,"French Fries",3,240
+2021-09-30,Drinks,Fanta,2,80
+2021-09-30,Starter,"Cheese Balls",3,300
+2021-09-30,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-09-30,Drinks,Sprite,1,40
+2021-09-30,Tea,"Earl Grey",1,140
+2021-09-30,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,960
+2021-09-30,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-09-30,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-09-30,Starter,"Buffalo Wings",3,570
+2021-09-30,Coffee,Americano,2,320
+2021-09-30,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-09-30,Starter,"Prawn On Toast",2,360
+2021-09-30,"Thin-Crust Pizza","Four Seasons Pizza",2,1120
+2021-09-30,Pasta,"Spaghetti Bolognese",2,600
+2021-09-30,Pasta,"Penne Alfredo",3,840
+2021-09-30,"Burger with Fries","Classic Beef Burger",3,870
+2021-09-30,Pasta,"Seafood Marinara",2,700
+2021-09-30,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-09-30,Starter,"Fried Calamari",1,290
+2021-09-30,Salad,"Chicken Cashew Nut Salad",1,290
+2021-09-30,Coffee,Latte,3,585
+2021-09-30,Sandwich,"Croissant Sandwich",2,380
+2021-09-30,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-09-30,Sandwich,"Club Sandwich",2,520
+2021-10-01,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-10-01,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,2140
+2021-10-01,Coffee,Cappuccino,13,1330
+2021-10-01,"Pastry & Bakery",Cookie,1,120
+2021-10-01,Sandwich,"Club Sandwich",3,780
+2021-10-01,Starter,"Cheese Balls",2,200
+2021-10-01,Coffee,Latte,10,975
+2021-10-01,"Thin-Crust Pizza","Four Seasons Pizza",4,3170
+2021-10-01,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,3940
+2021-10-01,Starter,"Potato Wedges",1,120
+2021-10-01,Starter,"French Fries",2,160
+2021-10-01,Coffee,"Caffe Mocha",2,280
+2021-10-01,"Pastry & Bakery","Chocolate Mousse",2,400
+2021-10-01,Drinks,Coke,16,640
+2021-10-01,Drinks,Fanta,6,240
+2021-10-01,Sandwich,"Croissant Sandwich",2,380
+2021-10-01,Starter,"Naga Wings",1,180
+2021-10-01,Starter,"Chicken Cheese Balls",3,360
+2021-10-01,Coffee,Americano,2,170
+2021-10-01,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2195
+2021-10-01,"Thin-Crust Pizza","Corn & Cheese Pizza",2,820
+2021-10-01,Pasta,"Penne Alfredo",1,280
+2021-10-01,Drinks,"Water 500ml",13,195
+2021-10-01,Soup,"Cream of Mushroom",5,900
+2021-10-01,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-01,Coffee,"Flavored Latte",6,750
+2021-10-01,Drinks,Sprite,7,280
+2021-10-01,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-10-01,Coffee,Macchiato,2,175
+2021-10-01,Meal,"Teriyaki Chicken",6,1740
+2021-10-01,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-10-01,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,1480
+2021-10-01,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-01,"Burger with Fries","Classic Chicken Burger",2,480
+2021-10-01,"Pastry & Bakery",Croissant,1,120
+2021-10-01,Starter,"Prawn On Toast",1,180
+2021-10-01,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-01,"Pastry & Bakery","Brownie with Ice Cream",3,690
+2021-10-01,Meal,"Mongolian Beef",1,380
+2021-10-01,Meal,"Fish & Chips",2,840
+2021-10-01,Pasta,"Seafood Marinara",2,700
+2021-10-01,Salad,"Garlic Mushroom with Chicken",2,520
+2021-10-01,Steak,"T-Bone (330-350 gms)",2,2900
+2021-10-01,Meal,"Moroccan Chicken",2,680
+2021-10-01,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-01,"Thin-Crust Pizza","Prawn-Lime Pizza",1,1050
+2021-10-01,Soup,"Seafood Clear",1,240
+2021-10-02,Drinks,"Water 500ml",13,195
+2021-10-02,Drinks,Coke,14,560
+2021-10-02,Meal,"Teriyaki Chicken",1,290
+2021-10-02,Pasta,"Penne Alfredo",1,280
+2021-10-02,Coffee,Espresso,1,130
+2021-10-02,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-02,Coffee,"Flavored Latte",1,250
+2021-10-02,Coffee,Cappuccino,4,760
+2021-10-02,Salad,"Chicken Cashew Nut Salad",3,870
+2021-10-02,Soup,"Cream of Mushroom",2,360
+2021-10-02,Starter,"Chicken Cheese Balls",3,360
+2021-10-02,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-10-02,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-02,Starter,"Buffalo Wings",2,380
+2021-10-02,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-02,Coffee,Americano,2,320
+2021-10-02,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-02,Drinks,Sprite,6,240
+2021-10-02,"Thin-Crust Pizza","Prawn-Lime Pizza",1,510
+2021-10-02,"Thin-Crust Pizza","Pizza Seafood Marinara",2,1120
+2021-10-02,"Thin-Crust Pizza","Four Seasons Pizza",2,1570
+2021-10-02,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1380
+2021-10-02,Starter,"French Fries",3,240
+2021-10-02,Soup,"Hot & Sour",1,185
+2021-10-02,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-02,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-10-02,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-02,"Pastry & Bakery","Chocolate Mousse",1,200
+2021-10-02,Coffee,Latte,1,195
+2021-10-03,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-10-03,Starter,"Buffalo Wings",2,380
+2021-10-03,Starter,"Chicken Cheese Balls",2,240
+2021-10-03,Starter,"French Fries",6,480
+2021-10-03,Coffee,Cappuccino,4,760
+2021-10-03,Meal,"Mongolian Beef",4,1520
+2021-10-03,Starter,"Potato Wedges",1,120
+2021-10-03,Starter,"Prawn On Toast",2,360
+2021-10-03,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,960
+2021-10-03,"Thin-Crust Pizza","Chicken Supreme Pizza",5,3220
+2021-10-03,Meal,"Teriyaki Chicken",6,1740
+2021-10-03,Drinks,Fanta,6,240
+2021-10-03,Drinks,Sprite,7,280
+2021-10-03,Drinks,Coke,12,480
+2021-10-03,"Thin-Crust Pizza","Pizza Seafood Marinara",2,760
+2021-10-03,Drinks,"Water 500ml",15,225
+2021-10-03,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-03,Meal,"Fish & Chips",2,840
+2021-10-03,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1020
+2021-10-03,Pasta,"Spaghetti Bolognese",1,300
+2021-10-03,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-10-03,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-03,"Thin-Crust Pizza","Classic Margherita Pizza",2,820
+2021-10-03,Coffee,Latte,2,390
+2021-10-03,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-03,"Shake & Soda","Lime Soda",3,780
+2021-10-03,Pasta,"Seafood Marinara",2,700
+2021-10-03,"Burger with Fries","BBQ Chicken Burger",3,780
+2021-10-03,Pasta,"Penne Alfredo",2,560
+2021-10-03,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-10-03,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-03,Starter,"Fried Calamari",1,290
+2021-10-03,Meal,"Moroccan Chicken",1,340
+2021-10-03,Starter,"Naga Wings",2,360
+2021-10-04,"Thin-Crust Pizza","Chicken Supreme Pizza",1,330
+2021-10-04,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1985
+2021-10-04,"Thin-Crust Pizza","Beef Pepperoni Pizza",5,2445
+2021-10-04,Starter,"Potato Wedges",4,480
+2021-10-04,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-04,Drinks,Fanta,6,240
+2021-10-04,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-04,Meal,"Teriyaki Chicken",2,580
+2021-10-04,Drinks,"Water 500ml",10,150
+2021-10-04,Coffee,Cappuccino,3,570
+2021-10-04,Meal,"Moroccan Chicken",1,340
+2021-10-04,Starter,"French Fries",2,160
+2021-10-04,Drinks,Coke,2,80
+2021-10-04,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-04,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-04,Sandwich,"Club Sandwich",1,260
+2021-10-04,Pasta,"Penne Alfredo",1,280
+2021-10-04,Soup,"Cream of Mushroom",4,720
+2021-10-04,Starter,"Chicken Cheese Balls",1,120
+2021-10-04,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-04,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,610
+2021-10-04,"Pastry & Bakery",Cookie,2,240
+2021-10-04,Coffee,Espresso,1,130
+2021-10-04,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-04,Coffee,Americano,1,150
+2021-10-04,Coffee,Latte,1,195
+2021-10-04,"Thin-Crust Pizza","Classic Margherita Pizza",4,2100
+2021-10-04,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-10-04,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-04,Pasta,"Spaghetti Bolognese",1,300
+2021-10-04,Meal,"Fish & Chips",1,420
+2021-10-04,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-05,Starter,"Chicken Cheese Balls",5,600
+2021-10-05,Starter,"French Fries",4,320
+2021-10-05,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",4,1970
+2021-10-05,Salad,"Chicken Caesar Salad",1,390
+2021-10-05,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1140
+2021-10-05,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-05,Drinks,Coke,10,400
+2021-10-05,Drinks,"Water 500ml",5,75
+2021-10-05,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,1960
+2021-10-05,Starter,"Potato Wedges",1,120
+2021-10-05,"Thin-Crust Pizza","Classic Margherita Pizza",4,1220
+2021-10-05,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-05,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1280
+2021-10-05,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,910
+2021-10-05,"Thin-Crust Pizza","Four Seasons Pizza",2,720
+2021-10-05,Soup,"Cream of Mushroom",1,180
+2021-10-05,Drinks,Fanta,2,80
+2021-10-05,Starter,"Buffalo Wings",1,190
+2021-10-05,Meal,"Teriyaki Chicken",3,870
+2021-10-05,Drinks,Sprite,1,40
+2021-10-05,Coffee,Cappuccino,4,820
+2021-10-05,Coffee,Latte,1,195
+2021-10-05,"Burger with Fries","Classic Beef Burger",1,290
+2021-10-05,Meal,"Moroccan Chicken",1,340
+2021-10-06,Starter,"Buffalo Wings",3,570
+2021-10-06,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-06,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1990
+2021-10-06,Drinks,"Water 500ml",14,210
+2021-10-06,Starter,"Cheese Balls",2,200
+2021-10-06,Sandwich,"Croissant Sandwich",1,190
+2021-10-06,Meal,"Teriyaki Chicken",1,290
+2021-10-06,Drinks,Fanta,8,320
+2021-10-06,Drinks,Coke,8,320
+2021-10-06,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1650
+2021-10-06,Coffee,Cappuccino,3,570
+2021-10-06,"Thin-Crust Pizza","Pizza Seafood Marinara",2,760
+2021-10-06,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-06,Drinks,Sprite,6,240
+2021-10-06,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-10-06,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-10-06,Starter,"French Fries",3,240
+2021-10-06,Coffee,Latte,5,995
+2021-10-06,Salad,"Garlic Mushroom with Chicken",2,520
+2021-10-06,Starter,"Fried Calamari",1,290
+2021-10-06,Starter,"Chicken Cheese Balls",4,480
+2021-10-06,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-06,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-10-06,Coffee,Americano,1,150
+2021-10-06,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,940
+2021-10-07,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,1920
+2021-10-07,Meal,"Teriyaki Chicken",3,870
+2021-10-07,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,1890
+2021-10-07,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-07,Drinks,Sprite,1,40
+2021-10-07,Starter,"Chicken Cheese Balls",6,720
+2021-10-07,Drinks,Coke,9,360
+2021-10-07,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1800
+2021-10-07,Starter,"Buffalo Wings",6,1140
+2021-10-07,"Pastry & Bakery",Croissant,1,120
+2021-10-07,Coffee,Cappuccino,4,760
+2021-10-07,Drinks,"Water 500ml",8,120
+2021-10-07,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-10-07,Coffee,Latte,5,1015
+2021-10-07,Pasta,"Spaghetti Bolognese",4,1200
+2021-10-07,Starter,"French Fries",3,240
+2021-10-07,Starter,"Potato Wedges",1,120
+2021-10-07,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-07,Soup,"Cream of Mushroom",6,1080
+2021-10-07,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-07,Starter,"Naga Wings",1,180
+2021-10-07,"Thin-Crust Pizza","Vegetarian's Delight",3,990
+2021-10-07,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-10-07,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-10-07,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-10-07,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-07,Coffee,"Flavored Latte",1,250
+2021-10-07,Coffee,Americano,1,170
+2021-10-07,Pasta,"Seafood Marinara",1,350
+2021-10-07,Starter,"Fried Calamari",3,870
+2021-10-07,Drinks,Fanta,1,40
+2021-10-07,"Pastry & Bakery",Cookie,1,120
+2021-10-07,Sandwich,"Croissant Sandwich",1,190
+2021-10-07,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-10-07,Meal,"Fish & Chips",1,420
+2021-10-08,Starter,"French Fries",15,1200
+2021-10-08,Coffee,Cappuccino,16,3040
+2021-10-08,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-10-08,"Burger with Fries","BBQ Chicken Burger",1,240
+2021-10-08,Starter,"Potato Wedges",2,240
+2021-10-08,Starter,"Buffalo Wings",1,190
+2021-10-08,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-08,Drinks,Coke,15,600
+2021-10-08,Pasta,"Seafood Marinara",1,350
+2021-10-08,Meal,"Teriyaki Chicken",6,1740
+2021-10-08,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,3445
+2021-10-08,Starter,"Chicken Cheese Balls",2,240
+2021-10-08,Drinks,"Water 500ml",13,195
+2021-10-08,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-10-08,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-08,Drinks,Sprite,7,280
+2021-10-08,Drinks,Fanta,8,320
+2021-10-08,Coffee,Espresso,3,390
+2021-10-08,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-10-08,Starter,"Fried Calamari",1,290
+2021-10-08,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",2,1210
+2021-10-08,Pasta,"Penne Alfredo",1,280
+2021-10-08,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1620
+2021-10-08,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-08,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,340
+2021-10-08,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-10-08,Coffee,Americano,1,150
+2021-10-08,Soup,"Seafood Clear",1,240
+2021-10-08,Starter,"Prawn On Toast",2,360
+2021-10-08,Meal,"Moroccan Chicken",5,1700
+2021-10-08,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-08,Salad,"Chicken Caesar Salad",1,390
+2021-10-09,"Thin-Crust Pizza","Chicken Supreme Pizza",6,2610
+2021-10-09,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-09,"Shake & Soda","Oreo Vanilla Shake",5,1400
+2021-10-09,Drinks,Sprite,4,160
+2021-10-09,Drinks,Coke,22,880
+2021-10-09,Tea,"Classic English Breakfast",1,140
+2021-10-09,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-10-09,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-09,Pasta,"Seafood Marinara",2,700
+2021-10-09,Drinks,"Water 500ml",17,255
+2021-10-09,Starter,"Potato Wedges",6,720
+2021-10-09,Coffee,Latte,3,625
+2021-10-09,Coffee,Americano,1,150
+2021-10-09,Pasta,"Fettuccine Baked Pasta",3,1080
+2021-10-09,Coffee,"Caffe Mocha",2,560
+2021-10-09,"Thin-Crust Pizza","BBQ Chicken  Pizza",10,5720
+2021-10-09,"Thin-Crust Pizza","Pizza Seafood Marinara",2,1370
+2021-10-09,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-10-09,Meal,"Teriyaki Chicken",3,870
+2021-10-09,Meal,"Moroccan Chicken",1,340
+2021-10-09,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-10-09,Drinks,Fanta,3,120
+2021-10-09,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,1115
+2021-10-09,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-09,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-09,"Thin-Crust Pizza","Four Seasons Pizza",2,720
+2021-10-09,Starter,"Chicken Cheese Balls",3,360
+2021-10-09,Starter,"French Fries",3,240
+2021-10-09,Coffee,Cappuccino,3,570
+2021-10-09,Pasta,"Penne Alfredo",1,280
+2021-10-09,"Pastry & Bakery",Cookie,1,120
+2021-10-09,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",2,1050
+2021-10-09,Salad,"Sauteed Garlic Mushroom",2,400
+2021-10-09,Sandwich,"Club Sandwich",1,260
+2021-10-09,Starter,"Buffalo Wings",1,190
+2021-10-09,Meal,"Fish & Chips",4,1680
+2021-10-09,"Shake & Soda","Strawberry Shake",3,810
+2021-10-09,Starter,"Fried Calamari",2,580
+2021-10-09,Soup,"Cream of Mushroom",2,360
+2021-10-09,"Thin-Crust Pizza","Prawn-Lime Pizza",1,750
+2021-10-09,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-10,Starter,"Chicken Cheese Balls",3,360
+2021-10-10,Sandwich,"Club Sandwich",2,520
+2021-10-10,Coffee,Latte,2,410
+2021-10-10,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-10,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-10,Drinks,"Water 500ml",9,135
+2021-10-10,Salad,"Garlic Mushroom with Chicken",4,1040
+2021-10-10,Drinks,Coke,17,680
+2021-10-10,Soup,"Seafood Clear",1,240
+2021-10-10,Starter,"French Fries",4,320
+2021-10-10,Pasta,"Spaghetti Bolognese",1,300
+2021-10-10,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1535
+2021-10-10,Pasta,"Penne Alfredo",2,560
+2021-10-10,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-10-10,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-10,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-10,Drinks,Fanta,4,160
+2021-10-10,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-10,Drinks,Sprite,4,160
+2021-10-10,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-10,Starter,"Teriyaki Chicken Wings",3,600
+2021-10-10,Tea,"Classic English Breakfast",1,120
+2021-10-10,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,3060
+2021-10-10,Soup,"Cream of Mushroom",3,540
+2021-10-10,Starter,"Cheese Balls",1,100
+2021-10-10,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-10-10,Starter,"Naga Wings",1,180
+2021-10-10,"Pastry & Bakery",Croissant,2,240
+2021-10-10,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,940
+2021-10-10,Starter,"Fried Calamari",1,290
+2021-10-10,Coffee,Cappuccino,2,380
+2021-10-11,"Burger with Fries","BBQ Chicken Burger",2,520
+2021-10-11,Meal,"Teriyaki Chicken",5,1450
+2021-10-11,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-11,Sandwich,"Club Sandwich",2,520
+2021-10-11,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-11,Pasta,"Spaghetti Bolognese",2,600
+2021-10-11,Drinks,Sprite,3,120
+2021-10-11,Starter,"Buffalo Wings",1,190
+2021-10-11,Drinks,Fanta,5,200
+2021-10-11,"Thin-Crust Pizza","Chicken Supreme Pizza",6,2130
+2021-10-11,Drinks,Coke,16,640
+2021-10-11,Drinks,"Water 500ml",10,150
+2021-10-11,Starter,"French Fries",9,720
+2021-10-11,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-10-11,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,900
+2021-10-11,Starter,"Teriyaki Chicken Wings",2,400
+2021-10-11,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1020
+2021-10-11,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-10-11,"Thin-Crust Pizza","Prawn-Lime Pizza",1,1050
+2021-10-11,"Thick-Crust Pizza","Naga Beef Pizza",1,280
+2021-10-11,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,350
+2021-10-11,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-10-11,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-11,Coffee,Cappuccino,2,380
+2021-10-11,"Pastry & Bakery",Cookie,1,120
+2021-10-11,Starter,"Fried Calamari",1,290
+2021-10-11,"Shake & Soda","Lime Soda",1,260
+2021-10-11,Coffee,"Flavored Latte",1,270
+2021-10-11,Coffee,"Caffe Mocha",1,280
+2021-10-11,Coffee,Latte,1,195
+2021-10-11,"Pastry & Bakery",Croissant,1,120
+2021-10-11,Starter,"Potato Wedges",1,120
+2021-10-12,Coffee,"Caffe Mocha",3,800
+2021-10-12,Starter,"French Fries",3,240
+2021-10-12,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-10-12,Steak,"Chicken Butterfly",1,490
+2021-10-12,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-12,Drinks,"Water 500ml",6,90
+2021-10-12,Drinks,Coke,8,320
+2021-10-12,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-10-12,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-12,Coffee,"Flavored Latte",2,500
+2021-10-12,"Thin-Crust Pizza","Chicken Supreme Pizza",6,2460
+2021-10-12,Coffee,Latte,2,390
+2021-10-12,Sandwich,"Club Sandwich",4,1040
+2021-10-12,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2500
+2021-10-12,Soup,"Cream of Mushroom",2,360
+2021-10-12,"Burger with Fries","Classic Beef Burger",1,290
+2021-10-12,Drinks,Sprite,2,80
+2021-10-12,Coffee,Cappuccino,4,760
+2021-10-12,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-12,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-12,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-10-12,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-10-12,Drinks,Fanta,4,160
+2021-10-12,Starter,"Chicken Cheese Balls",1,120
+2021-10-12,Starter,"Cheese Balls",1,100
+2021-10-12,"Pastry & Bakery",Cookie,1,120
+2021-10-12,Pasta,"Spaghetti Bolognese",2,600
+2021-10-12,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-12,Pasta,"Penne Alfredo",1,280
+2021-10-13,Starter,"Buffalo Wings",4,760
+2021-10-13,Pasta,"Spaghetti Bolognese",1,300
+2021-10-13,Coffee,"Caffe Mocha",2,540
+2021-10-13,Coffee,Cappuccino,6,1140
+2021-10-13,"Thin-Crust Pizza","Four Seasons Pizza",2,1080
+2021-10-13,Starter,"French Fries",4,320
+2021-10-13,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1650
+2021-10-13,Drinks,Coke,13,520
+2021-10-13,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2035
+2021-10-13,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,1260
+2021-10-13,"Thin-Crust Pizza","Beef Pepperoni Pizza",5,2460
+2021-10-13,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",2,700
+2021-10-13,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-10-13,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-10-13,Sandwich,"Croissant Sandwich",1,190
+2021-10-13,"Pastry & Bakery",Croissant,1,120
+2021-10-13,Drinks,"Water 500ml",6,90
+2021-10-13,Drinks,Fanta,5,200
+2021-10-13,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-13,Soup,"Cream of Mushroom",1,180
+2021-10-13,Coffee,Latte,3,585
+2021-10-13,Salad,"Chicken Cashew Nut Salad",4,1160
+2021-10-13,Meal,"Teriyaki Chicken",6,1740
+2021-10-13,Drinks,Sprite,2,80
+2021-10-13,Meal,"Moroccan Chicken",2,680
+2021-10-13,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-13,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-10-13,"Pastry & Bakery",Cookie,1,120
+2021-10-13,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,600
+2021-10-13,Starter,"Chicken Cheese Balls",1,120
+2021-10-13,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-13,Starter,"Potato Wedges",1,120
+2021-10-14,"Thin-Crust Pizza","Four Seasons Pizza",3,2150
+2021-10-14,"Thin-Crust Pizza","Prawn-Lime Pizza",3,1190
+2021-10-14,Starter,"Chicken Cheese Balls",4,480
+2021-10-14,"Shake & Soda","Strawberry Shake",2,540
+2021-10-14,"Shake & Soda","Oreo Vanilla Shake",4,1120
+2021-10-14,Drinks,Coke,9,360
+2021-10-14,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1650
+2021-10-14,Salad,"Garlic Mushroom with Chicken",2,520
+2021-10-14,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-10-14,Drinks,"Water 500ml",9,135
+2021-10-14,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-14,Coffee,Cappuccino,4,760
+2021-10-14,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-10-14,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-10-14,Starter,"French Fries",4,320
+2021-10-14,Starter,"Prawn On Toast",1,180
+2021-10-14,Starter,"Fried Calamari",2,580
+2021-10-14,Starter,"Buffalo Wings",2,380
+2021-10-14,"Thin-Crust Pizza","Classic Margherita Pizza",3,1040
+2021-10-14,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-14,Starter,"Teriyaki Chicken Wings",3,600
+2021-10-14,Starter,"Cheese Balls",3,300
+2021-10-14,Drinks,Sprite,2,80
+2021-10-14,Coffee,Macchiato,1,175
+2021-10-14,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-14,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-10-14,Steak,"T-Bone (330-350 gms)",1,1450
+2021-10-14,Drinks,Fanta,2,80
+2021-10-14,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-14,Meal,"Teriyaki Chicken",2,580
+2021-10-14,Soup,"Cream of Mushroom",3,540
+2021-10-14,Coffee,"Caffe Mocha",3,800
+2021-10-14,"Burger with Fries","Peri Peri Beef Burger",2,620
+2021-10-14,Soup,"Seafood Clear",2,480
+2021-10-14,Tea,"Earl Grey",2,280
+2021-10-14,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-14,Pasta,"Penne Alfredo",1,280
+2021-10-14,Starter,"Potato Wedges",2,240
+2021-10-14,Sandwich,"Club Sandwich",1,260
+2021-10-14,Meal,"Fish & Chips",1,420
+2021-10-14,Coffee,Latte,2,390
+2021-10-15,"Thin-Crust Pizza","BBQ Chicken  Pizza",9,4275
+2021-10-15,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-10-15,Coffee,Espresso,1,130
+2021-10-15,Coffee,Latte,6,1230
+2021-10-15,Starter,"Cheese Balls",2,200
+2021-10-15,Drinks,Fanta,8,320
+2021-10-15,Starter,"Buffalo Wings",1,190
+2021-10-15,"Pastry & Bakery",Croissant,1,120
+2021-10-15,Tea,"Green Tea & Mint",5,710
+2021-10-15,"Thin-Crust Pizza","Chicken Supreme Pizza",2,700
+2021-10-15,Drinks,Coke,13,520
+2021-10-15,Starter,"French Fries",2,160
+2021-10-15,Soup,"Hot & Sour",1,185
+2021-10-15,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-15,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-15,Drinks,"Water 500ml",9,135
+2021-10-15,Starter,"Chicken Cheese Balls",3,360
+2021-10-15,Meal,"Fish & Chips",1,420
+2021-10-15,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,780
+2021-10-15,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-10-15,Coffee,"Caffe Mocha",4,1040
+2021-10-15,Pasta,"Penne Alfredo",3,840
+2021-10-15,"Shake & Soda","Apple Soda",1,280
+2021-10-15,"Shake & Soda","Lime Soda",1,260
+2021-10-15,Starter,"Potato Wedges",2,240
+2021-10-15,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-15,Coffee,Cappuccino,5,950
+2021-10-15,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-15,"Pastry & Bakery",Cookie,3,360
+2021-10-15,Starter,"Naga Wings",1,180
+2021-10-15,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-15,Meal,"Moroccan Chicken",1,340
+2021-10-15,Sandwich,"Croissant Sandwich",1,190
+2021-10-15,Tea,"Earl Grey",1,120
+2021-10-15,Soup,"Cream of Mushroom",2,360
+2021-10-15,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-10-15,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,600
+2021-10-15,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-16,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-10-16,Sandwich,"Club Sandwich",3,780
+2021-10-16,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1225
+2021-10-16,"Thin-Crust Pizza","Beef Pepperoni Pizza",6,2520
+2021-10-16,Starter,"Buffalo Wings",2,380
+2021-10-16,Starter,"Cheese Balls",3,300
+2021-10-16,Starter,"French Fries",7,560
+2021-10-16,"Thin-Crust Pizza","Classic Margherita Pizza",4,1330
+2021-10-16,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-16,"Thin-Crust Pizza","Chicken Supreme Pizza",1,660
+2021-10-16,Drinks,"Water 500ml",5,75
+2021-10-16,Coffee,"Caffe Mocha",1,280
+2021-10-16,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-10-16,Drinks,Coke,13,520
+2021-10-16,Starter,"Chicken Cheese Balls",1,120
+2021-10-16,Tea,"Green Tea & Mint",1,150
+2021-10-16,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-16,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-16,Coffee,Doppio,1,175
+2021-10-16,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-10-16,"Thin-Crust Pizza","Vegetarian's Delight",1,510
+2021-10-16,Starter,"Teriyaki Chicken Wings",3,600
+2021-10-16,"Quick Meal","Rice with Chicken Satay",4,760
+2021-10-16,Drinks,Sprite,1,40
+2021-10-16,Coffee,Latte,3,585
+2021-10-16,Coffee,Cappuccino,4,760
+2021-10-16,Pasta,"Seafood Marinara",3,1050
+2021-10-16,Soup,"Seafood Clear",1,240
+2021-10-16,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-10-16,Drinks,Fanta,3,120
+2021-10-16,"Pastry & Bakery",Cookie,2,240
+2021-10-16,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-10-17,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-17,Tea,"Green Tea & Mint",2,260
+2021-10-17,Coffee,Cappuccino,9,1710
+2021-10-17,"Pastry & Bakery",Cookie,1,120
+2021-10-17,Sandwich,"Croissant Sandwich",2,380
+2021-10-17,Drinks,Fanta,3,120
+2021-10-17,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-17,Meal,"Teriyaki Chicken",5,1450
+2021-10-17,Drinks,"Water 500ml",13,195
+2021-10-17,Drinks,Coke,21,840
+2021-10-17,Starter,"Chicken Cheese Balls",3,360
+2021-10-17,Starter,"Potato Wedges",2,240
+2021-10-17,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1570
+2021-10-17,"Quick Meal","Rice with Chicken Satay",1,190
+2021-10-17,"Quick Meal","Rice with Chicken Sausage",1,180
+2021-10-17,"Quick Meal","Rice with Prawn Tempura",1,195
+2021-10-17,Sandwich,"Club Sandwich",4,1040
+2021-10-17,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-17,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-17,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-17,"Thin-Crust Pizza","Prawn-Lime Pizza",1,510
+2021-10-17,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-10-17,Starter,"Cheese Balls",1,100
+2021-10-17,Starter,"Teriyaki Chicken Wings",3,600
+2021-10-17,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-10-17,Starter,"Fried Calamari",2,580
+2021-10-17,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-17,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-10-17,Coffee,Americano,3,450
+2021-10-17,Coffee,Latte,2,390
+2021-10-17,Starter,"French Fries",4,320
+2021-10-17,Starter,"Prawn On Toast",1,180
+2021-10-17,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-17,Soup,"Cream of Mushroom",2,360
+2021-10-17,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-10-17,Meal,"Mongolian Beef",2,760
+2021-10-17,Drinks,Sprite,2,80
+2021-10-17,Pasta,"Seafood Marinara",1,350
+2021-10-17,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-10-17,Meal,"Fish & Chips",1,420
+2021-10-17,Pasta,"Spaghetti Bolognese",1,300
+2021-10-17,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-18,"Shake & Soda","Lime Soda",2,520
+2021-10-18,Coffee,Americano,2,300
+2021-10-18,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1560
+2021-10-18,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2310
+2021-10-18,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-10-18,Meal,"Moroccan Chicken",5,1700
+2021-10-18,Drinks,Coke,8,320
+2021-10-18,"Quick Meal","Spicy Rice with Chicken Satay",2,380
+2021-10-18,Starter,"Chicken Cheese Balls",3,360
+2021-10-18,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-18,Starter,"Prawn On Toast",1,180
+2021-10-18,Drinks,"Water 500ml",7,105
+2021-10-18,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-10-18,Drinks,Sprite,2,80
+2021-10-18,Drinks,Fanta,4,160
+2021-10-18,Salad,"Chicken Cashew Nut Salad",3,870
+2021-10-18,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-10-18,Pasta,"Penne Alfredo",1,280
+2021-10-18,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-18,Starter,"Fried Calamari",1,290
+2021-10-18,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-18,"Thin-Crust Pizza","Four Seasons Pizza",2,1120
+2021-10-18,Starter,"French Fries",2,160
+2021-10-18,Soup,"Seafood Clear",1,240
+2021-10-18,Pasta,"Seafood Marinara",1,350
+2021-10-18,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-18,Coffee,Latte,1,195
+2021-10-18,Coffee,Cappuccino,3,570
+2021-10-18,Starter,"Buffalo Wings",1,190
+2021-10-18,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,1200
+2021-10-18,"Burger with Fries","Classic Beef Burger",1,320
+2021-10-18,Starter,"Potato Wedges",2,240
+2021-10-18,Pasta,"Spaghetti Bolognese",1,300
+2021-10-19,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2560
+2021-10-19,Drinks,Coke,8,320
+2021-10-19,Drinks,Sprite,7,280
+2021-10-19,"Burger with Fries","Classic Chicken Burger",3,720
+2021-10-19,"Thin-Crust Pizza","Classic Margherita Pizza",3,1350
+2021-10-19,Starter,"Naga Wings",1,180
+2021-10-19,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,900
+2021-10-19,Starter,"Chicken Cheese Balls",2,240
+2021-10-19,Sandwich,"Club Sandwich",3,780
+2021-10-19,Coffee,Cappuccino,9,1770
+2021-10-19,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-19,Drinks,"Water 500ml",8,120
+2021-10-19,Coffee,Latte,4,800
+2021-10-19,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1780
+2021-10-19,Starter,"Prawn On Toast",2,360
+2021-10-19,Starter,"Cheese Balls",1,100
+2021-10-19,Drinks,Fanta,1,40
+2021-10-19,Coffee,Americano,2,320
+2021-10-19,Sandwich,"Croissant Sandwich",1,190
+2021-10-19,Starter,"Buffalo Wings",1,190
+2021-10-19,"Thin-Crust Pizza","Vegetarian's Delight",1,370
+2021-10-19,Meal,"Teriyaki Chicken",1,290
+2021-10-19,Starter,"French Fries",2,160
+2021-10-19,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-19,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-10-19,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-10-19,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-19,Soup,"Cream of Mushroom",1,180
+2021-10-19,Meal,"Mongolian Beef",2,760
+2021-10-19,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,940
+2021-10-19,Pasta,"Spaghetti Bolognese",2,600
+2021-10-19,Coffee,"Flavored Latte",1,270
+2021-10-19,Meal,"Fish & Chips",1,420
+2021-10-19,Meal,"Moroccan Chicken",1,340
+2021-10-19,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-20,Starter,"Chicken Cheese Balls",2,240
+2021-10-20,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,680
+2021-10-20,"Thin-Crust Pizza","Four Seasons Pizza",2,720
+2021-10-20,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-20,Starter,"Potato Wedges",4,480
+2021-10-20,Starter,"Fried Calamari",2,580
+2021-10-20,Coffee,Americano,3,450
+2021-10-20,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,3675
+2021-10-20,Pasta,"Spaghetti Bolognese",1,300
+2021-10-20,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,730
+2021-10-20,Drinks,"Water 500ml",11,165
+2021-10-20,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-20,Coffee,Cappuccino,7,1330
+2021-10-20,"Pastry & Bakery",Croissant,2,240
+2021-10-20,Meal,"Fish & Chips",2,840
+2021-10-20,Soup,"Cream of Mushroom",5,900
+2021-10-20,Coffee,"Flavored Latte",1,250
+2021-10-20,Pasta,"Penne Alfredo",1,280
+2021-10-20,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-20,Meal,"Teriyaki Chicken",2,580
+2021-10-20,Starter,"Prawn On Toast",1,180
+2021-10-20,Drinks,Coke,6,240
+2021-10-20,Drinks,Sprite,4,160
+2021-10-20,"Thin-Crust Pizza","Prawn-Lime Pizza",1,510
+2021-10-20,Drinks,Fanta,2,80
+2021-10-20,Starter,"French Fries",2,160
+2021-10-20,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1535
+2021-10-20,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-20,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-20,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-20,Coffee,Latte,4,800
+2021-10-20,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-20,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-20,Starter,"Naga Wings",1,180
+2021-10-20,Sandwich,"Club Sandwich",1,260
+2021-10-20,"Thin-Crust Pizza","Pizza Seafood Marinara",1,1160
+2021-10-20,Meal,"Moroccan Chicken",2,680
+2021-10-20,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-20,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-20,Starter,"Cheese Balls",1,100
+2021-10-21,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-10-21,Drinks,Coke,16,640
+2021-10-21,Sandwich,"Club Sandwich",1,260
+2021-10-21,Meal,"Teriyaki Chicken",3,870
+2021-10-21,Steak,"Round Beef (200 - 220 gms)",2,1400
+2021-10-21,Meal,"Moroccan Chicken",2,680
+2021-10-21,Drinks,"Water 500ml",14,210
+2021-10-21,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2740
+2021-10-21,Drinks,Fanta,7,280
+2021-10-21,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-10-21,"Thin-Crust Pizza","Corn & Cheese Pizza",2,540
+2021-10-21,Coffee,Cappuccino,5,950
+2021-10-21,Coffee,Latte,4,800
+2021-10-21,Coffee,Espresso,2,260
+2021-10-21,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-10-21,Starter,"Cheese Balls",1,100
+2021-10-21,Starter,"Potato Wedges",1,120
+2021-10-21,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-21,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1425
+2021-10-21,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-10-21,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-10-21,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-10-21,Soup,"Cream of Mushroom",1,180
+2021-10-21,Tea,"Green Tea & Mint",2,280
+2021-10-21,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-10-21,Starter,"Chicken Cheese Balls",2,240
+2021-10-21,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-21,Starter,"French Fries",4,320
+2021-10-21,Starter,"Naga Wings",1,180
+2021-10-21,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-21,Drinks,Sprite,1,40
+2021-10-21,Coffee,Americano,1,150
+2021-10-21,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,780
+2021-10-21,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-10-22,Drinks,"Water 500ml",10,150
+2021-10-22,Coffee,Americano,6,900
+2021-10-22,Coffee,Latte,5,975
+2021-10-22,Drinks,Coke,13,520
+2021-10-22,Coffee,"Caffe Mocha",6,1600
+2021-10-22,Steak,"Chicken Butterfly",1,490
+2021-10-22,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,1920
+2021-10-22,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-10-22,Starter,"Chicken Cheese Balls",5,600
+2021-10-22,Soup,"Cream of Mushroom",4,720
+2021-10-22,Meal,"Moroccan Chicken",1,340
+2021-10-22,Coffee,Espresso,2,260
+2021-10-22,Starter,"French Fries",6,480
+2021-10-22,Drinks,Fanta,3,120
+2021-10-22,"Pastry & Bakery",Croissant,1,120
+2021-10-22,Starter,"Fried Calamari",1,290
+2021-10-22,"Shake & Soda","Blueberry Cheesecake Shake",3,900
+2021-10-22,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1040
+2021-10-22,Sandwich,"Club Sandwich",2,520
+2021-10-22,Pasta,"Fettuccine Baked Pasta",2,720
+2021-10-22,Starter,"Potato Wedges",2,240
+2021-10-22,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-22,Drinks,Sprite,2,80
+2021-10-22,Tea,"Green Tea & Mint",2,300
+2021-10-22,Starter,"Cheese Balls",1,100
+2021-10-22,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-10-22,Starter,"Prawn On Toast",2,360
+2021-10-22,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,610
+2021-10-22,"Pastry & Bakery","Brownie with Ice Cream",3,690
+2021-10-22,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-10-22,Soup,"Hot & Sour",1,185
+2021-10-22,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-10-22,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-10-22,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,700
+2021-10-22,"Shake & Soda","Strawberry Shake",1,270
+2021-10-22,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-10-22,Coffee,Cappuccino,2,380
+2021-10-22,Pasta,"Fettuccine Creme Lime-e",1,270
+2021-10-23,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-23,Drinks,Coke,16,640
+2021-10-23,Sandwich,"Smoked Chicken Sandwich",3,480
+2021-10-23,Pasta,"Spaghetti Bolognese",1,300
+2021-10-23,Coffee,Cappuccino,6,1140
+2021-10-23,Coffee,Latte,6,1170
+2021-10-23,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-23,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1900
+2021-10-23,Meal,"Mongolian Beef",1,380
+2021-10-23,Meal,"Moroccan Chicken",1,340
+2021-10-23,Pasta,"Penne Alfredo",1,280
+2021-10-23,Soup,"Cream of Mushroom",5,900
+2021-10-23,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2210
+2021-10-23,Meal,"Teriyaki Chicken",2,580
+2021-10-23,Drinks,"Water 500ml",18,270
+2021-10-23,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-10-23,"Shake & Soda","Oreo Vanilla Shake",3,840
+2021-10-23,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-10-23,Pasta,"Seafood Marinara",2,700
+2021-10-23,"Burger with Fries","Classic Beef Burger",1,290
+2021-10-23,Drinks,Sprite,2,80
+2021-10-23,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-10-23,Starter,"French Fries",2,160
+2021-10-23,Starter,"Buffalo Wings",3,570
+2021-10-23,Starter,"Chicken Cheese Balls",1,120
+2021-10-23,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1045
+2021-10-23,Drinks,Fanta,3,120
+2021-10-23,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1495
+2021-10-23,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-10-23,Sandwich,"Club Sandwich",3,780
+2021-10-23,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-23,Starter,"Fried Calamari",2,580
+2021-10-23,Coffee,Espresso,1,130
+2021-10-23,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,600
+2021-10-23,Tea,"Green Tea & Mint",1,130
+2021-10-23,"Pastry & Bakery",Cookie,1,120
+2021-10-23,Starter,"Potato Wedges",1,120
+2021-10-23,Starter,"Cheese Balls",1,100
+2021-10-23,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-10-23,"Pastry & Bakery","Chocolate Mousse",1,200
+2021-10-24,Meal,"Fish & Chips",2,840
+2021-10-24,Starter,"Chicken Cheese Balls",6,720
+2021-10-24,Drinks,"Water 500ml",7,105
+2021-10-24,Drinks,Coke,5,200
+2021-10-24,Starter,"Potato Wedges",2,240
+2021-10-24,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1140
+2021-10-24,Sandwich,"Smoked Chicken Sandwich",2,320
+2021-10-24,Starter,"French Fries",4,320
+2021-10-24,"Thin-Crust Pizza","Corn & Cheese Pizza",1,400
+2021-10-24,Soup,"Cream of Mushroom",5,900
+2021-10-24,Starter,"Naga Wings",1,180
+2021-10-24,Drinks,Sprite,5,200
+2021-10-24,Starter,"Cheese Balls",1,100
+2021-10-24,Drinks,Fanta,3,120
+2021-10-24,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-24,Starter,"Buffalo Wings",1,190
+2021-10-24,Starter,"Fried Calamari",1,290
+2021-10-24,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-10-24,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1015
+2021-10-24,"Thin-Crust Pizza","Four Seasons Pizza",3,2280
+2021-10-24,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-10-24,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-24,Meal,"Teriyaki Chicken",2,580
+2021-10-24,Coffee,Latte,2,390
+2021-10-24,"Thin-Crust Pizza","Classic Margherita Pizza",1,450
+2021-10-24,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-10-24,Coffee,"Flavored Latte",1,250
+2021-10-24,Starter,"Prawn On Toast",1,180
+2021-10-24,Tea,"Green Tea & Mint",1,130
+2021-10-25,Starter,"Potato Wedges",2,240
+2021-10-25,Drinks,Coke,6,240
+2021-10-25,Drinks,Fanta,1,40
+2021-10-25,Starter,"French Fries",5,400
+2021-10-25,Drinks,Sprite,4,160
+2021-10-25,Salad,"Garlic Mushroom with Chicken",3,780
+2021-10-25,Coffee,Cappuccino,3,570
+2021-10-25,Drinks,"Water 500ml",11,165
+2021-10-25,Starter,"Chicken Cheese Balls",3,360
+2021-10-25,Pasta,"Penne Alfredo",1,280
+2021-10-25,"Pastry & Bakery",Cookie,1,120
+2021-10-25,Coffee,Latte,5,975
+2021-10-25,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-10-25,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-10-25,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-10-25,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-10-25,Starter,"Teriyaki Chicken Wings",1,200
+2021-10-25,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1290
+2021-10-25,Pasta,"Seafood Marinara",1,350
+2021-10-25,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-25,Starter,"Naga Wings",1,180
+2021-10-25,Coffee,Americano,1,150
+2021-10-25,Sandwich,"Club Sandwich",1,260
+2021-10-25,Starter,"Buffalo Wings",1,190
+2021-10-25,Soup,"Cream of Mushroom",1,180
+2021-10-25,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-25,Soup,"Seafood Clear",1,240
+2021-10-25,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-10-26,Starter,"Buffalo Wings",1,190
+2021-10-26,Drinks,Coke,3,120
+2021-10-26,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1170
+2021-10-26,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-26,"Burger with Fries","BBQ Chicken Burger",1,260
+2021-10-26,"Burger with Fries","Classic Beef Burger",4,1100
+2021-10-26,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,2440
+2021-10-26,Coffee,Cappuccino,4,760
+2021-10-26,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-10-26,Drinks,"Water 500ml",7,105
+2021-10-26,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1320
+2021-10-26,"Thin-Crust Pizza","Classic Margherita Pizza",3,1040
+2021-10-26,Starter,"Chicken Cheese Balls",1,120
+2021-10-26,"Thin-Crust Pizza","Four Seasons Pizza",2,1160
+2021-10-26,Tea,"Green Tea & Mint",3,450
+2021-10-26,"Pastry & Bakery",Cookie,1,120
+2021-10-26,Soup,"Cream of Mushroom",2,360
+2021-10-26,Starter,"Potato Wedges",1,120
+2021-10-26,Coffee,Americano,1,150
+2021-10-26,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-26,Drinks,Fanta,2,80
+2021-10-26,Starter,"French Fries",3,240
+2021-10-26,Starter,"Prawn On Toast",1,180
+2021-10-26,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-27,"Thin-Crust Pizza","Classic Margherita Pizza",6,1890
+2021-10-27,Starter,"Potato Wedges",4,480
+2021-10-27,Drinks,Coke,21,840
+2021-10-27,Drinks,Fanta,8,320
+2021-10-27,Meal,"Fish & Chips",1,420
+2021-10-27,Meal,"Teriyaki Chicken",1,290
+2021-10-27,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-27,Starter,"French Fries",3,240
+2021-10-27,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,3720
+2021-10-27,Drinks,"Water 500ml",7,105
+2021-10-27,Starter,"Chicken Cheese Balls",1,120
+2021-10-27,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-10-27,"Thin-Crust Pizza","Chicken Supreme Pizza",5,2855
+2021-10-27,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-10-27,Coffee,"Flavored Latte",1,250
+2021-10-27,Coffee,Cappuccino,1,190
+2021-10-27,Starter,"Prawn On Toast",4,720
+2021-10-27,Starter,"Fried Calamari",1,290
+2021-10-27,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-27,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1040
+2021-10-27,Starter,"Cheese Balls",2,200
+2021-10-27,Starter,"Naga Wings",1,180
+2021-10-27,"Shake & Soda","Lime Soda",2,520
+2021-10-27,Soup,"Cream of Mushroom",2,360
+2021-10-27,Coffee,"Caffe Mocha",1,280
+2021-10-27,Drinks,Sprite,1,40
+2021-10-27,Sandwich,"Club Sandwich",1,260
+2021-10-27,Coffee,Latte,1,195
+2021-10-28,"Shake & Soda","Strawberry Shake",1,270
+2021-10-28,Salad,"Sauteed Garlic Mushroom",1,200
+2021-10-28,Meal,"Teriyaki Chicken",2,580
+2021-10-28,Coffee,Cappuccino,5,950
+2021-10-28,Drinks,Sprite,4,160
+2021-10-28,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-10-28,Starter,"Chicken Cheese Balls",1,120
+2021-10-28,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1745
+2021-10-28,Starter,"Naga Wings",1,180
+2021-10-28,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-28,Drinks,"Water 500ml",7,105
+2021-10-28,Salad,"Chicken Cashew Nut Salad",2,580
+2021-10-28,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-28,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1035
+2021-10-28,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-28,Drinks,Coke,2,80
+2021-10-28,"Pastry & Bakery",Cookie,1,120
+2021-10-28,Soup,"Cream of Mushroom",4,720
+2021-10-28,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,390
+2021-10-28,Drinks,Fanta,2,80
+2021-10-28,Sandwich,"Club Sandwich",4,1040
+2021-10-28,Starter,"Potato Wedges",3,360
+2021-10-28,"Thin-Crust Pizza","Four Seasons Pizza",2,1120
+2021-10-28,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-28,Pasta,"Spaghetti Bolognese",1,300
+2021-10-28,Coffee,Latte,1,195
+2021-10-28,Pasta,"Fettuccine Creme Lime-e",1,270
+2021-10-29,Starter,"Chicken Cheese Balls",5,600
+2021-10-29,Starter,"French Fries",10,800
+2021-10-29,Drinks,Coke,11,440
+2021-10-29,Drinks,Fanta,18,720
+2021-10-29,Coffee,Cappuccino,5,950
+2021-10-29,Starter,"Naga Wings",1,180
+2021-10-29,"Quick Meal","Spicy Rice with Chicken Satay",4,840
+2021-10-29,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-29,Drinks,"Water 500ml",18,270
+2021-10-29,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,910
+2021-10-29,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-10-29,"Thin-Crust Pizza","Pizza Seafood Marinara",1,810
+2021-10-29,"Shake & Soda","Blueberry Cheesecake Shake",5,1500
+2021-10-29,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,500
+2021-10-29,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-10-29,Starter,"Buffalo Wings",2,380
+2021-10-29,Pasta,"Seafood Marinara",1,350
+2021-10-29,Drinks,Sprite,9,360
+2021-10-29,"Quick Meal","Spicy Rice with Prawn Tempura",4,860
+2021-10-29,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1770
+2021-10-29,"Shake & Soda","Lime Soda",1,260
+2021-10-29,"Shake & Soda","Apple Soda",1,280
+2021-10-29,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2495
+2021-10-29,Pasta,"Fettuccine Baked Pasta",1,360
+2021-10-29,Salad,"Sauteed Garlic Mushroom",2,400
+2021-10-29,Coffee,Latte,6,1190
+2021-10-29,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-10-29,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,2800
+2021-10-29,Coffee,Americano,1,150
+2021-10-29,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-29,Starter,"Cheese Balls",1,100
+2021-10-29,"Burger with Fries","Classic Chicken Burger",1,240
+2021-10-29,Soup,"Cream of Mushroom",1,180
+2021-10-29,Starter,"Potato Wedges",1,120
+2021-10-30,Starter,"Chicken Cheese Balls",3,360
+2021-10-30,Coffee,Latte,4,800
+2021-10-30,Coffee,Cappuccino,9,1710
+2021-10-30,Coffee,Americano,3,450
+2021-10-30,Drinks,"Water 500ml",11,165
+2021-10-30,Meal,"Fish & Chips",2,840
+2021-10-30,Starter,"Cheese Balls",1,100
+2021-10-30,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1600
+2021-10-30,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-10-30,Sandwich,"Club Sandwich",1,260
+2021-10-30,Drinks,Coke,2,80
+2021-10-30,Sandwich,"Smoked Chicken Sandwich",1,160
+2021-10-30,Salad,"Chicken Cashew Nut Salad",1,290
+2021-10-30,"Quick Meal","Spicy Rice with Prawn Tempura",1,225
+2021-10-30,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-30,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,610
+2021-10-30,Soup,"Cream of Mushroom",2,360
+2021-10-30,Soup,"Hot & Sour",1,185
+2021-10-30,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,350
+2021-10-30,Drinks,Sprite,6,240
+2021-10-30,Starter,"Potato Wedges",2,240
+2021-10-30,"Shake & Soda","Apple Soda",1,280
+2021-10-30,Coffee,"Caffe Mocha",1,280
+2021-10-30,Coffee,Espresso,1,130
+2021-10-30,"Thin-Crust Pizza","Chicken Supreme Pizza",1,660
+2021-10-30,Starter,"Fried Calamari",1,290
+2021-10-30,Starter,"French Fries",3,240
+2021-10-30,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-10-30,"Burger with Fries","Classic Chicken Burger",1,220
+2021-10-30,Steak,"Sirloin (330 - 350 gms)",1,1290
+2021-10-30,"Shake & Soda","Lime Soda",1,260
+2021-10-30,Steak,"Round Beef (200 - 220 gms)",1,700
+2021-10-30,"Pastry & Bakery",Cookie,2,240
+2021-10-30,"Pastry & Bakery",Croissant,1,120
+2021-10-31,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2675
+2021-10-31,"Pastry & Bakery","Blueberry Cheese Cake",3,750
+2021-10-31,Drinks,Coke,16,640
+2021-10-31,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-10-31,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1020
+2021-10-31,Starter,"Potato Wedges",2,240
+2021-10-31,Soup,"Cream of Mushroom",2,360
+2021-10-31,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1140
+2021-10-31,Starter,"Chicken Cheese Balls",3,360
+2021-10-31,Pasta,"Spaghetti Bolognese",1,300
+2021-10-31,Meal,"Fish & Chips",2,840
+2021-10-31,Starter,"French Fries",5,400
+2021-10-31,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-10-31,Drinks,Fanta,4,160
+2021-10-31,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-10-31,Starter,"Buffalo Wings",1,190
+2021-10-31,Coffee,Cappuccino,4,760
+2021-10-31,Sandwich,"Croissant Sandwich",1,190
+2021-10-31,Coffee,"Caffe Mocha",1,280
+2021-10-31,Drinks,"Water 500ml ...",5,75
+2021-10-31,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-10-31,Salad,"Garlic Mushroom with Chicken",1,260
+2021-10-31,Drinks,Sprite,2,80
+2021-10-31,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-10-31,Coffee,Latte,2,390
+2021-10-31,Pasta,"Fettuccine Baked Pasta",2,720
+2021-10-31,"Pastry & Bakery",Cookie,1,120
+2021-10-31,"Burger with Fries","Peri Peri Beef Burger",1,310
+2021-10-31,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-10-31,Coffee,Americano,1,150
+2021-10-31,Pasta,"Spaghetti Aglio e Olio",1,270
+2021-10-31,Meal,"Teriyaki Chicken",1,290
+2021-10-31,Drinks,"Zero Coke Can",1,40
+2021-11-01,Starter,"Teriyaki Chicken Wings",1,200
+2021-11-01,"Thin-Crust Pizza","Four Seasons Pizza",4,1800
+2021-11-01,Starter,"Chicken Cheese Balls",3,360
+2021-11-01,Drinks,Sprite,2,80
+2021-11-01,Drinks,"Water 500ml ...",1,15
+2021-11-01,"Shake & Soda","Apple Soda",1,280
+2021-11-01,Drinks,Coke,20,800
+2021-11-01,Drinks,Fanta,6,240
+2021-11-01,Soup,"Cream of Mushroom",1,180
+2021-11-01,"Starter & Soup","Chicken Cheese Balls",6,720
+2021-11-01,"Starter & Soup","Cheese Balls",2,200
+2021-11-01,"Thin-Crust Pizza","Classic Margherita Pizza",2,670
+2021-11-01,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-11-01,"Starter & Soup","French Fries",4,320
+2021-11-01,"Thin-Crust Pizza","Corn & Cheese Pizza",1,550
+2021-11-01,Drinks,"Water 500ml",6,90
+2021-11-01,"Starter & Soup","Cream of Mushroom",4,720
+2021-11-01,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-11-01,"Quick Meal & Salad","Chicken Cashew Nut Salad",3,870
+2021-11-01,Steak,"Chicken Butterfly",1,490
+2021-11-01,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-01,Pasta,"Penne Alfredo",1,280
+2021-11-01,Coffee,Cappuccino,6,1140
+2021-11-01,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-01,"Starter & Soup","Potato Wedges",2,240
+2021-11-01,"Sandwich & Burger","BBQ Chicken Burger",1,240
+2021-11-01,Coffee,Espresso,1,130
+2021-11-01,Coffee,Americano,2,300
+2021-11-01,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-01,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-11-01,"Quick Meal & Salad","Chicken Caesar Salad",1,390
+2021-11-01,Snack,"Buffalo Wings",2,380
+2021-11-01,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-01,Meal,"Teriyaki Chicken",1,290
+2021-11-01,Pasta,"Seafood Marinara",1,350
+2021-11-01,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-01,Snack,"Fried Calamari",1,290
+2021-11-01,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-02,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,2675
+2021-11-02,Coffee,Espresso,1,150
+2021-11-02,Drinks,"Water 500ml",4,60
+2021-11-02,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-02,Coffee,Latte,3,605
+2021-11-02,Coffee,Americano,3,470
+2021-11-02,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-02,Coffee,Cappuccino,6,1140
+2021-11-02,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-11-02,Drinks,Coke,11,440
+2021-11-02,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-02,"Thin-Crust Pizza","Chicken Supreme Pizza",1,330
+2021-11-02,"Thin-Crust Pizza","Vegetarian's Delight",1,370
+2021-11-02,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-11-02,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-11-02,Meal,"Fish & Chips",1,420
+2021-11-02,"Pastry & Bakery",Cookie,1,120
+2021-11-02,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-02,Pasta,"Seafood Marinara",1,350
+2021-11-02,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-11-02,Drinks,Fanta,2,80
+2021-11-02,Steak,"Mixed Platter",1,1450
+2021-11-02,Meal,"Teriyaki Chicken",1,290
+2021-11-02,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-02,"Starter & Soup","French Fries",1,80
+2021-11-03,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,815
+2021-11-03,Drinks,Coke,9,360
+2021-11-03,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-11-03,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-03,"Thin-Crust Pizza","Chicken Supreme Pizza",1,330
+2021-11-03,Drinks,"Water 500ml",3,45
+2021-11-03,Coffee,Americano,3,470
+2021-11-03,"Starter & Soup","Potato Wedges",2,240
+2021-11-03,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-03,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-03,Coffee,Cappuccino,3,570
+2021-11-03,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-03,Coffee,"Caffe Mocha",3,800
+2021-11-03,"Pastry & Bakery",Cookie,1,120
+2021-11-03,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-03,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-11-04,Pasta,"Spaghetti Bolognese",1,300
+2021-11-04,"Starter & Soup","Potato Wedges",3,360
+2021-11-04,Drinks,Coke,9,360
+2021-11-04,Drinks,Fanta,2,80
+2021-11-04,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-11-04,Snack,"Fried Calamari",2,580
+2021-11-04,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2035
+2021-11-04,Pasta,"Seafood Marinara",1,350
+2021-11-04,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-11-04,"Shake & Soda","Lime Soda",1,260
+2021-11-04,Coffee,"Caffe Mocha",2,540
+2021-11-04,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,1060
+2021-11-04,"Sandwich & Burger","Club Sandwich",3,780
+2021-11-04,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-11-04,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-04,Drinks,Sprite,3,120
+2021-11-04,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-11-04,Drinks,"Water 500ml",7,105
+2021-11-04,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1650
+2021-11-04,"Shake & Soda","Oreo Vanilla Shake",3,840
+2021-11-04,"Starter & Soup","Cream of Mushroom",3,540
+2021-11-04,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-04,"Starter & Soup","Cheese Balls",1,100
+2021-11-04,"Starter & Soup","French Fries",3,240
+2021-11-04,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-04,"Sandwich & Burger","Peri Peri Beef Burger",1,310
+2021-11-04,Pasta,"Fettuccine Baked Pasta",2,720
+2021-11-04,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-11-04,Meal,"Fish & Chips",1,420
+2021-11-04,Meal,"Mongolian Beef",2,760
+2021-11-04,Pasta,"Penne Alfredo",1,280
+2021-11-04,Coffee,Latte,3,625
+2021-11-04,"Pastry & Bakery",Cookie,2,240
+2021-11-04,Coffee,Americano,1,150
+2021-11-04,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-04,Coffee,Cappuccino,3,570
+2021-11-05,Meal,"Teriyaki Chicken",2,580
+2021-11-05,Coffee,Cappuccino,12,2280
+2021-11-05,"Thin-Crust Pizza","Chicken Supreme Pizza",7,3125
+2021-11-05,Pasta,"Seafood Marinara",1,350
+2021-11-05,Drinks,"Water 500ml",12,180
+2021-11-05,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,700
+2021-11-05,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2625
+2021-11-05,"Thin-Crust Pizza","Four Seasons Pizza",3,1480
+2021-11-05,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,940
+2021-11-05,"Starter & Soup","Potato Wedges",1,120
+2021-11-05,Drinks,Coke,6,240
+2021-11-05,"Starter & Soup","Cheese Balls",2,200
+2021-11-05,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-11-05,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-11-05,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-05,Coffee,Latte,3,585
+2021-11-05,"Starter & Soup","Cream of Mushroom",8,1440
+2021-11-05,Drinks,Fanta,3,120
+2021-11-05,Snack,"Buffalo Wings",2,380
+2021-11-05,"Starter & Soup","French Fries",2,160
+2021-11-05,"Sandwich & Burger","Classic Chicken Burger",2,460
+2021-11-05,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-05,Drinks,Sprite,3,120
+2021-11-05,"Pastry & Bakery",Cookie,2,240
+2021-11-05,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-05,Drinks,"Zero Coke Can",1,40
+2021-11-05,Pasta,"Fettuccine Creme Lime-e",2,540
+2021-11-05,"Thin-Crust Pizza","Prawn-Lime Pizza",1,750
+2021-11-05,Snack,"Naga Wings",3,540
+2021-11-05,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-06,"Starter & Soup","Potato Wedges",4,480
+2021-11-06,Drinks,Coke,12,480
+2021-11-06,Snack,"Teriyaki Chicken Wings",2,400
+2021-11-06,Meal,"Moroccan Chicken",1,340
+2021-11-06,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-06,"Sandwich & Burger","Smoked Chicken Sandwich",3,480
+2021-11-06,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-11-06,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,890
+2021-11-06,"Thin-Crust Pizza","Prawn-Lime Pizza",1,510
+2021-11-06,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-11-06,Drinks,Sprite,5,200
+2021-11-06,Drinks,"Water 500ml",6,90
+2021-11-06,Drinks,Fanta,3,120
+2021-11-06,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-06,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-11-06,Coffee,Americano,1,150
+2021-11-06,Coffee,"Caffe Mocha",1,260
+2021-11-06,"Thin-Crust Pizza","Classic Margherita Pizza",2,670
+2021-11-06,"Starter & Soup","French Fries",3,240
+2021-11-06,"Quick Meal & Salad","Garlic Mushroom with Chicken",2,520
+2021-11-06,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-06,"Thin-Crust Pizza","Four Seasons Pizza",2,720
+2021-11-06,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-06,Coffee,Cappuccino,4,760
+2021-11-06,Coffee,Latte,3,585
+2021-11-06,Steak,"Chicken Butterfly",1,490
+2021-11-06,Tea,"Green Tea & Mint",3,410
+2021-11-06,Snack,"Buffalo Wings",1,190
+2021-11-06,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-11-06,"Starter & Soup","Seafood Clear",1,240
+2021-11-06,"Starter & Soup","Cheese Balls",1,100
+2021-11-06,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-11-07,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1210
+2021-11-07,"Starter & Soup","French Fries",1,80
+2021-11-07,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,2705
+2021-11-07,Drinks,"Water 500ml",13,195
+2021-11-07,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-07,Pasta,"Penne Alfredo",2,560
+2021-11-07,Drinks,Coke,6,240
+2021-11-07,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-11-07,"Shake & Soda","Apple Soda",1,280
+2021-11-07,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-11-07,"Starter & Soup","Potato Wedges",3,360
+2021-11-07,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1355
+2021-11-07,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,950
+2021-11-07,Drinks,"Zero Coke Can",1,40
+2021-11-07,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-07,Snack,"Prawn On Toast",1,180
+2021-11-07,Drinks,Fanta,1,40
+2021-11-07,"Starter & Soup","Cheese Balls",3,300
+2021-11-07,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-11-07,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-07,Coffee,Cappuccino,1,190
+2021-11-08,"Starter & Soup","French Fries",4,320
+2021-11-08,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1715
+2021-11-08,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1620
+2021-11-08,Drinks,Coke,19,760
+2021-11-08,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-08,Snack,"Buffalo Wings",1,190
+2021-11-08,Drinks,Fanta,3,120
+2021-11-08,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-11-08,Drinks,"Water 500ml",6,90
+2021-11-08,Drinks,Sprite,6,240
+2021-11-08,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-11-08,"Starter & Soup","Potato Wedges",3,360
+2021-11-08,Coffee,Cappuccino,4,760
+2021-11-08,Coffee,Americano,1,150
+2021-11-08,"Starter & Soup","Hot & Sour",1,185
+2021-11-08,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-08,Snack,"Prawn On Toast",1,180
+2021-11-08,"Sandwich & Burger","BBQ Chicken Burger",1,260
+2021-11-08,Coffee,Latte,1,195
+2021-11-08,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-08,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-08,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-08,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-11-08,Pasta,"Penne Alfredo",1,280
+2021-11-08,Coffee,"Caffe Mocha",2,520
+2021-11-08,Snack,"Fried Calamari",1,290
+2021-11-09,Breakfast,"Full English Breakfast",1,450
+2021-11-09,Coffee,Americano,3,450
+2021-11-09,Drinks,"Water 500ml",6,90
+2021-11-09,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2230
+2021-11-09,Drinks,Fanta,1,40
+2021-11-09,"Thin-Crust Pizza","Vegetarian's Delight",2,500
+2021-11-09,"Sandwich & Burger","Smoked Chicken Sandwich",3,480
+2021-11-09,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-09,Drinks,Sprite,4,160
+2021-11-09,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-09,"Starter & Soup","Cheese Balls",2,200
+2021-11-09,"Starter & Soup","French Fries",5,400
+2021-11-09,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-11-09,Snack,"Naga Wings",3,540
+2021-11-09,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,815
+2021-11-09,Drinks,Coke,7,280
+2021-11-09,Meal,"Mongolian Beef",2,760
+2021-11-09,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-09,"Pastry & Bakery",Cookie,2,240
+2021-11-09,Coffee,Latte,2,410
+2021-11-09,"Starter & Soup","Potato Wedges",1,120
+2021-11-09,Coffee,"Flavored Latte",2,500
+2021-11-09,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-09,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-11-09,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-09,Meal,"Teriyaki Chicken",1,290
+2021-11-10,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-11-10,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-10,Drinks,Coke,14,560
+2021-11-10,"Starter & Soup","Cream of Mushroom",4,720
+2021-11-10,"Starter & Soup","Cheese Balls",1,100
+2021-11-10,Meal,"Teriyaki Chicken",2,580
+2021-11-10,Pasta,"Fettuccine Baked Pasta",2,720
+2021-11-10,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,890
+2021-11-10,Coffee,Americano,2,300
+2021-11-10,Drinks,"Water 500ml",3,45
+2021-11-10,Coffee,Latte,4,780
+2021-11-10,"Starter & Soup","Potato Wedges",3,360
+2021-11-10,"Thin-Crust Pizza","Chicken Supreme Pizza",3,990
+2021-11-10,"Starter & Soup","French Fries",3,240
+2021-11-10,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-10,Coffee,Cappuccino,6,1140
+2021-11-10,Coffee,"Caffe Mocha",2,520
+2021-11-10,Pasta,"Spaghetti Bolognese",1,300
+2021-11-10,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-11-10,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-11-10,Drinks,Sprite,1,40
+2021-11-10,"Pastry & Bakery",Croissant,1,120
+2021-11-10,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-11-10,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,640
+2021-11-10,"Thin-Crust Pizza","Classic Margherita Pizza",1,260
+2021-11-10,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-11-10,Drinks,Fanta,1,40
+2021-11-11,Drinks,Coke,16,640
+2021-11-11,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-11,Breakfast,"Light English Breakfast",1,250
+2021-11-11,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-11,"Starter & Soup","Cheese Balls",2,200
+2021-11-11,Coffee,"Caffe Mocha",1,260
+2021-11-11,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,3590
+2021-11-11,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-11-11,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-11,Coffee,Latte,2,390
+2021-11-11,"Starter & Soup","Cream of Mushroom",3,540
+2021-11-11,"Starter & Soup","French Fries",6,480
+2021-11-11,"Starter & Soup","Potato Wedges",2,240
+2021-11-11,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1770
+2021-11-11,Coffee,Cappuccino,3,570
+2021-11-11,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,2240
+2021-11-11,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-11-11,"Thin-Crust Pizza","Four Seasons Pizza",2,1300
+2021-11-11,Pasta,"Spaghetti Aglio e Olio",1,270
+2021-11-11,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-11,Snack,"Buffalo Wings",2,380
+2021-11-11,Drinks,Fanta,4,160
+2021-11-11,Coffee,Americano,3,450
+2021-11-11,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-11,Snack,"Teriyaki Chicken Wings",2,400
+2021-11-11,"Sandwich & Burger","Club Sandwich",2,520
+2021-11-11,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-11,Drinks,"Water 500ml",4,60
+2021-11-11,"Pastry & Bakery",Cookie,2,240
+2021-11-11,Snack,"Fried Calamari",1,290
+2021-11-11,Coffee,"Flavored Latte",1,250
+2021-11-11,Tea,"Green Tea & Mint",3,390
+2021-11-11,Meal,"Teriyaki Chicken",1,290
+2021-11-11,Meal,"Mongolian Beef",1,380
+2021-11-11,Pasta,"Seafood Marinara",1,350
+2021-11-11,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-11-11,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-11,"Starter & Soup","Seafood Clear",2,480
+2021-11-11,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-11-12,"Quick Meal & Salad","Spicy Rice with Chicken Satay",10,2100
+2021-11-12,"Starter & Soup","Chicken Cheese Balls",9,1080
+2021-11-12,Drinks,Sprite,4,160
+2021-11-12,"Starter & Soup","Cream of Mushroom",8,1440
+2021-11-12,Snack,"Buffalo Wings",1,190
+2021-11-12,Pasta,"Penne Alfredo",3,840
+2021-11-12,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2355
+2021-11-12,Drinks,Coke,19,760
+2021-11-12,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1045
+2021-11-12,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-11-12,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-12,Drinks,"Water 500ml",21,315
+2021-11-12,"Thin-Crust Pizza","Chicken Supreme Pizza",8,3640
+2021-11-12,Drinks,Fanta,16,640
+2021-11-12,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1020
+2021-11-12,"Starter & Soup","French Fries",2,160
+2021-11-12,"Starter & Soup","Potato Wedges",6,720
+2021-11-12,Coffee,"Flavored Latte",3,750
+2021-11-12,Coffee,Cappuccino,4,760
+2021-11-12,"Shake & Soda","Strawberry Shake",4,1080
+2021-11-12,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-12,Coffee,Macchiato,1,175
+2021-11-12,Snack,"Prawn On Toast",2,360
+2021-11-12,"Thin-Crust Pizza","Four Seasons Pizza",5,2380
+2021-11-12,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-11-12,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-12,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-11-12,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-11-12,Steak,"Chicken Butterfly",2,980
+2021-11-12,"Shake & Soda","Lime Soda",2,520
+2021-11-12,"Pastry & Bakery",Cookie,1,120
+2021-11-12,Pasta,"Seafood Marinara",1,350
+2021-11-12,"Sandwich & Burger","Classic Beef Burger",1,270
+2021-11-12,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-12,Meal,"Fish & Chips",1,420
+2021-11-12,"Starter & Soup","Cheese Balls",2,200
+2021-11-12,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-11-12,Coffee,Latte,3,585
+2021-11-12,Coffee,Americano,3,450
+2021-11-12,Meal,"Teriyaki Chicken",2,580
+2021-11-12,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-12,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-11-12,Drinks,"Zero Coke Can",1,40
+2021-11-12,Tea,"Earl Grey",1,120
+2021-11-13,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1560
+2021-11-13,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-13,"Starter & Soup","French Fries",2,160
+2021-11-13,Drinks,Fanta,6,240
+2021-11-13,"Shake & Soda","Strawberry Shake",1,270
+2021-11-13,Coffee,Cappuccino,5,950
+2021-11-13,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2015
+2021-11-13,Drinks,"Water 500ml",12,180
+2021-11-13,"Thin-Crust Pizza","Corn & Cheese Pizza",2,1010
+2021-11-13,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,640
+2021-11-13,Drinks,Coke,3,120
+2021-11-13,Pasta,"Penne Alfredo",2,560
+2021-11-13,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-13,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-11-13,"Starter & Soup","Cheese Balls",2,200
+2021-11-13,"Starter & Soup","Potato Wedges",3,360
+2021-11-13,"Starter & Soup","Seafood Clear",2,480
+2021-11-13,"Sandwich & Burger","Club Sandwich",2,520
+2021-11-13,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-13,Meal,"Teriyaki Chicken",2,580
+2021-11-13,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-13,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-14,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-11-14,Snack,"Prawn On Toast",2,360
+2021-11-14,Coffee,Cappuccino,6,1140
+2021-11-14,Coffee,Latte,5,975
+2021-11-14,Drinks,"Water 500ml",7,105
+2021-11-14,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,565
+2021-11-14,"Sandwich & Burger","Club Sandwich",5,1300
+2021-11-14,Snack,"Teriyaki Chicken Wings",2,400
+2021-11-14,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-14,Drinks,Coke,10,400
+2021-11-14,"Thin-Crust Pizza","Four Seasons Pizza",5,2380
+2021-11-14,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-11-14,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-14,Coffee,"Flavored Latte",2,500
+2021-11-14,Pasta,"Spaghetti Bolognese",1,300
+2021-11-14,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,680
+2021-11-14,Drinks,Fanta,6,240
+2021-11-14,"Starter & Soup","Potato Wedges",4,480
+2021-11-14,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-14,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-11-14,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-11-14,"Starter & Soup","Hot & Sour",1,185
+2021-11-14,Drinks,Sprite,4,160
+2021-11-14,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-14,"Thin-Crust Pizza","Pizza Seafood Marinara",2,940
+2021-11-14,Snack,"Naga Wings",2,360
+2021-11-14,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-11-14,"Starter & Soup","French Fries",1,80
+2021-11-14,Snack,"Buffalo Wings",1,190
+2021-11-14,Pasta,"Penne Alfredo",1,280
+2021-11-14,Meal,"Teriyaki Chicken",2,580
+2021-11-14,Meal,"Mongolian Beef",1,380
+2021-11-14,"Starter & Soup","Cheese Balls",2,200
+2021-11-14,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-14,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-14,Coffee,"Caffe Mocha",1,280
+2021-11-14,Coffee,Americano,2,300
+2021-11-14,"Sandwich & Burger","Peri Peri Beef Burger",1,310
+2021-11-15,"Starter & Soup","French Fries",4,320
+2021-11-15,Breakfast,"Full English Breakfast",1,450
+2021-11-15,"Quick Meal & Salad","Chicken Caesar Salad",1,390
+2021-11-15,Coffee,Cappuccino,2,380
+2021-11-15,"Starter & Soup","Cheese Balls",1,100
+2021-11-15,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-15,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-11-15,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2660
+2021-11-15,Drinks,Coke,5,200
+2021-11-15,Tea,"Earl Grey",1,120
+2021-11-15,"Pastry & Bakery",Cookie,2,240
+2021-11-15,Snack,"Buffalo Wings",1,190
+2021-11-15,Coffee,Latte,2,390
+2021-11-15,Drinks,"Water 500ml",5,75
+2021-11-15,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-11-15,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-15,Snack,"Naga Wings",1,180
+2021-11-15,"Thin-Crust Pizza","Chicken Supreme Pizza",1,330
+2021-11-15,Coffee,"Caffe Mocha",1,260
+2021-11-15,"Thin-Crust Pizza","Classic Margherita Pizza",2,930
+2021-11-15,"Starter & Soup","Potato Wedges",1,120
+2021-11-15,"Starter & Soup","Hot & Sour",1,185
+2021-11-16,"Starter & Soup","Potato Wedges",4,480
+2021-11-16,"Sandwich & Burger","Club Sandwich",2,520
+2021-11-16,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-11-16,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-16,Drinks,"Water 500ml",18,270
+2021-11-16,Meal,"Mongolian Beef",1,380
+2021-11-16,Drinks,Coke,27,1080
+2021-11-16,"Sandwich & Burger","Classic Chicken Burger",1,220
+2021-11-16,"Thin-Crust Pizza","Prawn-Lime Pizza",3,1430
+2021-11-16,Coffee,"Caffe Mocha",5,1340
+2021-11-16,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,910
+2021-11-16,"Thin-Crust Pizza","Pizza Seafood Marinara",4,1880
+2021-11-16,"Starter & Soup","Cheese Balls",1,100
+2021-11-16,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-16,"Pastry & Bakery",Cookie,2,240
+2021-11-16,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-16,Snack,"Naga Wings",1,180
+2021-11-16,Coffee,Cappuccino,5,950
+2021-11-16,"Starter & Soup","French Fries",2,160
+2021-11-16,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1685
+2021-11-16,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-11-16,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-16,Coffee,Americano,3,450
+2021-11-16,Drinks,Fanta,5,200
+2021-11-16,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-16,"Quick Meal & Salad","Garlic Mushroom with Chicken",2,520
+2021-11-16,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-11-16,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-16,Coffee,Latte,1,195
+2021-11-16,Snack,"Fried Calamari",1,290
+2021-11-17,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-17,Pasta,"Spaghetti Aglio e Olio",1,270
+2021-11-17,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2065
+2021-11-17,"Starter & Soup","Potato Wedges",1,120
+2021-11-17,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-17,Drinks,Coke,10,400
+2021-11-17,"Thin-Crust Pizza","Classic Margherita Pizza",3,890
+2021-11-17,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-17,"Starter & Soup","French Fries",2,160
+2021-11-17,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-11-17,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-11-17,Coffee,Cappuccino,6,1140
+2021-11-17,Coffee,Latte,2,390
+2021-11-17,Coffee,"Flavored Latte",3,750
+2021-11-17,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-11-17,Drinks,"Water 500ml",4,60
+2021-11-17,Meal,"Fish & Chips",2,840
+2021-11-17,Pasta,"Seafood Marinara",1,350
+2021-11-17,Pasta,"Fettuccine Creme Lime-e",1,270
+2021-11-17,"Starter & Soup","Cheese Balls",2,200
+2021-11-17,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2890
+2021-11-17,"Shake & Soda","Apple Soda",2,560
+2021-11-17,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-17,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-11-17,"Quick Meal & Salad","Spicy Rice with Chicken Satay",4,840
+2021-11-17,Drinks,Sprite,3,120
+2021-11-17,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-17,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-11-17,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,590
+2021-11-18,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,890
+2021-11-18,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-18,Drinks,Coke,9,360
+2021-11-18,Drinks,Sprite,1,40
+2021-11-18,Drinks,"Water 500ml",5,75
+2021-11-18,Pasta,"Penne Alfredo",2,560
+2021-11-18,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-11-18,"Starter & Soup","Potato Wedges",1,120
+2021-11-18,Snack,"Teriyaki Chicken Wings",2,400
+2021-11-18,"Starter & Soup","French Fries",3,240
+2021-11-18,"Thin-Crust Pizza","Classic Margherita Pizza",2,670
+2021-11-18,Pasta,"Seafood Marinara",3,1050
+2021-11-18,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-18,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-18,"Pastry & Bakery",Croissant,1,120
+2021-11-18,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1140
+2021-11-18,Snack,"Prawn On Toast",1,180
+2021-11-18,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-18,Snack,"Buffalo Wings",1,190
+2021-11-18,"Quick Meal & Salad","Spicy Rice with Prawn Tempura",1,225
+2021-11-18,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-18,Meal,"Fish & Chips",1,420
+2021-11-18,"Quick Meal & Salad","Sauteed Garlic Mushroom",2,400
+2021-11-18,Coffee,Latte,1,195
+2021-11-18,Coffee,Espresso,1,130
+2021-11-18,"Thin-Crust Pizza","Four Seasons Pizza",2,1520
+2021-11-18,Coffee,Cappuccino,1,190
+2021-11-18,Drinks,Fanta,1,40
+2021-11-19,"Starter & Soup","French Fries",8,640
+2021-11-19,"Pastry & Bakery",Croissant,1,120
+2021-11-19,Coffee,Latte,2,390
+2021-11-19,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,640
+2021-11-19,Pasta,"Fettuccine Baked Pasta",3,1080
+2021-11-19,Coffee,Cappuccino,8,1520
+2021-11-19,Drinks,"Water 500ml",28,420
+2021-11-19,Drinks,Coke,14,560
+2021-11-19,Drinks,Sprite,7,280
+2021-11-19,Meal,"Teriyaki Chicken",22,6380
+2021-11-19,"Starter & Soup","Thai Soup",8,1680
+2021-11-19,Snack,"Buffalo Wings",4,760
+2021-11-19,"Sandwich & Burger","Club Sandwich",3,780
+2021-11-19,Pasta,"Penne Alfredo",3,840
+2021-11-19,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-19,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2100
+2021-11-19,Drinks,Fanta,10,400
+2021-11-19,Snack,"Prawn On Toast",1,180
+2021-11-19,Coffee,"Caffe Mocha",1,260
+2021-11-19,Coffee,Americano,3,510
+2021-11-19,"Thin-Crust Pizza","Pizza Seafood Marinara",3,1920
+2021-11-19,Snack,"Naga Wings",1,180
+2021-11-19,"Pastry & Bakery",Cookie,1,120
+2021-11-19,Coffee,Espresso,1,150
+2021-11-19,Steak,"Mixed Platter",1,1450
+2021-11-19,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-19,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-19,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-11-19,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1190
+2021-11-19,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-19,Coffee,"Flavored Latte",2,500
+2021-11-19,"Starter & Soup","Potato Wedges",2,240
+2021-11-19,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-19,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-11-19,"Starter & Soup","Hot & Sour",2,370
+2021-11-19,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-11-19,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-19,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-11-19,"Starter & Soup","Seafood Clear",1,240
+2021-11-19,Meal,"Mongolian Beef",1,380
+2021-11-19,Meal,"Moroccan Chicken",1,340
+2021-11-20,Drinks,"Water 500ml",19,285
+2021-11-20,Breakfast,"Light English Breakfast",1,300
+2021-11-20,Coffee,Latte,2,390
+2021-11-20,Tea,"Earl Grey",1,120
+2021-11-20,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-11-20,Coffee,Cappuccino,9,1710
+2021-11-20,Coffee,Americano,1,150
+2021-11-20,"Shake & Soda","Lime Soda",1,260
+2021-11-20,Drinks,Fanta,16,640
+2021-11-20,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-20,"Starter & Soup","French Fries",3,240
+2021-11-20,Drinks,Sprite,9,360
+2021-11-20,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-20,Pasta,"Spaghetti Aglio e Olio",1,270
+2021-11-20,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1280
+2021-11-20,"Thin-Crust Pizza","Four Seasons Pizza",2,1120
+2021-11-20,Meal,"Moroccan Chicken",5,1700
+2021-11-20,Meal,"Teriyaki Chicken",2,580
+2021-11-20,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-20,"Pastry & Bakery",Croissant,3,360
+2021-11-20,Drinks,Coke,23,920
+2021-11-20,"Pastry & Bakery",Cookie,5,600
+2021-11-20,"Quick Meal & Salad","Spicy Rice with Chicken Satay",14,2940
+2021-11-20,"Quick Meal & Salad","Spicy Rice with Prawn Tempura",14,3150
+2021-11-20,"Starter & Soup","Potato Wedges",2,240
+2021-11-20,"Thin-Crust Pizza","Chicken Supreme Pizza",6,3120
+2021-11-20,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-20,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-11-20,Snack,"Prawn On Toast",1,180
+2021-11-20,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-20,"Sandwich & Burger","BBQ Chicken Burger",1,260
+2021-11-20,"Sandwich & Burger","Peri Peri Beef Burger",2,620
+2021-11-20,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,700
+2021-11-21,"Thin-Crust Pizza","Cheesy Sausage Pizza",4,1655
+2021-11-21,Drinks,Coke,7,280
+2021-11-21,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-21,Drinks,"Water 500ml",8,120
+2021-11-21,Pasta,"Penne Alfredo",1,280
+2021-11-21,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,1425
+2021-11-21,"Starter & Soup","Potato Wedges",4,480
+2021-11-21,"Starter & Soup","Thai Soup",4,840
+2021-11-21,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1640
+2021-11-21,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-11-21,"Thin-Crust Pizza","Classic Margherita Pizza",4,1720
+2021-11-21,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-11-21,"Starter & Soup","Cheese Balls",1,100
+2021-11-21,"Starter & Soup","French Fries",2,160
+2021-11-21,Coffee,Latte,4,780
+2021-11-21,Coffee,Cappuccino,6,1140
+2021-11-21,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-21,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-21,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1865
+2021-11-21,Snack,"Buffalo Wings",1,190
+2021-11-21,Snack,"Naga Wings",2,360
+2021-11-21,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-11-21,"Thin-Crust Pizza","Pizza Seafood Marinara",1,810
+2021-11-21,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-11-21,Drinks,Sprite,3,120
+2021-11-21,Coffee,"Caffe Mocha",1,260
+2021-11-21,"Pastry & Bakery",Cookie,1,120
+2021-11-21,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-11-22,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,1925
+2021-11-22,Meal,"Moroccan Chicken",1,340
+2021-11-22,Drinks,Coke,6,240
+2021-11-22,"Starter & Soup","French Fries",5,400
+2021-11-22,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1205
+2021-11-22,Drinks,"Water 500ml",13,195
+2021-11-22,"Pastry & Bakery",Croissant,1,120
+2021-11-22,Coffee,Latte,1,195
+2021-11-22,"Thin-Crust Pizza","Four Seasons Pizza",4,3140
+2021-11-22,Meal,"Mongolian Beef",1,380
+2021-11-22,Meal,"Fish & Chips",1,420
+2021-11-22,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-11-22,"Thin-Crust Pizza","Classic Margherita Pizza",2,660
+2021-11-22,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-11-22,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-11-22,Drinks,Fanta,3,120
+2021-11-22,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-11-22,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-22,"Starter & Soup","Potato Wedges",3,360
+2021-11-22,Coffee,Espresso,1,130
+2021-11-22,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-11-22,"Shake & Soda","Strawberry Shake",1,270
+2021-11-22,Pasta,"Penne Alfredo",1,280
+2021-11-22,Snack,"Teriyaki Chicken Wings",2,400
+2021-11-22,Drinks,Sprite,1,40
+2021-11-22,"Starter & Soup","Cream of Mushroom",3,540
+2021-11-22,"Sandwich & Burger","Smoked Chicken Sandwich",3,480
+2021-11-22,Coffee,Cappuccino,2,380
+2021-11-22,Coffee,Americano,1,150
+2021-11-22,"Sandwich & Burger","Croissant Sandwich",2,380
+2021-11-22,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-22,"Starter & Soup","Cheese Balls",1,100
+2021-11-22,Coffee,"Caffe Mocha",1,260
+2021-11-22,"Shake & Soda","Lime Soda",1,260
+2021-11-22,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-23,Coffee,"Caffe Mocha",1,260
+2021-11-23,Snack,"Naga Wings",1,180
+2021-11-23,Drinks,Coke,5,200
+2021-11-23,Meal,"Teriyaki Chicken",6,1740
+2021-11-23,Drinks,Fanta,7,280
+2021-11-23,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,640
+2021-11-23,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-11-23,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2100
+2021-11-23,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-11-23,Drinks,Sprite,2,80
+2021-11-23,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-23,Coffee,Cappuccino,2,380
+2021-11-23,"Pastry & Bakery",Cookie,2,240
+2021-11-23,Drinks,"Water 500ml",9,135
+2021-11-23,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-23,Pasta,"Penne Alfredo",1,280
+2021-11-23,Coffee,Latte,3,585
+2021-11-23,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-11-23,"Starter & Soup","French Fries",2,160
+2021-11-23,"Thin-Crust Pizza","Four Seasons Pizza",1,540
+2021-11-23,Coffee,Americano,2,300
+2021-11-23,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-23,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-24,"Quick Meal & Salad","Chicken Cashew Nut Salad",2,580
+2021-11-24,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,465
+2021-11-24,Drinks,Coke,7,280
+2021-11-24,Drinks,"Water 500ml",5,75
+2021-11-24,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-11-24,Pasta,"Seafood Marinara",1,350
+2021-11-24,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-24,Coffee,Espresso,1,150
+2021-11-24,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-24,Drinks,Sprite,1,40
+2021-11-24,Tea,"Classic English Breakfast",1,120
+2021-11-24,"Pastry & Bakery","Brownie with Ice Cream",4,920
+2021-11-24,Coffee,Latte,1,195
+2021-11-24,Tea,"Earl Grey",1,120
+2021-11-24,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-11-24,"Thin-Crust Pizza","Four Seasons Pizza",1,360
+2021-11-24,Coffee,"Flavored Latte",1,250
+2021-11-24,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-11-24,Coffee,Cappuccino,1,190
+2021-11-24,"Starter & Soup","Potato Wedges",1,120
+2021-11-25,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-25,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,2675
+2021-11-25,Pasta,"Penne Alfredo",2,560
+2021-11-25,Drinks,"Water 500ml",12,180
+2021-11-25,Drinks,"Zero Coke Can",2,80
+2021-11-25,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-11-25,Drinks,Coke,17,680
+2021-11-25,Drinks,Sprite,2,80
+2021-11-25,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-11-25,"Thin-Crust Pizza","Prawn-Lime Pizza",2,1020
+2021-11-25,"Sandwich & Burger","Smoked Chicken Sandwich",2,320
+2021-11-25,Meal,"Teriyaki Chicken",2,580
+2021-11-25,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-11-25,Coffee,Cappuccino,4,760
+2021-11-25,Coffee,Latte,4,780
+2021-11-25,Snack,"Naga Wings",6,1080
+2021-11-25,"Starter & Soup","Cheese Balls",1,100
+2021-11-25,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-11-25,"Pastry & Bakery","Brownie with Ice Cream",2,460
+2021-11-25,Drinks,Fanta,2,80
+2021-11-25,"Starter & Soup","French Fries",2,160
+2021-11-25,"Quick Meal & Salad","Garlic Mushroom with Chicken",2,520
+2021-11-25,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-25,Coffee,Doppio,1,175
+2021-11-25,Coffee,"Caffe Mocha",1,280
+2021-11-25,"Shake & Soda","Blueberry Cheesecake Shake",1,300
+2021-11-25,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-11-25,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-11-25,"Starter & Soup","Thai Soup",2,420
+2021-11-25,"Starter & Soup","Seafood Clear",1,240
+2021-11-25,"Thin-Crust Pizza","Chicken Supreme Pizza",2,660
+2021-11-25,Snack,"Buffalo Wings",1,190
+2021-11-26,Breakfast,"Continental Light Breakfast",1,370
+2021-11-26,"Thin-Crust Pizza","BBQ Chicken  Pizza",6,2210
+2021-11-26,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-11-26,Drinks,"Water 500ml",5,75
+2021-11-26,Drinks,Fanta,15,600
+2021-11-26,"Thin-Crust Pizza","Pizza Seafood Marinara",3,2180
+2021-11-26,"Thin-Crust Pizza","Beef Pepperoni Pizza",4,2200
+2021-11-26,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",2,860
+2021-11-26,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-11-26,Coffee,Doppio,2,350
+2021-11-26,"Starter & Soup","French Fries",5,400
+2021-11-26,Drinks,Coke,15,600
+2021-11-26,"Thin-Crust Pizza","Chicken Supreme Pizza",3,990
+2021-11-26,"Thin-Crust Pizza","Prawn-Lime Pizza",1,340
+2021-11-26,Pasta,"Penne Alfredo",1,280
+2021-11-26,Coffee,Cappuccino,5,950
+2021-11-26,"Starter & Soup","Cheese Balls",1,100
+2021-11-26,"Sandwich & Burger","Club Sandwich",1,260
+2021-11-26,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-11-26,"Sandwich & Burger","Classic Chicken Burger",1,220
+2021-11-26,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-11-26,"Pastry & Bakery","Brownie with Ice Cream",5,1150
+2021-11-26,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-26,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-11-26,"Starter & Soup","Potato Wedges",3,360
+2021-11-26,"Quick Meal & Salad","Garlic Mushroom with Chicken",2,520
+2021-11-26,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-26,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-26,Drinks,Sprite,1,40
+2021-11-26,"Pastry & Bakery",Cookie,1,120
+2021-11-26,"Starter & Soup","Thai Soup",1,210
+2021-11-26,Snack,"Naga Wings",1,180
+2021-11-26,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-26,Tea,"Green Tea & Mint",1,130
+2021-11-26,Coffee,Americano,3,450
+2021-11-26,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-26,Coffee,Latte,1,195
+2021-11-26,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-27,Coffee,Espresso,1,130
+2021-11-27,Coffee,Cappuccino,11,2090
+2021-11-27,Drinks,"Water 500ml",15,225
+2021-11-27,"Thin-Crust Pizza","Four Seasons Pizza",3,2060
+2021-11-27,"Starter & Soup","Potato Wedges",3,360
+2021-11-27,Snack,"Naga Wings",1,180
+2021-11-27,Coffee,Latte,6,1170
+2021-11-27,"Pastry & Bakery",Cookie,1,120
+2021-11-27,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,3345
+2021-11-27,"Thin-Crust Pizza","Classic Margherita Pizza",4,990
+2021-11-27,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1380
+2021-11-27,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-27,Tea,"Green Tea & Mint",1,150
+2021-11-27,Drinks,"Zero Coke Can",2,80
+2021-11-27,Drinks,Coke,19,760
+2021-11-27,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-11-27,"Starter & Soup","French Fries",8,640
+2021-11-27,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,910
+2021-11-27,Drinks,Sprite,4,160
+2021-11-27,"Thin-Crust Pizza","Chicken Supreme Pizza",2,1535
+2021-11-27,"Pastry & Bakery","Brownie with Ice Cream",4,920
+2021-11-27,"Shake & Soda","Oreo Vanilla Shake",5,1400
+2021-11-27,"Starter & Soup","Cheese Balls",1,100
+2021-11-27,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-27,"Starter & Soup","Seafood Clear",1,240
+2021-11-27,Drinks,Fanta,4,160
+2021-11-27,Coffee,"Caffe Mocha",2,540
+2021-11-27,"Thin-Crust Pizza","Pizza Seafood Marinara",2,1190
+2021-11-27,Coffee,Americano,1,150
+2021-11-27,"Shake & Soda","Blueberry Cheesecake Shake",2,600
+2021-11-27,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-28,Snack,"Buffalo Wings",1,190
+2021-11-28,Meal,"Teriyaki Chicken",1,290
+2021-11-28,"Starter & Soup","Cream of Mushroom",5,900
+2021-11-28,"Quick Meal & Salad","Spicy Rice with Chicken Satay",3,630
+2021-11-28,"Quick Meal & Salad","Spicy Rice with Prawn Tempura",1,225
+2021-11-28,"Starter & Soup","French Fries",3,240
+2021-11-28,Drinks,Sprite,4,160
+2021-11-28,Drinks,Coke,12,480
+2021-11-28,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1105
+2021-11-28,Coffee,Doppio,3,525
+2021-11-28,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-28,"Thin-Crust Pizza","Chicken Supreme Pizza",3,990
+2021-11-28,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-11-28,"Starter & Soup","Chicken Cheese Balls",2,240
+2021-11-28,Drinks,"Water 500ml",5,75
+2021-11-28,Coffee,Cappuccino,3,570
+2021-11-28,Snack,"Naga Wings",4,720
+2021-11-28,"Thin-Crust Pizza","Classic Margherita Pizza",2,440
+2021-11-28,Pasta,"Seafood Marinara",1,350
+2021-11-28,"Starter & Soup","Potato Wedges",2,240
+2021-11-28,"Sandwich & Burger","Smoked Chicken Sandwich",3,480
+2021-11-28,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-11-28,Pasta,"Penne Alfredo",1,280
+2021-11-28,Drinks,Fanta,3,120
+2021-11-28,"Shake & Soda","Apple Soda",1,280
+2021-11-28,"Shake & Soda","Lime Soda",1,260
+2021-11-28,"Pastry & Bakery",Cookie,4,480
+2021-11-28,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-11-28,"Starter & Soup","Cheese Balls",1,100
+2021-11-28,Coffee,Latte,2,390
+2021-11-28,"Pastry & Bakery",Croissant,1,120
+2021-11-28,Meal,"Fish & Chips",2,840
+2021-11-28,Snack,"Teriyaki Chicken Wings",1,200
+2021-11-28,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,350
+2021-11-28,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-11-28,Tea,"Green Tea & Mint",1,150
+2021-11-28,Coffee,Espresso,1,130
+2021-11-29,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2420
+2021-11-29,"Thin-Crust Pizza","Chicken Supreme Pizza",1,875
+2021-11-29,Drinks,Fanta,3,120
+2021-11-29,Drinks,Coke,9,360
+2021-11-29,"Starter & Soup","French Fries",3,240
+2021-11-29,Snack,"Buffalo Wings",3,570
+2021-11-29,Coffee,Macchiato,1,175
+2021-11-29,Coffee,Espresso,1,130
+2021-11-29,Coffee,Doppio,2,350
+2021-11-29,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-11-29,"Sandwich & Burger","Classic Beef Burger",2,580
+2021-11-29,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,340
+2021-11-29,Coffee,Latte,1,195
+2021-11-29,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-11-29,Drinks,"Water 500ml",9,135
+2021-11-29,"Thick-Crust Pizza","Tandoori Chicken Pizza",4,2400
+2021-11-29,"Thick-Crust Pizza","Naga Beef Pizza",1,280
+2021-11-29,Pasta,"Fettuccine Baked Pasta",1,360
+2021-11-29,"Starter & Soup","Potato Wedges",2,240
+2021-11-29,Coffee,Cappuccino,4,760
+2021-11-29,Drinks,"Zero Coke Can",1,40
+2021-11-29,Coffee,Americano,2,300
+2021-11-29,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-11-29,"Quick Meal & Salad","Chicken Caesar Salad",1,390
+2021-11-29,"Starter & Soup","Cream of Mushroom",1,180
+2021-11-29,Steak,"Chicken Butterfly",1,490
+2021-11-29,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-11-29,Drinks,Sprite,2,80
+2021-11-29,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-11-30,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,500
+2021-11-30,"Starter & Soup","Potato Wedges",6,720
+2021-11-30,Drinks,"Water 500ml",11,165
+2021-11-30,Coffee,Cappuccino,5,1010
+2021-11-30,Coffee,"Caffe Mocha",2,560
+2021-11-30,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-11-30,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,1225
+2021-11-30,"Sandwich & Burger","Classic Beef Burger",1,290
+2021-11-30,Coffee,Latte,2,390
+2021-11-30,Steak,"T-Bone (330-350 gms)",1,1450
+2021-11-30,Coffee,Americano,1,150
+2021-11-30,Drinks,Coke,6,240
+2021-11-30,"Starter & Soup","Chicken Cheese Balls",6,720
+2021-11-30,Drinks,Fanta,2,80
+2021-11-30,"Starter & Soup","Cream of Mushroom",2,360
+2021-11-30,"Starter & Soup","Thai Soup",3,630
+2021-11-30,"Quick Meal & Salad","Sauteed Garlic Mushroom",2,400
+2021-11-30,"Starter & Soup","Cheese Balls",1,100
+2021-11-30,Coffee,Espresso,1,130
+2021-11-30,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-11-30,"Sandwich & Burger","Smoked Chicken Sandwich",4,640
+2021-11-30,Drinks,Sprite,1,40
+2021-11-30,Snack,"Buffalo Wings",1,190
+2021-11-30,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,510
+2021-12-01,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-01,Drinks,Sprite,2,80
+2021-12-01,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-12-01,Meal,"Teriyaki Chicken",4,1160
+2021-12-01,Drinks,Coke,17,680
+2021-12-01,Drinks,"Water 500ml",6,90
+2021-12-01,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-12-01,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-12-01,Snack,"Teriyaki Chicken Wings",2,400
+2021-12-01,"Thin-Crust Pizza","BBQ Chicken  Pizza",4,2100
+2021-12-01,"Thin-Crust Pizza","Chicken Supreme Pizza",5,2825
+2021-12-01,Coffee,Latte,2,390
+2021-12-01,"Sandwich & Burger","BBQ Chicken Burger",2,520
+2021-12-01,"Starter & Soup","Potato Wedges",2,240
+2021-12-01,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-12-01,"Starter & Soup","Cream of Mushroom",6,1080
+2021-12-01,"Starter & Soup","Thai Soup",3,630
+2021-12-01,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-12-01,Pasta,"Fettuccine Baked Pasta",4,1440
+2021-12-01,Drinks,Fanta,4,160
+2021-12-01,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-12-01,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-12-01,"Starter & Soup","French Fries",3,240
+2021-12-01,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,430
+2021-12-01,Snack,"Buffalo Wings",1,190
+2021-12-01,Pasta,"Seafood Marinara",2,700
+2021-12-01,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,700
+2021-12-01,Coffee,Cappuccino,1,190
+2021-12-01,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-12-01,Steak,"Chicken Butterfly",1,490
+2021-12-01,Pasta,"Penne Alfredo",1,280
+2021-12-02,Coffee,Latte,3,585
+2021-12-02,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1870
+2021-12-02,"Starter & Soup","Potato Wedges",3,360
+2021-12-02,"Sandwich & Burger","Club Sandwich",2,520
+2021-12-02,Drinks,Coke,9,360
+2021-12-02,Pasta,"Fettuccine Creme Lime-e",1,270
+2021-12-02,Meal,"Fish & Chips",1,420
+2021-12-02,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1320
+2021-12-02,Pasta,"Penne Alfredo",1,280
+2021-12-02,Drinks,"Water 500ml",8,120
+2021-12-02,Coffee,"Caffe Mocha",1,260
+2021-12-02,"Sandwich & Burger","Smoked Chicken Sandwich",4,640
+2021-12-02,"Starter & Soup","French Fries",2,160
+2021-12-02,"Starter & Soup","Chicken Cheese Balls",5,600
+2021-12-02,Snack,"Naga Wings",3,540
+2021-12-02,"Thin-Crust Pizza","Pizza Seafood Marinara",1,810
+2021-12-02,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,320
+2021-12-02,"Starter & Soup","Cream of Mushroom",1,180
+2021-12-02,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-12-02,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,700
+2021-12-02,"Thin-Crust Pizza","Beef Pepperoni Pizza",1,700
+2021-12-02,"Shake & Soda","Oreo Vanilla Shake",2,560
+2021-12-02,"Thin-Crust Pizza","Classic Margherita Pizza",1,600
+2021-12-02,"Starter & Soup","Cheese Balls",1,100
+2021-12-02,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-12-02,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-12-03,"Thin-Crust Pizza","BBQ Chicken  Pizza",3,1570
+2021-12-03,"Starter & Soup","Potato Wedges",3,360
+2021-12-03,"Sandwich & Burger","Club Sandwich",3,780
+2021-12-03,"Sandwich & Burger","Classic Chicken Burger",1,240
+2021-12-03,Coffee,Cappuccino,4,760
+2021-12-03,Drinks,"Water 500ml",6,90
+2021-12-03,Coffee,Latte,4,780
+2021-12-03,Tea,"Earl Grey",1,120
+2021-12-03,Drinks,Coke,11,440
+2021-12-03,Drinks,Fanta,2,80
+2021-12-03,"Thin-Crust Pizza","Chicken Supreme Pizza",2,810
+2021-12-03,"Starter & Soup","French Fries",2,160
+2021-12-03,Snack,"Prawn On Toast",1,180
+2021-12-03,Coffee,Americano,2,420
+2021-12-03,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,300
+2021-12-03,"Thin-Crust Pizza","Classic Margherita Pizza",5,1590
+2021-12-03,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-12-03,Snack,"Buffalo Wings",1,190
+2021-12-03,"Starter & Soup","Cheese Balls",1,100
+2021-12-03,"Thin-Crust Pizza","Four Seasons Pizza",2,900
+2021-12-03,"Pastry & Bakery","Blueberry Cheese Cake",2,500
+2021-12-03,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-12-03,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-12-03,Coffee,"Caffe Mocha",2,520
+2021-12-03,"Sandwich & Burger","Smoked Chicken Sandwich",2,320
+2021-12-03,Pasta,"Penne Alfredo",2,560
+2021-12-03,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-12-03,Meal,"Teriyaki Chicken",1,290
+2021-12-03,Meal,"Moroccan Chicken",1,340
+2021-12-03,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-12-03,"Thin-Crust Pizza","Vegetarian's Delight",1,250
+2021-12-04,"Thin-Crust Pizza","BBQ Chicken  Pizza",9,3955
+2021-12-04,"Thick-Crust Pizza","Tandoori Chicken Pizza",2,1900
+2021-12-04,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-12-04,Drinks,"Water 500ml",16,240
+2021-12-04,Snack,"Naga Wings",1,180
+2021-12-04,Tea,"Classic English Breakfast",2,240
+2021-12-04,"Starter & Soup","Potato Wedges",2,240
+2021-12-04,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-12-04,Coffee,Cappuccino,4,760
+2021-12-04,Coffee,Latte,7,1365
+2021-12-04,Tea,"Green Tea & Mint",1,130
+2021-12-04,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1200
+2021-12-04,Meal,"Fish & Chips",2,840
+2021-12-04,Drinks,Coke,10,400
+2021-12-04,"Pastry & Bakery","Brownie with Ice Cream",5,1150
+2021-12-04,Drinks,Sprite,4,160
+2021-12-04,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-12-04,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-12-04,"Shake & Soda","Lime Soda",1,260
+2021-12-04,"Starter & Soup","Cream of Mushroom",1,180
+2021-12-04,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-12-04,Coffee,Americano,1,150
+2021-12-04,Coffee,"Caffe Mocha",1,260
+2021-12-04,"Starter & Soup","French Fries",2,160
+2021-12-04,"Thin-Crust Pizza","Chicken Supreme Pizza",4,1800
+2021-12-04,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-12-04,Pasta,"Penne Alfredo",1,280
+2021-12-04,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-12-04,Drinks,Fanta,1,40
+2021-12-04,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-12-04,"Sandwich & Burger","Classic Chicken Burger",3,720
+2021-12-04,"Starter & Soup","Thai Soup",2,420
+2021-12-04,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-05,"Thin-Crust Pizza","Pizza Seafood Marinara",1,380
+2021-12-05,"Starter & Soup","Cheese Balls",1,100
+2021-12-05,"Starter & Soup","Chicken Cheese Balls",1,120
+2021-12-05,"Thin-Crust Pizza","BBQ Chicken  Pizza",2,740
+2021-12-05,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1355
+2021-12-05,Coffee,Cappuccino,6,1140
+2021-12-05,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-12-05,Tea,"Green Tea & Mint",1,130
+2021-12-05,Coffee,Latte,3,585
+2021-12-05,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-12-05,Drinks,Coke,6,240
+2021-12-05,Drinks,Sprite,2,80
+2021-12-05,Drinks,Fanta,3,120
+2021-12-05,"Starter & Soup","Potato Wedges",3,360
+2021-12-05,Snack,"Buffalo Wings",3,570
+2021-12-05,"Thin-Crust Pizza","Chicken Supreme Pizza",2,990
+2021-12-05,"Sandwich & Burger","Classic Chicken Burger",1,220
+2021-12-05,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-12-05,Snack,"Teriyaki Chicken Wings",3,600
+2021-12-05,"Sandwich & Burger","Croissant Sandwich",1,190
+2021-12-05,"Starter & Soup","French Fries",3,240
+2021-12-05,"Starter & Soup","Thai Soup",2,420
+2021-12-05,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-05,"Thin-Crust Pizza","Classic Margherita Pizza",3,660
+2021-12-05,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-12-05,"Starter & Soup","Seafood Clear",1,240
+2021-12-05,Drinks,"Water 500ml",2,30
+2021-12-05,"Thick-Crust Pizza","Naga Beef Pizza",1,1050
+2021-12-05,Tea,"Earl Grey",1,120
+2021-12-05,"Sandwich & Burger","Hawaiian Chicken Burger",1,280
+2021-12-05,Pasta,"Seafood Marinara",1,350
+2021-12-05,"Quick Meal & Salad","Spicy Rice with Chicken Sausage",1,200
+2021-12-06,Pasta,"Penne Alfredo",1,280
+2021-12-06,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-06,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-12-06,"Sandwich & Burger","BBQ Chicken Burger",1,260
+2021-12-06,Coffee,Cappuccino,5,950
+2021-12-06,Drinks,Coke,17,680
+2021-12-06,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-12-06,Pasta,"Seafood Marinara",2,700
+2021-12-06,"Thin-Crust Pizza","Pizza Seafood Marinara",1,810
+2021-12-06,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1980
+2021-12-06,Coffee,Americano,1,150
+2021-12-06,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,600
+2021-12-06,Coffee,"Flavored Latte",1,250
+2021-12-06,Drinks,"Water 500ml",5,75
+2021-12-06,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-12-06,Snack,"Naga Wings",2,360
+2021-12-06,"Starter & Soup","Thai Soup",2,420
+2021-12-06,Coffee,Latte,2,390
+2021-12-06,Meal,"Fish & Chips",2,840
+2021-12-06,"Quick Meal & Salad","Garlic Mushroom with Chicken",2,520
+2021-12-06,"Quick Meal & Salad","Spicy Rice with Prawn Tempura",1,225
+2021-12-06,"Starter & Soup","Cream of Mushroom",1,180
+2021-12-06,"Starter & Soup","Seafood Clear",1,240
+2021-12-06,"Pastry & Bakery",Cookie,1,120
+2021-12-06,Snack,"Buffalo Wings",1,190
+2021-12-06,Drinks,Fanta,1,40
+2021-12-06,"Thin-Crust Pizza","Four Seasons Pizza",1,760
+2021-12-06,"Quick Meal & Salad","Chicken Cashew Nut Salad",3,870
+2021-12-06,"Sandwich & Burger","Classic Beef Burger",3,830
+2021-12-06,Meal,"Mongolian Beef",5,1900
+2021-12-06,Drinks,Sprite,1,40
+2021-12-06,"Thin-Crust Pizza","Hawaiian BBQ Chicken Pizza",1,350
+2021-12-06,"Starter & Soup","French Fries",1,80
+2021-12-07,Snack,"Buffalo Wings",1,190
+2021-12-07,"Thin-Crust Pizza","BBQ Chicken  Pizza",5,2685
+2021-12-07,"Thin-Crust Pizza","Cheesy Sausage Pizza",1,445
+2021-12-07,"Starter & Soup","Cheese Balls",2,200
+2021-12-07,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,840
+2021-12-07,"Pastry & Bakery",Cookie,4,480
+2021-12-07,Coffee,Cappuccino,7,1330
+2021-12-07,Snack,"Teriyaki Chicken Wings",1,200
+2021-12-07,"Starter & Soup","Potato Wedges",4,480
+2021-12-07,"Thin-Crust Pizza","Chicken Supreme Pizza",3,1470
+2021-12-07,"Thin-Crust Pizza","Classic Margherita Pizza",1,330
+2021-12-07,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-12-07,"Starter & Soup","French Fries",2,160
+2021-12-07,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,530
+2021-12-07,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-07,"Starter & Soup","Chicken Cheese Balls",4,480
+2021-12-07,Meal,"Teriyaki Chicken",1,290
+2021-12-07,Drinks,"Water 500ml",5,75
+2021-12-07,Coffee,Latte,1,195
+2021-12-07,Drinks,Coke,3,120
+2021-12-07,"Thin-Crust Pizza","Four Seasons Pizza",1,1030
+2021-12-07,"Thin-Crust Pizza","Pizza Seafood Marinara",1,560
+2021-12-07,Steak,"Mixed Platter",1,1450
+2021-12-07,Drinks,Sprite,1,40
+2021-12-07,Drinks,Fanta,1,40
+2021-12-07,Tea,"Earl Grey",1,120
+2021-12-08,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,2675
+2021-12-08,Drinks,"Water 500ml",6,90
+2021-12-08,Snack,"Naga Wings",2,360
+2021-12-08,Drinks,Coke,10,400
+2021-12-08,Pasta,"Seafood Marinara",1,350
+2021-12-08,"Thick-Crust Pizza","Naga Beef Pizza",1,590
+2021-12-08,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-12-08,"Thin-Crust Pizza","Classic Margherita Pizza",1,220
+2021-12-08,"Thick-Crust Pizza","Tandoori Chicken Pizza",1,250
+2021-12-08,"Starter & Soup","Thai Soup",1,210
+2021-12-08,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-12-08,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-12-08,"Thin-Crust Pizza","Beef Pepperoni Pizza",3,1380
+2021-12-08,Snack,"Teriyaki Chicken Wings",2,400
+2021-12-08,"Starter & Soup","French Fries",4,320
+2021-12-08,"Sandwich & Burger","BBQ Chicken Burger",1,240
+2021-12-08,Meal,"Teriyaki Chicken",2,580
+2021-12-08,Drinks,Sprite,1,40
+2021-12-08,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-12-08,Coffee,Latte,2,390
+2021-12-08,Tea,"Earl Grey",2,240
+2021-12-08,"Starter & Soup","Cream of Mushroom",2,360
+2021-12-08,Coffee,"Flavored Latte",1,250
+2021-12-08,"Pastry & Bakery","Blueberry Cheese Cake",1,250
+2021-12-08,Coffee,Cappuccino,1,190
+2021-12-09,"Pastry & Bakery",Cookie,3,360
+2021-12-09,"Pastry & Bakery","Brownie with Ice Cream",3,690
+2021-12-09,Coffee,Espresso,2,260
+2021-12-09,Drinks,"Water 500ml",11,165
+2021-12-09,"Starter & Soup","Chicken Cheese Balls",3,360
+2021-12-09,Pasta,"Seafood Marinara",2,700
+2021-12-09,"Thin-Crust Pizza","Cheesy Sausage Pizza",2,745
+2021-12-09,"Thin-Crust Pizza","Corn & Cheese Pizza",1,270
+2021-12-09,"Sandwich & Burger","Classic Chicken Burger",2,480
+2021-12-09,"Sandwich & Burger","BBQ Chicken Burger",3,780
+2021-12-09,Coffee,Cappuccino,1,190
+2021-12-09,"Thin-Crust Pizza","Classic Margherita Pizza",4,1100
+2021-12-09,Drinks,Coke,1,40
+2021-12-09,Drinks,Sprite,2,80
+2021-12-09,"Thin-Crust Pizza","Beef Pepperoni Pizza",2,1655
+2021-12-09,"Sandwich & Burger","Smoked Chicken Sandwich",1,160
+2021-12-09,Drinks,Fanta,6,240
+2021-12-09,"Starter & Soup","Cheese Balls",1,100
+2021-12-09,"Starter & Soup","Potato Wedges",1,120
+2021-12-09,Snack,"Buffalo Wings",1,190
+2021-12-09,Snack,"Teriyaki Chicken Wings",1,200
+2021-12-09,Coffee,"Flavored Latte",1,270
+2021-12-09,Coffee,"Caffe Mocha",1,260
+2021-12-09,"Sandwich & Burger","Classic Beef Burger",2,600
+2021-12-09,"Sandwich & Burger","Club Sandwich",1,260
+2021-12-09,"Thin-Crust Pizza","Chicken Supreme Pizza",1,480
+2021-12-09,Meal,"Teriyaki Chicken",3,870
+2021-12-09,"Thin-Crust Pizza","BBQ Chicken  Pizza",1,640
+2021-12-09,"Quick Meal & Salad","Chicken Cashew Nut Salad",1,290
+2021-12-09,"Starter & Soup","French Fries",5,400
+2021-12-09,Snack,"Prawn On Toast",1,180
+2021-12-09,Steak,"Chicken Butterfly",1,490
+2021-12-09,"Shake & Soda","Strawberry Shake",2,540
+2021-12-09,"Starter & Soup","Cream of Mushroom",1,180
+2021-12-09,"Starter & Soup","Seafood Clear",1,240
+2021-12-09,Snack,"Fried Calamari",1,290
+2021-12-09,"Thin-Crust Pizza","Vegetarian's Delight",1,370
+2021-12-09,Coffee,Latte,1,195
+2021-12-09,Meal,"Fish & Chips",1,420
+2021-12-09,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-12-09,Pasta,"Fettuccine Baked Pasta",1,360
+2021-12-09,Coffee,Doppio,1,175
+2021-12-09,"Quick Meal & Salad","Garlic Mushroom with Chicken",1,260
+2021-12-09,"Pastry & Bakery","Red Velvet Pastry",1,220
+2021-12-09,"Shake & Soda","Oreo Vanilla Shake",1,280
+2021-12-09,"Pastry & Bakery",Croissant,1,120
+2021-12-10,"Thin-Crust Pizza","Classic Margherita Pizza",3,770
+2021-12-10,"Starter & Soup","French Fries",3,240
+2021-12-10,"Quick Meal & Salad","Sauteed Garlic Mushroom",1,200
+2021-12-10,"Thin-Crust Pizza","BBQ Chicken  Pizza",7,3025
+2021-12-10,Meal,"Teriyaki Chicken",2,580
+2021-12-10,Meal,"Mongolian Beef",1,380
+2021-12-10,Drinks,Coke,17,680
+2021-12-10,Drinks,"Water 500ml",8,120
+2021-12-10,"Starter & Soup","Chicken Cheese Balls",7,840
+2021-12-10,Coffee,Cappuccino,7,1330
+2021-12-10,"Pastry & Bakery",Croissant,2,240
+2021-12-10,Coffee,Doppio,3,525
+2021-12-10,"Thin-Crust Pizza","Pizza Fun-Guy (Funghi)",1,300
+2021-12-10,"Quick Meal & Salad","Spicy Rice with Chicken Satay",1,210
+2021-12-10,Drinks,Fanta,5,200
+2021-12-10,"Sandwich & Burger","Club Sandwich",2,520
+2021-12-10,"Thin-Crust Pizza","Cheesy Sausage Pizza",3,1045
+2021-12-10,"Thin-Crust Pizza","Chicken Supreme Pizza",4,2675
+2021-12-10,Coffee,Espresso,1,130
+2021-12-10,Coffee,"Flavored Latte",4,1080
+2021-12-10,"Pastry & Bakery","Oreo Cheese Cake",1,240
+2021-12-10,"Sandwich & Burger","Smoked Chicken Sandwich",5,800
+2021-12-10,"Pastry & Bakery","Brownie with Ice Cream",1,230
+2021-12-10,Snack,"Teriyaki Chicken Wings",2,400
+2021-12-10,Steak,"Chicken Butterfly",1,490
+2021-12-10,Tea,"Earl Grey",1,120
+2021-12-10,Tea,"Green Tea & Mint",1,130
+2021-12-10,Coffee,"Caffe Mocha",1,260
+2021-12-10,Pasta,"Fettuccine Creme Lime-e",1,270
+2021-12-10,"Shake & Soda","Apple Soda",2,560
+2021-12-10,"Starter & Soup","Cream of Mushroom",3,540
+2021-12-10,"Starter & Soup","Cheese Balls",1,100
+2021-12-10,Meal,"Fish & Chips",2,840
+2021-12-10,Snack,"Fried Calamari",1,290
+2021-12-10,Coffee,Latte,3,605
+2021-12-10,"Starter & Soup","Potato Wedges",4,480
+2021-12-10,Snack,"Prawn On Toast",1,180
+2021-12-10,"Shake & Soda","Strawberry Shake",3,810
+2021-12-10,"Starter & Soup","Thai Soup",1,210
+2021-12-10,Pasta,"Seafood Marinara",1,350
+2021-12-10,"Quick Meal & Salad","Spicy Rice with Prawn Tempura",1,225
+2021-12-10,"Thin-Crust Pizza","Pizza Seafood Marinara",1,1160
