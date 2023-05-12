@@ -35,6 +35,7 @@ class GNNTrainer(object):
         num_gnn_layers: int,
         epochs: int,
         learning_rate: float,
+        batch_size: int,
         device: str,
         work_dir: str,
     ) -> None:
@@ -57,6 +58,8 @@ class GNNTrainer(object):
         :type epochs: int
         :param learning_rate: learning rate
         :type learning_rate: float
+        :param batch_size: batch size
+        :type batch_size: int
         :param device: device
         :type device: str
         :param work_dir: working directory
@@ -79,7 +82,7 @@ class GNNTrainer(object):
         self.work_dir = work_dir
 
         self.all_nodes = [i for i in range(self.adj_matrix.shape[0])]
-        self.node_batch_size = 200  # will be changed later
+        self.node_batch_size = batch_size
 
         self.train_data = torch.Tensor(self.train_data).to(self.device)
         self.train_labels = torch.Tensor(
