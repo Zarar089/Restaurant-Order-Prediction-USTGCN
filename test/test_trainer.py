@@ -4,12 +4,12 @@
 
 __author__ = "Mir Sazzat Hossain"
 
-import os
 import unittest
 
 import torch
 
 from models.trainer import GNNTrainer
+from utils.config import load_config
 from utils.data import DataCenter, DataLoader
 
 
@@ -18,15 +18,15 @@ class TestTrainer(unittest.TestCase):
 
     def setUp(self):
         """Setup the test."""
-
-        self.adj_path = 'data/processed/food_adj.csv'
-        self.content_path = 'data/processed/order_matrix.csv'
-        self.num_days = 30
-        self.pred_len = 7
-        self.train_start = 1
-        self.train_end = 80
-        self.test_start = 80
-        self.test_end = 126
+        self.config = load_config("ustgcn")
+        self.adj_path = self.config["data_params"]["adj_path"]
+        self.content_path = self.config["data_params"]["content_path"]
+        self.num_days = self.config["model_params"]["num_days"]
+        self.pred_len = self.config["model_params"]["pred_len"]
+        self.train_start = self.config["model_params"]["train_start"]
+        self.train_end = self.config["model_params"]["train_end"]
+        self.test_start = self.config["model_params"]["test_start"]
+        self.test_end = self.config["model_params"]["test_end"]
         self.data_center = DataCenter()
         self.data_loader = DataLoader(
             self.adj_path,
@@ -51,12 +51,14 @@ class TestTrainer(unittest.TestCase):
             self.num_days,
             self.pred_len,
         )
-        self.num_gnn_layers = 3
-        self.epochs = 5
-        self.learning_rate = 0.001
+        self.num_gnn_layers = self.config["exp_params"]["num_gnn_layers"]
+        self.epochs = self.config["exp_params"]["epochs"]
+        self.learning_rate = self.config["exp_params"]["learning_rate"]
         self.device = torch.device(
-            "cuda" if torch.cuda.is_available() else "cpu")
-        self.work_dir = os.getcwd()
+            self.config["exp_params"]["device"]
+        )
+        self.work_dir = self.config["logging_params"]["work_dir"]
+        self.batch_size = self.config["exp_params"]["batch_size"]
 
         self.trainer = GNNTrainer(
             self.train_data,
@@ -67,6 +69,7 @@ class TestTrainer(unittest.TestCase):
             self.num_gnn_layers,
             self.epochs,
             self.learning_rate,
+            self.batch_size,
             self.device,
             self.work_dir
         )
@@ -78,14 +81,7 @@ class TestTrainer(unittest.TestCase):
     def test_test(self):
         """Test the test method."""
         # get the last run directory
-        run_dir = os.path.join(
-            self.work_dir,
-            'logs',
-            sorted(
-                os.listdir(os.path.join(self.work_dir, 'logs')),
-                reverse=True
-            )[0]
-        )
+        run_dir = self.config["logging_params"]["last_saved_model"]
         self.trainer.test(run_dir)
 
 
