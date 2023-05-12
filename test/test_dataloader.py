@@ -56,9 +56,9 @@ class TestDataLoader(unittest.TestCase):
             self.num_days,
             self.pred_len,
         )
-        self.assertEqual(len(test_data), 18)
+        self.assertEqual(len(test_data), 11)
         self.assertEqual(test_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(test_label), 18)
+        self.assertEqual(len(test_label), 11)
         self.assertEqual(test_label[0].shape, (95, 7))
 
     def test_data_loader(self) -> None:
@@ -70,9 +70,9 @@ class TestDataLoader(unittest.TestCase):
         self.assertEqual(train_data[0].shape, (1, 95, 30))
         self.assertEqual(len(train_label), 74)
         self.assertEqual(train_label[0].shape, (95, 7))
-        self.assertEqual(len(test_data), 18)
+        self.assertEqual(len(test_data), 11)
         self.assertEqual(test_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(test_label), 18)
+        self.assertEqual(len(test_label), 11)
         self.assertEqual(test_label[0].shape, (95, 7))
 
 

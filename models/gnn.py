@@ -48,9 +48,11 @@ class SPTempGNN(nn.Module):
         self.spatial_temp = torch.mm(
             D_temporal, torch.mm(A_temporal, D_temporal))
         self.his_temporal_weight = nn.Parameter(
-            torch.FloatTensor(num_timestamps, out_size)).to(device)
+            nn.init.xavier_uniform_(torch.empty(num_timestamps, out_size))
+        ).to(device)
         self.his_final_weight = nn.Parameter(
-            torch.FloatTensor(2*out_size, out_size)).to(device)
+            nn.init.xavier_uniform_(torch.empty(2*out_size, out_size))
+        ).to(device)
 
     def forward(self, his_raw_features: torch.Tensor) -> torch.Tensor:
         """
@@ -67,7 +69,8 @@ class SPTempGNN(nn.Module):
             self.total_nodes, 1) * his_raw_features
         his_temporal = torch.mm(self.spatial_temp, his_temporal)
         his_combined = torch.cat([his_self, his_temporal], dim=1)
-        his_raw_features = F.relu(his_combined.mm(self.his_final_weight))
+        his_final = torch.mm(his_combined, self.his_final_weight)
+        his_raw_features = F.relu(his_final)
 
         return his_raw_features
 
@@ -116,9 +119,10 @@ class CombinedGNN(nn.Module):
         self.total_nodes = self.adj_matrix.shape[0]
 
         self.his_weight = nn.Parameter(
-            torch.FloatTensor(self.out_size, self.num_timestamps*out_size))
+            nn.init.xavier_uniform_(torch.empty(
+                self.out_size, self.num_timestamps*out_size)))
         self.cur_weight = nn.Parameter(
-            torch.FloatTensor(1, self.num_timestamps*1))
+            nn.init.xavier_uniform_(torch.empty(1, self.num_timestamps*1)))
 
         A = self.adj_matrix
         dim = self.num_timestamps * self.total_nodes
@@ -158,7 +162,7 @@ class CombinedGNN(nn.Module):
 
         dim_2 = self.num_timestamps * self.out_size
         self.final_weight = nn.Parameter(
-            torch.FloatTensor(dim_2, dim_2))
+            nn.init.xavier_uniform_(torch.empty(dim_2, dim_2)))
 
         self.init_params()
 
@@ -188,6 +192,10 @@ class CombinedGNN(nn.Module):
         for i in range(self.num_gnn_layers):
             sp_temp_gnn = getattr(self, f'sp_temp_gnn_{i}')
             his_raw_features = sp_temp_gnn(his_raw_features)
+            # check if the output is nan
+            if torch.isnan(his_raw_features).any():
+                print('nan', i)
+                exit()
 
         his_list = []
 
@@ -198,5 +206,4 @@ class CombinedGNN(nn.Module):
 
         his_final_embds = torch.cat(his_list, dim=1)
         final_embds = F.relu(self.final_weight.mm(his_final_embds.t()).t())
-
         return final_embds

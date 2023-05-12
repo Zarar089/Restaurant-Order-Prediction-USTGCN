@@ -10,6 +10,7 @@ __author__ = "Mir Sazzat Hossain"
 
 import numpy as np
 import pandas as pd
+import torch
 
 
 class DataCenter(object):
@@ -78,12 +79,19 @@ class DataCenter(object):
         start_day = start_day - 1
 
         for i in range(start_day, end_day+1-pred_len):
-            a = content[:, i:i+num_days]
-            if a.shape[1] < num_days:
+            data = content[:, i:i+num_days]
+            label = content[:, i+num_days:i+num_days+pred_len]
+            if data.shape[1] < num_days or label.shape[1] < pred_len:
                 continue
-            a = a.reshape(1, a.shape[0], a.shape[1])
-            timestamp_data.append(a)
-            label_data.append(content[:, i+num_days:i+num_days+pred_len])
+            data = data.reshape(1, data.shape[0], data.shape[1])
+            timestamp_data.append(data)
+            label_data.append(label)
+
+        # convert to torch tensor
+        timestamp_data = torch.from_numpy(
+            np.array(timestamp_data, dtype=np.float32))
+        label_data = torch.from_numpy(
+            np.array(label_data, dtype=np.float32))
 
         return timestamp_data, label_data
 

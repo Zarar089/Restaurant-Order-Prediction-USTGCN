@@ -14,11 +14,11 @@ import math
 import os
 
 import torch
-from gnn import CombinedGNN
-from regression import Regression
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
+from models.gnn import CombinedGNN
+from models.regression import Regression
 from utils.tools import mae, mape, rmse
 
 
@@ -79,14 +79,14 @@ class GNNTrainer(object):
         self.work_dir = work_dir
 
         self.all_nodes = [i for i in range(self.adj_matrix.shape[0])]
-        self.node_batch_size = 8  # will be changed later
+        self.node_batch_size = 200  # will be changed later
 
-        self.train_data = torch.FloatTensor(self.train_data).to(self.device)
-        self.train_labels = torch.FloatTensor(
+        self.train_data = torch.Tensor(self.train_data).to(self.device)
+        self.train_labels = torch.Tensor(
             self.train_labels).to(self.device)
-        self.test_data = torch.FloatTensor(self.test_data).to(self.device)
-        self.test_labels = torch.FloatTensor(self.test_labels).to(self.device)
-        self.adj_matrix = torch.FloatTensor(self.adj_matrix).to(self.device)
+        self.test_data = torch.Tensor(self.test_data).to(self.device)
+        self.test_labels = torch.Tensor(self.test_labels).to(self.device)
+        self.adj_matrix = torch.Tensor(self.adj_matrix).to(self.device)
         self.all_nodes = torch.LongTensor(self.all_nodes).to(self.device)
 
         self.time_stamp_model = CombinedGNN(
@@ -178,7 +178,6 @@ class GNNTrainer(object):
                     labels_in_batch = labels_in_batch.view(
                         len(nodes_in_batch), self.pred_len
                     )
-
                     embeddings = self.time_stamp_model(data)
                     logits = self.regression_model(embeddings)
                     loss = torch.nn.MSELoss()(logits, labels_in_batch)
@@ -201,8 +200,8 @@ class GNNTrainer(object):
             else:
                 self.learning_rate = 0.0001
 
-            loop.set_description(f"Epoch {epoch}/{self.epochs}")
-            loop.set_postfix(loss=train_loss)
+            loop.set_description(f"Epoch {epoch}/{self.epochs-1}")
+            loop.set_postfix(loss=train_loss.item())
 
             self.writer.add_scalar("Loss/train", train_loss, epoch)
 
@@ -250,7 +249,7 @@ class GNNTrainer(object):
             for model in models:
                 for param in model.parameters():
                     if param.requires_grad:
-                        parameters.requires_grad = False
+                        param.requires_grad = False
                         parameters.append(param)
 
             embading = self.time_stamp_model(data)
@@ -267,9 +266,9 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        _rmse = rmse(pred, labels)
-        _mae = mae(pred, labels)
-        _mape = mape(pred, labels)
+        _rmse = rmse(labels, pred)
+        _mae = mae(labels, pred)
+        _mape = mape(labels, pred)
 
         return _rmse, _mae, _mape, total_loss
 
@@ -307,7 +306,7 @@ class GNNTrainer(object):
             self.regression_model = torch.load(
                 os.path.join(model_path, "regression_model.pth")
             )
-            self.log_dir = model_path.split("/")[-1]
+            self.log_dir = model_path
             self.writer = SummaryWriter(self.log_dir)
             self.run_version = int(self.log_dir.split("_")[-1])
         elif self.writer is None:

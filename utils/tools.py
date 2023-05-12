@@ -45,8 +45,9 @@ def mape(y_true: list, y_pred: list) -> float:
     """
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
+    epsilon = 1e-7
 
-    return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+    return np.mean(np.abs((y_true - y_pred) / (y_true + epsilon))) * 100
 
 
 def mae(y_true: list, y_pred: list) -> float:

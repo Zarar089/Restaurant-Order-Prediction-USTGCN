@@ -6,4 +6,3 @@
 .pylintrc
 /logs/
 /preprocessing/fao.ipynb
-ustgcn.py
