@@ -1,0 +1,19 @@
+data_params:
+  adj_path: data/processed/food_adj.csv
+  content_path: data/processed/order_matrix.csv
+exp_params:
+  batch_size: 256
+  device: cuda
+  epochs: 500
+  learning_rate: 0.001
+  num_gnn_layers: 3
+logging_params:
+  last_saved_model: /work/USTGCN/logs/run_1
+  work_dir: /work/USTGCN
+model_params:
+  num_days: 30
+  pred_len: 7
+  test_end: 126
+  test_start: 80
+  train_end: 80
+  train_start: 1
