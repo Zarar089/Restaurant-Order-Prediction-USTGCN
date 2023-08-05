@@ -51,5 +51,5 @@ class Regression(nn.Module):
         :return: logits of shape (batch_size, out_size)
         :rtype: torch.Tensor
         """
-        logists = self.layer(embds)
-        return logists
+        logits = self.layer(embds)
+        return logits

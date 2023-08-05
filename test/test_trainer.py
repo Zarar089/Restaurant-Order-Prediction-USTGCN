@@ -17,7 +17,7 @@ class TestTrainer(unittest.TestCase):
     """Test the trainer."""
 
     def setUp(self):
-        """Setup the test."""
+        """Set up the test."""
         self.config = load_config("ustgcn")
         self.adj_path = self.config["data_params"]["adj_path"]
         self.content_path = self.config["data_params"]["content_path"]

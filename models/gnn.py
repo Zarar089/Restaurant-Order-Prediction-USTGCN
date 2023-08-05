@@ -12,7 +12,7 @@ __author__ = "Mir Sazzat Hossain"
 
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+import torch.nn.functional as f
 
 
 class SPTempGNN(nn.Module):
@@ -20,20 +20,20 @@ class SPTempGNN(nn.Module):
 
     def __init__(
         self,
-        D_temporal: torch.Tensor,
-        A_temporal: torch.Tensor,
+        d_temporal: torch.Tensor,
+        a_temporal: torch.Tensor,
         num_timestamps: int,
         out_size: int,
         total_nodes: int,
-        device: str,
+        device: torch.device,
     ) -> None:
         """
         Initialize the SPTempGNN class.
 
-        :param D_temporal: temporal distance matrix
-        :type D_temporal: torch.Tensor
-        :param A_temporal: temporal adjacency matrix
-        :type A_temporal: torch.Tensor
+        :param d_temporal: temporal distance matrix
+        :type d_temporal: torch.Tensor
+        :param a_temporal: temporal adjacency matrix
+        :type a_temporal: torch.Tensor
         :param num_timestamps: number of timestamps
         :type num_timestamps: int
         :param out_size: output size
@@ -46,7 +46,7 @@ class SPTempGNN(nn.Module):
         super(SPTempGNN, self).__init__()
         self.total_nodes = total_nodes
         self.spatial_temp = torch.mm(
-            D_temporal, torch.mm(A_temporal, D_temporal))
+            d_temporal, torch.mm(a_temporal, d_temporal))
         self.his_temporal_weight = nn.Parameter(
             nn.init.xavier_uniform_(torch.empty(num_timestamps, out_size))
         ).to(device)
@@ -70,7 +70,7 @@ class SPTempGNN(nn.Module):
         his_temporal = torch.mm(self.spatial_temp, his_temporal)
         his_combined = torch.cat([his_self, his_temporal], dim=1)
         his_final = torch.mm(his_combined, self.his_final_weight)
-        his_raw_features = F.relu(his_final)
+        his_raw_features = f.relu(his_final)
 
         return his_raw_features
 
@@ -82,7 +82,7 @@ class CombinedGNN(nn.Module):
         self,
         out_size: int,
         adj_matrix: torch.Tensor,
-        device: str,
+        device: torch.device,
         start_time: int,
         num_gnn_layers: int,
         num_timestamps: int,
@@ -124,11 +124,11 @@ class CombinedGNN(nn.Module):
         self.cur_weight = nn.Parameter(
             nn.init.xavier_uniform_(torch.empty(1, self.num_timestamps*1)))
 
-        A = self.adj_matrix
+        a = self.adj_matrix
         dim = self.num_timestamps * self.total_nodes
 
-        A_temporal = torch.zeros(dim, dim).to(self.device)
-        D_temporal = torch.zeros(dim, dim).to(self.device)
+        a_temporal = torch.zeros(dim, dim).to(self.device)
+        d_temporal = torch.zeros(dim, dim).to(self.device)
         identity = torch.eye(self.total_nodes).to(self.device)
 
         for i in range(self.num_timestamps):
@@ -139,20 +139,20 @@ class CombinedGNN(nn.Module):
                 col_end = col_start + self.total_nodes
 
                 if i == j:
-                    A_temporal[row_start:row_end, col_start:col_end] = A
+                    a_temporal[row_start:row_end, col_start:col_end] = a
                 else:
-                    A_temporal[row_start:row_end,
-                               col_start:col_end] = identity + A
+                    a_temporal[row_start:row_end,
+                               col_start:col_end] = identity + a
 
-        row_sum = torch.sum(A_temporal, dim=0)
+        row_sum = torch.sum(a_temporal, dim=0)
 
         for i in range(dim):
-            D_temporal[i, i] = 1/max(torch.sqrt(row_sum[i]), 1)
+            d_temporal[i, i] = 1/max(torch.sqrt(row_sum[i]), torch.tensor(1))
 
         for i in range(self.num_gnn_layers):
             sp_temp_gnn = SPTempGNN(
-                D_temporal,
-                A_temporal,
+                d_temporal,
+                a_temporal,
                 self.num_timestamps,
                 self.out_size,
                 self.total_nodes,
@@ -205,5 +205,5 @@ class CombinedGNN(nn.Module):
             his_list.append(his_raw_features[start:end, :])
 
         his_final_embds = torch.cat(his_list, dim=1)
-        final_embds = F.relu(self.final_weight.mm(his_final_embds.t()).t())
+        final_embds = f.relu(self.final_weight.mm(his_final_embds.t()).t())
         return final_embds

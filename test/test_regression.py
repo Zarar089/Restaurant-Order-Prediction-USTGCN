@@ -15,7 +15,7 @@ class TestRegression(unittest.TestCase):
     """Test the Regression class."""
 
     def setUp(self) -> None:
-        """Setup the test."""
+        """Set up the test."""
 
         self.emb_size = 30
         self.out_size = 30

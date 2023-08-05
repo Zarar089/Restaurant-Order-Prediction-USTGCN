@@ -13,7 +13,7 @@ class TestTools(unittest.TestCase):
     """Test the evaluation tools."""
 
     def setUp(self):
-        """Setup the test."""
+        """Set up the test."""
         self.y_true = [1, 2, 3, 4, 5]
         self.y_pred = [1.2, 2.2, 3.2, 4.2, 5.2]
 

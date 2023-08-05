@@ -17,7 +17,7 @@ class TestCombinedGNN(unittest.TestCase):
     """Test the CombinedGNN class."""
 
     def setUp(self) -> None:
-        """Setup the test."""
+        """Set up the test."""
 
         self.out_size = 30
         self.device = torch.device(

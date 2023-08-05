@@ -16,7 +16,7 @@ class TestSPTempGNN(unittest.TestCase):
     """Test the SPTempGNN class."""
 
     def setUp(self) -> None:
-        """Setup the test."""
+        """Set up the test."""
         self.device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu")
         self.D_temporal = torch.eye(95, 95).to(self.device)

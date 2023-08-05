@@ -13,7 +13,7 @@ class TestDataLoader(unittest.TestCase):
     """Test the DataLoader class."""
 
     def setUp(self) -> None:
-        """Setup the test."""
+        """Set up the test."""
         self.adj_path = 'data/processed/food_adj.csv'
         self.content_path = 'data/processed/order_matrix.csv'
         self.num_days = 30
@@ -32,6 +32,15 @@ class TestDataLoader(unittest.TestCase):
             self.test_end,
         )
 
+    def check_data(self, data: list, label: list, test: bool = False) -> None:
+        """Check the data and label."""
+        self.assertEqual(len(data), 74) if not test else \
+            self.assertEqual(len(data), 11)
+        self.assertEqual(data[0].shape, (1, 95, 30))
+        self.assertEqual(len(label), 74) if not test else \
+            self.assertEqual(len(label), 11)
+        self.assertEqual(label[0].shape, (95, 7))
+
     def test_data_center(self) -> None:
         """Test the DataCenter class."""
         adj = self.data_center.load_adj(self.adj_path)
@@ -44,10 +53,7 @@ class TestDataLoader(unittest.TestCase):
             self.num_days,
             self.pred_len,
         )
-        self.assertEqual(len(train_data), 74)
-        self.assertEqual(train_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(train_label), 74)
-        self.assertEqual(train_label[0].shape, (95, 7))
+        self.check_data(train_data, train_label, test=False)
 
         test_data, test_label = self.data_center.load_data(
             self.content_path,
@@ -56,24 +62,15 @@ class TestDataLoader(unittest.TestCase):
             self.num_days,
             self.pred_len,
         )
-        self.assertEqual(len(test_data), 11)
-        self.assertEqual(test_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(test_label), 11)
-        self.assertEqual(test_label[0].shape, (95, 7))
+        self.check_data(test_data, test_label, test=True)
 
     def test_data_loader(self) -> None:
         """Test the DataLoader class."""
         train_data, train_label, test_data, test_label, adj = \
             self.data_loader.load_data()
         self.assertEqual(adj.shape, (95, 95))
-        self.assertEqual(len(train_data), 74)
-        self.assertEqual(train_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(train_label), 74)
-        self.assertEqual(train_label[0].shape, (95, 7))
-        self.assertEqual(len(test_data), 11)
-        self.assertEqual(test_data[0].shape, (1, 95, 30))
-        self.assertEqual(len(test_label), 11)
-        self.assertEqual(test_label[0].shape, (95, 7))
+        self.check_data(train_data, train_label, test=False)
+        self.check_data(test_data, test_label, test=True)
 
 
 if __name__ == '__main__':

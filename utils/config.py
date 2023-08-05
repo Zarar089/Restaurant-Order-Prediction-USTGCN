@@ -22,14 +22,22 @@ ustgcn_config = {
         "epochs": 500,
         "learning_rate": 0.001,
         "batch_size": 256,
+        "test_model_path": os.path.join(
+            os.getcwd(),
+            'logs',
+            'run_7',
+        ),
+
     },
     "model_params": {
         "num_days": 30,
         "pred_len": 7,
         "train_start": 1,
-        "train_end": 80,
-        "test_start": 80,
-        "test_end": 126,
+        "train_end": 552,
+        "test_start": 552,
+        "test_end": 690,
+        "train_stride": 1,
+        "test_stride": 7,
     },
     "logging_params": {
         "work_dir": os.getcwd(),
@@ -50,8 +58,10 @@ ustgcn_config = {
         ),
     },
     "data_params": {
-        "adj_path": "data/processed/food_adj.csv",
-        "content_path": "data/processed/order_matrix.csv",
+        "adj_path": "data/processed/eye.csv",
+        "content_path": "data/processed/order_matrix_new.csv",
+        "dish_dict_path": "data/processed/dish_dict_new.pkl",
+        "dates_dict_path": "data/processed/dates_dict.pkl",
     },
 }
 

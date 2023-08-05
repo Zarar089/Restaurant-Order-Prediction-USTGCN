@@ -12,14 +12,17 @@ __author__ = "Mir Sazzat Hossain"
 
 import math
 import os
+import pickle
 
+import numpy as np
+import pandas as pd
 import torch
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
 from models.gnn import CombinedGNN
 from models.regression import Regression
-from utils.tools import mae, mape, rmse
+from utils.tools import calculate_foodwise_errors, mae, mape, rmse
 
 
 class GNNTrainer(object):
@@ -31,13 +34,15 @@ class GNNTrainer(object):
         train_labels: torch.Tensor,
         test_data: torch.Tensor,
         test_labels: torch.Tensor,
-        adj_matrix: torch.Tensor,
+        adj_matrix: np.ndarray,
         num_gnn_layers: int,
         epochs: int,
         learning_rate: float,
         batch_size: int,
-        device: str,
+        device: torch.device,
         work_dir: str,
+        dish_dict_path: str,
+        dates_dict_path: str,
     ) -> None:
         """
         Initialize the GNNTrainer class.
@@ -64,6 +69,10 @@ class GNNTrainer(object):
         :type device: str
         :param work_dir: working directory
         :type work_dir: str
+        :param dish_dict_path: path to the dish dictionary
+        :type dish_dict_path: str
+        :param dates_dict_path: path to the dates dictionary
+        :type dates_dict_path: str
         """
         super(GNNTrainer, self).__init__()
         self.train_data = train_data
@@ -80,6 +89,8 @@ class GNNTrainer(object):
         self.num_timestamps = self.train_data.shape[1]  # 1 time step each day
         self.pred_len = self.train_labels.shape[-1]  # 7 days
         self.work_dir = work_dir
+        self.dish_dict_path = dish_dict_path
+        self.dates_dict_path = dates_dict_path
 
         self.all_nodes = [i for i in range(self.adj_matrix.shape[0])]
         self.node_batch_size = batch_size
@@ -131,9 +142,6 @@ class GNNTrainer(object):
     def train(self) -> None:
         """
         Train the model.
-
-        :param evaluate: whether to evaluate the model
-        :type evaluate: bool
         """
         self.initiate_writer()
 
@@ -208,7 +216,10 @@ class GNNTrainer(object):
 
             self.writer.add_scalar("Loss/train", train_loss, epoch)
 
-            _rmse, _mae, _mape, _eval_loss = self.evaluate()
+            labels, pred, _eval_loss = self.evaluate()
+            _rmse = rmse(labels, pred)
+            _mae = mae(labels, pred)
+            _mape = mape(labels, pred)
 
             self.writer.add_scalar("Loss/validation", _eval_loss, epoch)
             self.writer.add_scalar("RMSE/validation", _rmse, epoch)
@@ -233,7 +244,7 @@ class GNNTrainer(object):
         """
         Evaluate the model.
 
-        :return: tuple of rmse, mae, mape and loss
+        :return: tuple of labels, predictions and loss
         :rtype: tuple
         """
         pred = []
@@ -269,27 +280,77 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        _rmse = rmse(labels, pred)
-        _mae = mae(labels, pred)
-        _mape = mape(labels, pred)
+        return labels, pred, total_loss
 
-        return _rmse, _mae, _mape, total_loss
-
-    def test(self, model_path=None) -> None:
+    def test(
+        self,
+        test_start: int,
+        model_path: str = None,
+        num_days: int = 30,
+    ) -> None:
         """
         Test the model.
 
+        :param test_start: start timestamp of the test data
+        :type test_start: int
         :param model_path: path to the model
         :type model_path: str
+        :param num_days: number of days to predict
+        :type num_days: int
         """
         self.load_model(model_path)
-        _rmse, _mae, _mape, _eval_loss = self.evaluate()
 
-        self.writer.add_scalar("RMSE/test", _rmse, self.run_version)
-        self.writer.add_scalar("MAE/test", _mae, self.run_version)
-        self.writer.add_scalar("MAPE/test", _mape, self.run_version)
+        labels, pred, _eval_loss = self.evaluate()
 
-        self.writer.close()
+        _rmse, _mse = calculate_foodwise_errors(
+            labels, pred, len(self.all_nodes))
+
+        # get dish dictionary.pkl file
+        with open(self.dish_dict_path, "rb") as f:
+            dish_dict = pickle.load(f)
+
+        # get dish name from dish id
+        dish_name = []
+        for dish_id in self.all_nodes:
+            dish_name.append(
+                list(dish_dict.keys())[list(dish_dict.values()).index(dish_id)]
+            )
+
+        # get dates from dates_dict.pkl file
+        with open(self.dates_dict_path, "rb") as f:
+            dates_dict = pickle.load(f)
+
+        # get date from date id
+        date = list(dates_dict.keys())
+
+        df_pred = pd.DataFrame(columns=["Date"] + dish_name)
+        df_actual = pd.DataFrame(columns=["Date"] + dish_name)
+
+        end = len(date)
+        end = len(pred[0]) * (end // len(pred[0]))
+
+        df_pred["Date"] = date[test_start + num_days:end+1]
+        df_actual["Date"] = date[test_start + num_days:end+1]
+
+        for i in range(len(dish_name)):
+            _food = pred[i::len(dish_name)]
+            _food = [j for i in _food for j in i]
+            df_pred[dish_name[i]] = _food
+
+            _food = labels[i::len(dish_name)]
+            _food = [j for i in _food for j in i]
+            df_actual[dish_name[i]] = _food
+
+        # save the dataframe
+        df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
+        df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
+
+        # add dish name and save the rmse and mse
+        df = pd.DataFrame()
+        df["dish_name"] = dish_name
+        df["rmse"] = _rmse
+        df["mse"] = _mse
+        df.to_csv(self.log_dir + "/rmse_mse.csv", index=False)
 
     def load_model(self, model_path: str) -> None:
         """
@@ -320,8 +381,6 @@ class GNNTrainer(object):
     def save_model(self) -> None:
         """
         Save the model.
-
-        :param epoch: epoch number
         """
         torch.save(
             self.time_stamp_model,

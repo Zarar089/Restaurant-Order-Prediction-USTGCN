@@ -1,19 +1,24 @@
 data_params:
-  adj_path: data/processed/food_adj.csv
-  content_path: data/processed/order_matrix.csv
+  adj_path: data/processed/eye.csv
+  content_path: data/processed/order_matrix_new.csv
+  dates_dict_path: data/processed/dates_dict.pkl
+  dish_dict_path: data/processed/dish_dict_new.pkl
 exp_params:
   batch_size: 256
   device: cuda
   epochs: 500
   learning_rate: 0.001
   num_gnn_layers: 3
+  test_model_path: /work/USTGCN/logs/run_7
 logging_params:
-  last_saved_model: /work/USTGCN/logs/run_1
+  last_saved_model: /work/USTGCN/logs/run_7
   work_dir: /work/USTGCN
 model_params:
   num_days: 30
   pred_len: 7
-  test_end: 126
-  test_start: 80
-  train_end: 80
+  test_end: 690
+  test_start: 552
+  test_stride: 7
+  train_end: 552
   train_start: 1
+  train_stride: 1

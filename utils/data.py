@@ -16,7 +16,8 @@ import torch
 class DataCenter(object):
     """DataCenter class for loading and preprocessing data."""
 
-    def load_adj(self, adj_path: str) -> np.ndarray:
+    @staticmethod
+    def load_adj(adj_path: str) -> np.ndarray:
         """
         Load adjacency matrix from adj_path.
 
@@ -36,19 +37,18 @@ class DataCenter(object):
 
         return adj
 
+    @staticmethod
     def load_data(
-        self,
         content_path: str,
         start_day: int,
         end_day: int,
         num_days: int,
         pred_len: int,
+        stride: int = 1,
     ) -> tuple:
         """
         Load data from adj_path and content_path.
 
-        :param adj_path: path to adjacency matrix
-        :type adj_path: str
         :param content_path: path to content matrix
         :type content_path: str
         :param start_day: start day
@@ -59,6 +59,8 @@ class DataCenter(object):
         :type num_days: int
         :param pred_len: prediction length
         :type pred_len: int
+        :param stride: stride
+        :type stride: int
 
         :return: adjacency matrix, content matrix
         :rtype: numpy.ndarray, numpy.ndarray
@@ -78,7 +80,7 @@ class DataCenter(object):
 
         start_day = start_day - 1
 
-        for i in range(start_day, end_day+1-pred_len):
+        for i in range(start_day, end_day+1-pred_len, stride):
             data = content[:, i:i+num_days]
             label = content[:, i+num_days:i+num_days+pred_len]
             if data.shape[1] < num_days or label.shape[1] < pred_len:
@@ -107,6 +109,8 @@ class DataLoader(object):
         pred_len: int,
         train_end: int,
         test_end: int,
+        train_stride: int = 1,
+        test_stride: int = 1,
     ) -> None:
         """
         Initialize the DataLoader class.
@@ -123,6 +127,10 @@ class DataLoader(object):
         :type train_end: int
         :param test_end: end of testing data
         :type test_end: int
+        :param train_stride: stride for training data
+        :type train_stride: int
+        :param test_stride: stride for testing data
+        :type test_stride: int
         """
         super(DataLoader, self).__init__()
         self.data_center = DataCenter()
@@ -135,6 +143,8 @@ class DataLoader(object):
         self.content_path = content_path
         self.num_days = num_days
         self.pred_len = pred_len
+        self.train_stride = train_stride
+        self.test_stride = test_stride
 
     def load_data(self) -> tuple:
         """
@@ -153,6 +163,7 @@ class DataLoader(object):
             self.train_end,
             self.num_days,
             self.pred_len,
+            self.train_stride,
         )
 
         test_data, test_label = self.data_center.load_data(
@@ -161,6 +172,7 @@ class DataLoader(object):
             self.test_end,
             self.num_days,
             self.pred_len,
+            self.test_stride,
         )
 
         return train_data, train_label, test_data, test_label, adj
