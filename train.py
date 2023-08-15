@@ -64,6 +64,7 @@ if __name__ == "__main__":
     data_loader = DataLoader(
         config["data_params"]["adj_path"],
         config["data_params"]["content_path"],
+        config["data_params"]["dates_dict_path"],
         config["model_params"]["num_days"],
         config["model_params"]["pred_len"],
         config["model_params"]["train_end"],
@@ -77,6 +78,7 @@ if __name__ == "__main__":
     )
     train_data, train_label = data_center.load_data(
         config["data_params"]["content_path"],
+        config["data_params"]["dates_dict_path"],
         config["model_params"]["train_start"],
         config["model_params"]["train_end"],
         config["model_params"]["num_days"],
@@ -85,6 +87,7 @@ if __name__ == "__main__":
     )
     test_data, test_label = data_center.load_data(
         config["data_params"]["content_path"],
+        config["data_params"]["dates_dict_path"],
         config["model_params"]["test_start"],
         config["model_params"]["test_end"],
         config["model_params"]["num_days"],
