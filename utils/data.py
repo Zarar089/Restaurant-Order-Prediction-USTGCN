@@ -90,7 +90,6 @@ class DataCenter(object):
         # 1 is Monday, 7 is Sunday
         dates_dict = pd.to_datetime(dates_dict)
         date_indices = dates_dict.dayofweek
-        print(date_indices.shape)
 
         content = content.T
 
