@@ -5,14 +5,14 @@ data_params:
   dish_dict_path: data/processed/dish_dict_new.pkl
 exp_params:
   batch_size: 256
-  device: cpu
+  device: cuda
   epochs: 500
   learning_rate: 0.001
   num_gnn_layers: 3
-  test_model_path: /work/USTGCN/logs/run_24
+  test_model_path: /mnt/sda1/sazzat/Universe/work/USTGCN/logs/run_24
 logging_params:
-  last_saved_model: /work/USTGCN/logs/run_24
-  work_dir: /work/USTGCN
+  last_saved_model: /mnt/sda1/sazzat/Universe/work/USTGCN/logs/run_24
+  work_dir: /mnt/sda1/sazzat/Universe/work/USTGCN
 model_params:
   num_days: 30
   pred_len: 7

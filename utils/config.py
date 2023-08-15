@@ -25,7 +25,7 @@ ustgcn_config = {
         "test_model_path": os.path.join(
             os.getcwd(),
             'logs',
-            'run_7',
+            'run_24',
         ),
 
     },
@@ -44,21 +44,25 @@ ustgcn_config = {
         "last_saved_model": os.path.join(
             os.getcwd(),
             'logs',
-            sorted(
-                os.listdir(
-                    os.path.join(
+            'run_' +
+            str(sorted(
+                # get all the numbers from the log directory names
+                [
+                    int(x.split('_')[1])
+                    for x in os.listdir(os.path.join(
                         os.getcwd(),
                         'logs',
-                    )
-                ), reverse=True
-            )[0] if len(os.listdir(os.path.join(
+                    ))
+                    if x.startswith('run_')
+                ], reverse=True,
+            )[0]) if len(os.listdir(os.path.join(
                 os.getcwd(),
                 'logs',
             ))) > 0 else 'run_0',
         ),
     },
     "data_params": {
-        "adj_path": "data/processed/eye.csv",
+        "adj_path": "data/processed/co_occurrence_matrix.csv",
         "content_path": "data/processed/order_matrix_new.csv",
         "dish_dict_path": "data/processed/dish_dict_new.pkl",
         "dates_dict_path": "data/processed/dates_dict.pkl",
