@@ -6,3 +6,4 @@
 .pylintrc
 /logs/
 /preprocessing/fao.ipynb
+.idea/
