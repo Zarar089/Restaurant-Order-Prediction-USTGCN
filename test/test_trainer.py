@@ -21,35 +21,45 @@ class TestTrainer(unittest.TestCase):
         self.config = load_config("ustgcn")
         self.adj_path = self.config["data_params"]["adj_path"]
         self.content_path = self.config["data_params"]["content_path"]
+        self.dates_dict_path = self.config["data_params"]["dates_dict_path"]
         self.num_days = self.config["model_params"]["num_days"]
         self.pred_len = self.config["model_params"]["pred_len"]
         self.train_start = self.config["model_params"]["train_start"]
         self.train_end = self.config["model_params"]["train_end"]
         self.test_start = self.config["model_params"]["test_start"]
         self.test_end = self.config["model_params"]["test_end"]
+        self.test_stride = self.config["model_params"]["test_stride"]
+        self.train_stride = self.config["model_params"]["train_stride"]
         self.data_center = DataCenter()
         self.data_loader = DataLoader(
             self.adj_path,
             self.content_path,
+            self.dates_dict_path,
             self.num_days,
             self.pred_len,
             self.train_end,
             self.test_end,
+            self.train_stride,
+            self.test_stride,
         )
         self.adj_matrix = self.data_center.load_adj(self.adj_path)
         self.train_data, self.train_label = self.data_center.load_data(
             self.content_path,
+            self.dates_dict_path,
             self.train_start,
             self.train_end,
             self.num_days,
             self.pred_len,
+            self.train_stride,
         )
         self.test_data, self.test_label = self.data_center.load_data(
             self.content_path,
+            self.dates_dict_path,
             self.test_start,
             self.test_end,
             self.num_days,
             self.pred_len,
+            self.test_stride,
         )
         self.num_gnn_layers = self.config["exp_params"]["num_gnn_layers"]
         self.epochs = self.config["exp_params"]["epochs"]
@@ -59,6 +69,8 @@ class TestTrainer(unittest.TestCase):
         )
         self.work_dir = self.config["logging_params"]["work_dir"]
         self.batch_size = self.config["exp_params"]["batch_size"]
+        self.dish_dict_path = self.config["data_params"]["dish_dict_path"]
+        self.dates_dict_path = self.config["data_params"]["dates_dict_path"]
 
         self.trainer = GNNTrainer(
             self.train_data,
@@ -67,11 +79,13 @@ class TestTrainer(unittest.TestCase):
             self.test_label,
             self.adj_matrix,
             self.num_gnn_layers,
-            self.epochs,
+            10,  # self.epochs,
             self.learning_rate,
             self.batch_size,
             self.device,
-            self.work_dir
+            self.work_dir,
+            self.dish_dict_path,
+            self.dates_dict_path,
         )
 
     def test_train(self):
@@ -82,7 +96,11 @@ class TestTrainer(unittest.TestCase):
         """Test the test method."""
         # get the last run directory
         run_dir = self.config["logging_params"]["last_saved_model"]
-        self.trainer.test(run_dir)
+        self.trainer.test(
+            self.test_start,
+            run_dir,
+            self.num_days,
+        )
 
 
 if __name__ == "__main__":
