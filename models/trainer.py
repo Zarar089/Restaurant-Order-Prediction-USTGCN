@@ -140,9 +140,7 @@ class GNNTrainer(object):
         self.writer = SummaryWriter(self.log_dir)
 
     def train(self) -> None:
-        """
-        Train the model.
-        """
+        """Train the model."""
         self.initiate_writer()
 
         min_rmse = float("Inf")
@@ -379,9 +377,7 @@ class GNNTrainer(object):
             raise ValueError("No model path provided")
 
     def save_model(self) -> None:
-        """
-        Save the model.
-        """
+        """Save the model."""
         torch.save(
             self.time_stamp_model,
             os.path.join(self.log_dir, "time_stamp_model.pth")
