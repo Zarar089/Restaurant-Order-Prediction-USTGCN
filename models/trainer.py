@@ -9,7 +9,6 @@ Classes:
 
 __author__ = "Mir Sazzat Hossain"
 
-
 import math
 import os
 import pickle
@@ -29,20 +28,20 @@ class GNNTrainer(object):
     """GNN trainer."""
 
     def __init__(
-        self,
-        train_data: torch.Tensor,
-        train_labels: torch.Tensor,
-        test_data: torch.Tensor,
-        test_labels: torch.Tensor,
-        adj_matrix: np.ndarray,
-        num_gnn_layers: int,
-        epochs: int,
-        learning_rate: float,
-        batch_size: int,
-        device: torch.device,
-        work_dir: str,
-        dish_dict_path: str,
-        dates_dict_path: str,
+            self,
+            train_data: torch.Tensor,
+            train_labels: torch.Tensor,
+            test_data: torch.Tensor,
+            test_labels: torch.Tensor,
+            adj_matrix: np.ndarray,
+            num_gnn_layers: int,
+            epochs: int,
+            learning_rate: float,
+            batch_size: int,
+            device: torch.device,
+            work_dir: str,
+            dish_dict_path: str,
+            dates_dict_path: str,
     ) -> None:
         """
         Initialize the GNNTrainer class.
@@ -125,6 +124,9 @@ class GNNTrainer(object):
         self.run_version = None
         self.writer = None
         self.run_version = None
+        self.stats_df = pd.DataFrame(
+            columns=['Epoch', 'Train Loss', 'Validation Loss', 'RMSE Validation', 'MAE Validation',
+                     'MAPE Validation', 'Min_RMSE Evaluation', 'Min_MAE Evaluation', 'Min_MAPE Evaluation'])
 
     def initiate_writer(self) -> None:
         """Initiate the writer."""
@@ -153,6 +155,7 @@ class GNNTrainer(object):
         for epoch in loop:
             total_timestamp = len(self.train_data)
             indices = torch.randperm(total_timestamp)
+            stats = [epoch]
 
             for index in indices:
                 data = self.train_data[index]
@@ -178,9 +181,9 @@ class GNNTrainer(object):
                 node_batch_loss = torch.tensor(0.0).to(self.device)
                 for batch in range(num_node_batches):
                     nodes_in_batch = self.all_nodes[
-                        batch * self.node_batch_size:(batch + 1) *
-                        self.node_batch_size
-                    ]
+                                     batch * self.node_batch_size:(batch + 1) *
+                                                                  self.node_batch_size
+                                     ]
                     nodes_in_batch = nodes_in_batch.view(
                         nodes_in_batch.shape[0], 1)
                     labels_in_batch = labels[nodes_in_batch]
@@ -190,7 +193,7 @@ class GNNTrainer(object):
                     embeddings = self.time_stamp_model(data)
                     logits = self.regression_model(embeddings)
                     loss = torch.nn.MSELoss()(logits, labels_in_batch)
-                    node_batch_loss += loss/(len(nodes_in_batch))
+                    node_batch_loss += loss / (len(nodes_in_batch))
 
                 train_loss += node_batch_loss.item()
 
@@ -209,10 +212,11 @@ class GNNTrainer(object):
             else:
                 self.learning_rate = 0.0001
 
-            loop.set_description(f"Epoch {epoch}/{self.epochs-1}")
+            loop.set_description(f"Epoch {epoch}/{self.epochs - 1}")
             loop.set_postfix(loss=train_loss.item())
 
             self.writer.add_scalar("Loss/train", train_loss, epoch)
+            stats.append(train_loss)
 
             labels, pred, _eval_loss = self.evaluate()
             _rmse = rmse(labels, pred)
@@ -220,9 +224,13 @@ class GNNTrainer(object):
             _mape = mape(labels, pred)
 
             self.writer.add_scalar("Loss/validation", _eval_loss, epoch)
+            stats.append(_eval_loss)
             self.writer.add_scalar("RMSE/validation", _rmse, epoch)
+            stats.append(_rmse)
             self.writer.add_scalar("MAE/validation", _mae, epoch)
+            stats.append(_mae)
             self.writer.add_scalar("MAPE/validation", _mape, epoch)
+            stats.append(_mape)
 
             if _eval_loss < best_test:
                 best_test = _eval_loss
@@ -233,10 +241,17 @@ class GNNTrainer(object):
             min_mape = min(min_mape, _mape)
 
             self.writer.add_scalar("Evaluation/Min_RMSE", min_rmse, epoch)
+            stats.append(min_rmse)
             self.writer.add_scalar("Evaluation/Min_MAE", min_mae, epoch)
+            stats.append(min_mae)
             self.writer.add_scalar("Evaluation/Min_MAPE", min_mape, epoch)
+            stats.append(min_mape)
+
+            self.stats_df.loc[len(self.stats_df.index)] = stats
 
         self.writer.close()
+
+        self.stats_df.to_csv(self.log_dir + "/loss_stats.csv", index=False)
 
     def evaluate(self) -> tuple:
         """
@@ -267,7 +282,7 @@ class GNNTrainer(object):
             embading = self.time_stamp_model(data)
             logits = self.regression_model(embading)
             loss = torch.nn.MSELoss()(logits, label)
-            loss = loss/len(self.all_nodes)
+            loss = loss / len(self.all_nodes)
             total_loss += loss.item()
 
             labels = labels + label.detach().tolist()
@@ -281,10 +296,10 @@ class GNNTrainer(object):
         return labels, pred, total_loss
 
     def test(
-        self,
-        test_start: int,
-        model_path: str = None,
-        num_days: int = 30,
+            self,
+            test_start: int,
+            model_path: str = None,
+            num_days: int = 30,
     ) -> None:
         """
         Test the model.
@@ -327,8 +342,8 @@ class GNNTrainer(object):
         end = len(date)
         end = len(pred[0]) * (end // len(pred[0]))
 
-        df_pred["Date"] = date[test_start + num_days:end+1]
-        df_actual["Date"] = date[test_start + num_days:end+1]
+        df_pred["Date"] = date[test_start + num_days:end + 1]
+        df_actual["Date"] = date[test_start + num_days:end + 1]
 
         for i in range(len(dish_name)):
             _food = pred[i::len(dish_name)]
