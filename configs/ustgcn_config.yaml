@@ -9,10 +9,10 @@ exp_params:
   epochs: 500
   learning_rate: 0.001
   num_gnn_layers: 3
-  test_model_path: /home/zarar/PycharmProjects/restaurant-order-pred-work-dir/logs/run_0
+  test_model_path: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_0
 logging_params:
-  last_saved_model: /home/zarar/PycharmProjects/restaurant-order-pred-work-dir/logs/run_0
-  work_dir: /home/zarar/PycharmProjects/restaurant-order-pred-work-dir
+  last_saved_model: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_0
+  work_dir: /content/Restaurant-Sales-Prediction-USTGCN/work_dir
 model_params:
   num_days: 30
   pred_len: 7
