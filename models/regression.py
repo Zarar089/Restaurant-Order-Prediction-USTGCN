@@ -29,9 +29,9 @@ class Regression(nn.Module):
 
         self.layer = nn.Sequential(
             nn.Linear(emb_size, 2 * emb_size),
-            nn.ReLU(),
+            nn.sigmoid(),
             nn.Linear(2 * emb_size, 2 * emb_size),
-            nn.ReLU(),
+            nn.sigmoid(),
             nn.Linear(2 * emb_size, out_size),
             nn.ReLU())
         self.init_params()
