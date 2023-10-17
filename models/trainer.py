@@ -216,7 +216,7 @@ class GNNTrainer(object):
             loop.set_postfix(loss=train_loss.item())
 
             self.writer.add_scalar("Loss/train", train_loss, epoch)
-            stats.append(train_loss.float())
+            stats.append(train_loss.detach().numpy())
 
             labels, pred, _eval_loss = self.evaluate()
             _rmse = rmse(labels, pred)
@@ -224,7 +224,7 @@ class GNNTrainer(object):
             _mape = mape(labels, pred)
 
             self.writer.add_scalar("Loss/validation", _eval_loss, epoch)
-            stats.append(_eval_loss.float())
+            stats.append(_eval_loss.detach().numpy())
             self.writer.add_scalar("RMSE/validation", _rmse, epoch)
             stats.append(_rmse)
             self.writer.add_scalar("MAE/validation", _mae, epoch)
