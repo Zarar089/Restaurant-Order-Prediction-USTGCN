@@ -28,10 +28,10 @@ class Regression(nn.Module):
         super(Regression, self).__init__()
 
         self.layer = nn.Sequential(
-            nn.Linear(emb_size, emb_size),
-            nn.BatchNorm1d(emb_size),
+            nn.Linear(emb_size, 2*emb_size),
+            nn.BatchNorm1d(2*emb_size),
             nn.Sigmoid(),
-            nn.Linear(emb_size, out_size),
+            nn.Linear(2*emb_size, out_size),
             nn.ReLU())
         self.init_params()
 
