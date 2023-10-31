@@ -3,6 +3,7 @@ data_params:
   content_path: data/processed/order_matrix_new.csv
   dates_dict_path: data/processed/dates_dict.pkl
   dish_dict_path: data/processed/dish_dict_new.pkl
+  discard_items_path: data/raw/discard_items.csv
 exp_params:
   batch_size: 256
   device: cuda
