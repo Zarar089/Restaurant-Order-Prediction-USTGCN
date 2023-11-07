@@ -417,7 +417,8 @@ class GNNTrainer(object):
 
 
     def __get_distribution_stats(self,embedding):
-        data = embedding.detach().numpy()
+        data = embedding.cpu().detach().numpy()
+        print(data.shape[0])
         median = np.percentile(data, 50)
         q1 = np.percentile(data, 25)
         q3 = np.percentile(data, 75)
