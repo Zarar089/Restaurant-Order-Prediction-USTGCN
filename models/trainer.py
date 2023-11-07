@@ -416,7 +416,7 @@ class GNNTrainer(object):
 
 
     def __get_distribution_stats(self,embedding):
-        data = torch.tensor([embedding], dtype=torch.float)
+        data = embedding.numpy()
         median = np.percentile(data, 50)
         q1 = np.percentile(data, 25)
         q3 = np.percentile(data, 75)
