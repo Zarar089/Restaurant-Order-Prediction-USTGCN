@@ -6,7 +6,7 @@ data_params:
 exp_params:
   batch_size: 256
   device: cuda
-  epochs: 2000
+  epochs: 500
   learning_rate: 0.001
   num_gnn_layers: 3
   test_model_path: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_0
