@@ -24,6 +24,8 @@ from models.regression import Regression
 from utils.tools import calculate_foodwise_errors, mae, mape, rmse
 
 
+
+
 class GNNTrainer(object):
     """GNN trainer."""
 
@@ -262,6 +264,7 @@ class GNNTrainer(object):
         """
         pred = []
         labels = []
+        stats= []
         total_timestamp = len(self.test_data)
         indices = torch.randperm(total_timestamp)
 
@@ -278,13 +281,12 @@ class GNNTrainer(object):
                     if param.requires_grad:
                         param.requires_grad = False
                         parameters.append(param)
-
             embading = self.time_stamp_model(data)
             logits = self.regression_model(embading)
+            stats = stats + self.__get_distribution_stats(embading)
             loss = torch.nn.MSELoss()(logits, label)
             loss = loss / len(self.all_nodes)
             total_loss += loss.item()
-
             labels = labels + label.detach().tolist()
             pred = pred + logits.detach().tolist()
 
@@ -293,7 +295,7 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        return labels, pred, total_loss
+        return labels, pred, total_loss, stats
 
     def test(
             self,
@@ -313,7 +315,9 @@ class GNNTrainer(object):
         """
         self.load_model(model_path)
 
-        labels, pred, _eval_loss = self.evaluate()
+        labels, pred, _eval_loss,stats = self.evaluate()
+
+        print(stats.shape[0])
 
         _rmse, _mse = calculate_foodwise_errors(
             labels, pred, len(self.all_nodes))
@@ -337,26 +341,34 @@ class GNNTrainer(object):
         date = list(dates_dict.keys())
 
         df_pred = pd.DataFrame(columns=["Date"] + dish_name)
-        df_actual = pd.DataFrame(columns=["Date"] + dish_name)
+        #df_actual = pd.DataFrame(columns=["Date"] + dish_name)
 
         end = len(date)
         end = len(pred[0]) * (end // len(pred[0]))
 
         df_pred["Date"] = date[test_start + num_days:end + 1]
-        df_actual["Date"] = date[test_start + num_days:end + 1]
+        #df_actual["Date"] = date[test_start + num_days:end + 1]
+
+        #actuals = []
 
         for i in range(len(dish_name)):
             _food = pred[i::len(dish_name)]
             _food = [j for i in _food for j in i]
-            df_pred[dish_name[i]] = _food
+            df_pred[dish_name[i]+"Prediction"] = _food
 
             _food = labels[i::len(dish_name)]
             _food = [j for i in _food for j in i]
-            df_actual[dish_name[i]] = _food
+            df_pred[dish_name[i]+"Actual"] = _food
+
+        #for stat in stats:
+        #    df_pred["Q1"] = stat[0]
+        #    df_pred["Q3"] = stat[1]
+        #    df_pred["Median"] = stat[2]
+
 
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
-        df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
+        #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
 
         # add dish name and save the rmse and mse
         df = pd.DataFrame()
@@ -401,3 +413,14 @@ class GNNTrainer(object):
             self.regression_model,
             os.path.join(self.log_dir, "regression_model.pth")
         )
+
+
+    def __get_distribution_stats(self,embedding):
+        data = torch.tensor([embedding], dtype=torch.float)
+        median = np.percentile(data, 50)
+        q1 = np.percentile(data, 25)
+        q3 = np.percentile(data, 75)
+        iqr = q3 - q1
+        lower_threshold = q1 - 1.5 * iqr
+        upper_threshold = q3 + 1.5 * iqr
+        return q1, q3, median, lower_threshold, upper_threshold
