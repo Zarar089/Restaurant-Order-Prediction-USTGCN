@@ -268,7 +268,8 @@ class GNNTrainer(object):
         total_timestamp = len(self.test_data)
         indices = torch.randperm(total_timestamp)
 
-        new_df = pd.DataFrame(self.test_data)
+        test = self.test_data.cpu().detach().numpy()
+        new_df = pd.DataFrame(test)
         new_df.head()
 
         total_loss = torch.tensor(0.0).to(self.device)
