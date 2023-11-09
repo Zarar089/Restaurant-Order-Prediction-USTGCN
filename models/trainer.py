@@ -281,7 +281,8 @@ class GNNTrainer(object):
                     if param.requires_grad:
                         param.requires_grad = False
                         parameters.append(param)
-            print(data.shape)
+            if index == indices[0]:
+              print(data)
             embading = self.time_stamp_model(data)
             input_embeddings = embading
             logits = self.regression_model(embading)
