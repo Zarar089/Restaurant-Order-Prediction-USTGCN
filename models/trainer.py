@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 """
 This module a Trainer class for training and evaluating the GNN model.
@@ -220,7 +220,7 @@ class GNNTrainer(object):
             self.writer.add_scalar("Loss/train", train_loss, epoch)
             stats.append(train_loss.cpu().detach().numpy())
 
-            labels, pred, _eval_loss = self.evaluate()
+            labels, pred, _eval_loss,_ = self.evaluate()
             _rmse = rmse(labels, pred)
             _mae = mae(labels, pred)
             _mape = mape(labels, pred)
