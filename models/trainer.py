@@ -296,6 +296,9 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
+        for stat in stats:
+            print(stat)
+
         return labels, pred, total_loss, stats
 
     def test(
