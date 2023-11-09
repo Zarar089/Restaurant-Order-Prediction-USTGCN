@@ -281,10 +281,11 @@ class GNNTrainer(object):
                     if param.requires_grad:
                         param.requires_grad = False
                         parameters.append(param)
+            print(data.shape)
             embading = self.time_stamp_model(data)
             input_embeddings = embading
             logits = self.regression_model(embading)
-            stats.append(self.__get_distribution_stats(input_embeddings))
+            #stats.append(self.__get_distribution_stats(input_embeddings))
             loss = torch.nn.MSELoss()(logits, label)
             loss = loss / len(self.all_nodes)
             total_loss += loss.item()
@@ -296,8 +297,8 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        for stat in stats:
-            print(stat)
+        #for stat in stats:
+        #    print(stat)
 
         return labels, pred, total_loss, stats
 
