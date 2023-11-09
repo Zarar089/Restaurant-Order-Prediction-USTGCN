@@ -268,6 +268,9 @@ class GNNTrainer(object):
         total_timestamp = len(self.test_data)
         indices = torch.randperm(total_timestamp)
 
+        new_df = pd.DataFrame(self.test_data)
+        new_df.head()
+
         total_loss = torch.tensor(0.0).to(self.device)
         for index in indices:
             data = self.test_data[index]
@@ -281,8 +284,6 @@ class GNNTrainer(object):
                     if param.requires_grad:
                         param.requires_grad = False
                         parameters.append(param)
-            if index == indices[0]:
-              print(data.shape)
             embading = self.time_stamp_model(data)
             input_embeddings = embading
             logits = self.regression_model(embading)
