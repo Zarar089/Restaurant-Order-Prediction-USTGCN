@@ -321,6 +321,8 @@ class GNNTrainer(object):
 
         labels, pred, _eval_loss,stats = self.evaluate()
 
+        print(len(stats))
+
         _rmse, _mse = calculate_foodwise_errors(
             labels, pred, len(self.all_nodes))
 
