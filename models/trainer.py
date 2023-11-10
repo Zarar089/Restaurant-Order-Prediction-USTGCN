@@ -266,7 +266,8 @@ class GNNTrainer(object):
         labels = []
         stats= []
         total_timestamp = len(self.test_data)
-        print(total_timestamp)
+        test_data_df = pd.Dataframe(self.test_data)
+        test_data_df.head()
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
@@ -326,8 +327,6 @@ class GNNTrainer(object):
         :type num_days: int
         """
         self.load_model(model_path)
-
-        print(self.input_size,self.output_size)
 
         labels, pred, _eval_loss,stats = self.evaluate()
 
