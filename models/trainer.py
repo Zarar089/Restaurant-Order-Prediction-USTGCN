@@ -266,7 +266,7 @@ class GNNTrainer(object):
         labels = []
         stats= []
         total_timestamp = len(self.test_data)
-        test_data_df = pd.Dataframe(self.test_data)
+        test_data_df = pd.DataFrame(self.test_data)
         test_data_df.head()
         indices = torch.randperm(total_timestamp)
 
