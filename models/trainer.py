@@ -375,10 +375,10 @@ class GNNTrainer(object):
             preds.append(actual_series)
             actuals.append(_food_actual)
 
-        df_pred['Q1'] = [stats[i][0] for i in range (0,len(stats))]
-        df_pred['Q3'] = [stats[i][1] for i in range(0, len(stats))]
-        df_pred['Median'] = [stats[i][2] for i in range(0, len(stats))]
-        df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(stats))]
+        df_pred['Q1'] = [stat[0] for stat in stats]
+        df_pred['Q3'] = [stat[1] for stat in stats]
+        df_pred['Median'] = [stat[2] for stat in stats]
+        df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
