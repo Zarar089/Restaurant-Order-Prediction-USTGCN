@@ -343,7 +343,7 @@ class GNNTrainer(object):
 
         # get date from date id
         date = list(dates_dict.keys())
-        print(len(date))
+      
 
         df_pred = pd.DataFrame(columns=["Date"])
         #df_actual = pd.DataFrame(columns=["Date"] + dish_name)
@@ -353,6 +353,8 @@ class GNNTrainer(object):
 
         df_pred["Date"] = date[test_start + num_days:end + 1]
         #df_actual["Date"] = date[test_start + num_days:end + 1]
+
+        df_pred.info()
 
         actuals = []
         preds = []
