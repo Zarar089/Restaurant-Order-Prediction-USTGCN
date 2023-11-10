@@ -266,6 +266,7 @@ class GNNTrainer(object):
         labels = []
         stats= []
         total_timestamp = len(self.test_data)
+        print(total_timestamp)
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
