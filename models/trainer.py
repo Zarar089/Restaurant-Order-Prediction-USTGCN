@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 """
 This module a Trainer class for training and evaluating the GNN model.
@@ -220,7 +220,7 @@ class GNNTrainer(object):
             self.writer.add_scalar("Loss/train", train_loss, epoch)
             stats.append(train_loss.cpu().detach().numpy())
 
-            labels, pred, _eval_loss = self.evaluate()
+            labels, pred, _eval_loss,_ = self.evaluate()
             _rmse = rmse(labels, pred)
             _mae = mae(labels, pred)
             _mape = mape(labels, pred)
@@ -268,6 +268,8 @@ class GNNTrainer(object):
         total_timestamp = len(self.test_data)
         indices = torch.randperm(total_timestamp)
 
+        print(self.test_data.shape)
+
         total_loss = torch.tensor(0.0).to(self.device)
         for index in indices:
             data = self.test_data[index]
@@ -284,7 +286,7 @@ class GNNTrainer(object):
             embading = self.time_stamp_model(data)
             input_embeddings = embading
             logits = self.regression_model(embading)
-            stats.append(self.__get_distribution_stats(input_embeddings))
+            #stats.append(self.__get_distribution_stats(input_embeddings))
             loss = torch.nn.MSELoss()(logits, label)
             loss = loss / len(self.all_nodes)
             total_loss += loss.item()
@@ -296,8 +298,8 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        for stat in stats:
-            print(stat)
+        #for stat in stats:
+        #    print(stat)
 
         return labels, pred, total_loss, stats
 
