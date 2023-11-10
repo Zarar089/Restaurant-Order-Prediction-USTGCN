@@ -321,8 +321,6 @@ class GNNTrainer(object):
 
         labels, pred, _eval_loss,stats = self.evaluate()
 
-        print(stats.shape[0])
-
         _rmse, _mse = calculate_foodwise_errors(
             labels, pred, len(self.all_nodes))
 
@@ -344,7 +342,7 @@ class GNNTrainer(object):
         # get date from date id
         date = list(dates_dict.keys())
 
-        df_pred = pd.DataFrame(columns=["Date"] + dish_name)
+        df_pred = pd.DataFrame(columns=["Date"])
         #df_actual = pd.DataFrame(columns=["Date"] + dish_name)
 
         end = len(date)
@@ -353,23 +351,32 @@ class GNNTrainer(object):
         df_pred["Date"] = date[test_start + num_days:end + 1]
         #df_actual["Date"] = date[test_start + num_days:end + 1]
 
-        #actuals = []
-
+        actuals = []
+        preds = []
         for i in range(len(dish_name)):
-            _food = pred[i::len(dish_name)]
-            _food = [j for i in _food for j in i]
-            df_pred[dish_name[i]+"Prediction"] = _food
+            prediction_col_name = dish_name[i] + " (Prediction)"
+            actual_col_name = dish_name[i] + " (Actual)"
 
-            _food = labels[i::len(dish_name)]
-            _food = [j for i in _food for j in i]
-            df_pred[dish_name[i]+"Actual"] = _food
+            # Extract the data for the prediction and actual columns
+            _food_pred = pred[i::len(dish_name)]
+            _food_pred = [j for i in _food_pred for j in i]
 
-        #for stat in stats:
-        #    df_pred["Q1"] = stat[0]
-        #    df_pred["Q3"] = stat[1]
-        #    df_pred["Median"] = stat[2]
+            _food_actual = labels[i::len(dish_name)]
+            _food_actual = [j for i in _food_actual for j in i]
 
+            # Create Series for prediction and actual columns
+            prediction_series = pd.Series(_food_pred, name=prediction_col_name)
+            actual_series = pd.Series(_food_actual, name=actual_col_name)
 
+            # Append the Series to the list
+            preds.append(prediction_series)
+            preds.append(actual_series)
+            actuals.append(_food_actual)
+
+        df_pred['Q1'] = [stats[i][0] for i in range (0,len(stats))]
+        df_pred['Q3'] = [stats[i][1] for i in range(0, len(stats))]
+        df_pred['Median'] = [stats[i][2] for i in range(0, len(stats))]
+        df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(stats))]
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
