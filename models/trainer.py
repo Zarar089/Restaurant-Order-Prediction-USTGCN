@@ -286,7 +286,7 @@ class GNNTrainer(object):
             embading = self.time_stamp_model(data)
             input_embeddings = embading
             logits = self.regression_model(embading)
-            #stats.append(self.__get_distribution_stats(input_embeddings))
+            stats.append(self.__get_distribution_stats(input_embeddings))
             loss = torch.nn.MSELoss()(logits, label)
             loss = loss / len(self.all_nodes)
             total_loss += loss.item()
@@ -343,6 +343,7 @@ class GNNTrainer(object):
 
         # get date from date id
         date = list(dates_dict.keys())
+        print(len(date))
 
         df_pred = pd.DataFrame(columns=["Date"])
         #df_actual = pd.DataFrame(columns=["Date"] + dish_name)
@@ -375,10 +376,10 @@ class GNNTrainer(object):
             preds.append(actual_series)
             actuals.append(_food_actual)
 
-        df_pred['Q1'] = [stat[0] for stat in stats]
-        df_pred['Q3'] = [stat[1] for stat in stats]
-        df_pred['Median'] = [stat[2] for stat in stats]
-        df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
+        #df_pred['Q1'] = [stat[0] for stat in stats]
+        #df_pred['Q3'] = [stat[1] for stat in stats]
+        #df_pred['Median'] = [stat[2] for stat in stats]
+        #df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
