@@ -327,6 +327,8 @@ class GNNTrainer(object):
         """
         self.load_model(model_path)
 
+        print(self.input_size,self.output_size)
+
         labels, pred, _eval_loss,stats = self.evaluate()
 
         _rmse, _mse = calculate_foodwise_errors(
