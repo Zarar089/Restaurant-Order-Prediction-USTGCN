@@ -299,7 +299,12 @@ class GNNTrainer(object):
         #for stat in stats:
         #    print(stat)
 
-        print(np.array(labels).shape,np.array(pred).shape,np.array(total_loss).shape,np.array(stats).shape)
+        lb = np.array(labels)
+        prd = np.array(pred)
+        tls = np.array(total_loss)
+        sts = stats.cpu().detach().numpy()
+
+        print()
 
         return labels, pred, total_loss, stats
 
