@@ -272,6 +272,7 @@ class GNNTrainer(object):
         total_loss = torch.tensor(0.0).to(self.device)
         for index in indices:
             data = self.test_data[index]
+            print(data.shape)
             label = self.test_labels[index]
 
             models = [self.time_stamp_model, self.regression_model]
@@ -283,7 +284,6 @@ class GNNTrainer(object):
                         param.requires_grad = False
                         parameters.append(param)
             embading = self.time_stamp_model(data)
-            input_embeddings = embading
             logits = self.regression_model(embading)
             stats.append(self.__get_distribution_stats(data))
             loss = torch.nn.MSELoss()(logits, label)
