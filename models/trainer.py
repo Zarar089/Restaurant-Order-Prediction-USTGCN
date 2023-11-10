@@ -301,10 +301,10 @@ class GNNTrainer(object):
 
         lb = np.array(labels)
         prd = np.array(pred)
-        tls = np.array(total_loss)
-        sts = stats.cpu().detach().numpy()
+        tls = total_loss.cpu().detach().numpy()
+        sts = np.array(stats)
 
-        print()
+        print(lb.shape,prd.shape,tls.shape,sts.shape)
 
         return labels, pred, total_loss, stats
 
