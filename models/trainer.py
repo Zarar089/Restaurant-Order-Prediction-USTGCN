@@ -299,6 +299,8 @@ class GNNTrainer(object):
         #for stat in stats:
         #    print(stat)
 
+        print(np.array(labels).shape,np.array(pred).shape,np.array(total_loss).shape,np.array(stats).shape)
+
         return labels, pred, total_loss, stats
 
     def test(
@@ -320,8 +322,6 @@ class GNNTrainer(object):
         self.load_model(model_path)
 
         labels, pred, _eval_loss,stats = self.evaluate()
-
-        print(len(stats))
 
         _rmse, _mse = calculate_foodwise_errors(
             labels, pred, len(self.all_nodes))
