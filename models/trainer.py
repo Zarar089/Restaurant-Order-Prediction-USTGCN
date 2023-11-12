@@ -317,7 +317,7 @@ class GNNTrainer(object):
         """
         self.load_model(model_path)
 
-        order_matrix_df = pd.DataFrame(self.raw_data_path)
+        order_matrix_df = pd.DataFrame(self.processed_data_path)
 
         stats = []
 
