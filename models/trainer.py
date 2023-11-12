@@ -93,7 +93,7 @@ class GNNTrainer(object):
         self.work_dir = work_dir
         self.dish_dict_path = dish_dict_path
         self.dates_dict_path = dates_dict_path
-        self.raw_data_path = raw_data_path
+        self.processed_data_path = processed_data_path
         self.all_nodes = [i for i in range(self.adj_matrix.shape[0])]
         self.node_batch_size = batch_size
 
