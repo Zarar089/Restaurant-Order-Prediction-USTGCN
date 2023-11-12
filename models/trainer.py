@@ -323,12 +323,6 @@ class GNNTrainer(object):
 
         tmp_start = test_start
 
-        for column in order_matrix_df.columns:
-            end_date = tmp_start+num_days+1
-            data = order_matrix_df[column][tmp_start:end_date]
-            tmp_start += 1
-            stat = self.__get_distribution_stats(data)
-            stats.append(stat)
 
         print(len(stats))
 
@@ -365,6 +359,20 @@ class GNNTrainer(object):
         df_pred["Date"] = date[test_start + num_days:end + 1]
         #df_actual["Date"] = date[test_start + num_days:end + 1]
 
+        tmp_start = test_start+num_days
+
+        for i in range(tmp_start,end):
+          dish_wise_stat = []
+          for column in order_matrix_df.columns:
+            end_date = tmp_start+num_days+1
+            data = order_matrix_df[column][i:i+num_days]
+            stat = self.__get_distribution_stats(data)
+            dish_wise_stat.append(stat)
+          stats.append(dish_wise_stat) 
+
+        print(len(stats))
+
+
         actuals = []
         preds = []
         for i in range(len(dish_name)):
@@ -381,16 +389,17 @@ class GNNTrainer(object):
             # Create Series for prediction and actual columns
             prediction_series = pd.Series(_food_pred, name=prediction_col_name)
             actual_series = pd.Series(_food_actual, name=actual_col_name)
+            q1_series = [stat[0] for dish_wise_stat in stats for stat in dish_wise_stat]
+            q3_series = [stat[1] for dish_wise_stat in stats for stat in dish_wise_stat]
+            median_series = [stat[2] for dish_wise_stat in stats for stat in dish_wise_stat]
+            lr_threshold_series = [stat[3] for dish_wise_stat in stats for stat in dish_wise_stat]
+            hr_threshold_series = [stat[4] for dish_wise_stat in stats for stat in dish_wise_stat]
 
             # Append the Series to the list
             preds.append(prediction_series)
             preds.append(actual_series)
             actuals.append(_food_actual)
 
-        #df_pred['Q1'] = [stat[0] for stat in stats]
-        #df_pred['Q3'] = [stat[1] for stat in stats]
-        #df_pred['Median'] = [stat[2] for stat in stats]
-        #df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
