@@ -44,6 +44,7 @@ class GNNTrainer(object):
             work_dir: str,
             dish_dict_path: str,
             dates_dict_path: str,
+            processed_data_path:str
     ) -> None:
         """
         Initialize the GNNTrainer class.
@@ -92,7 +93,7 @@ class GNNTrainer(object):
         self.work_dir = work_dir
         self.dish_dict_path = dish_dict_path
         self.dates_dict_path = dates_dict_path
-
+        self.raw_data_path = raw_data_path
         self.all_nodes = [i for i in range(self.adj_matrix.shape[0])]
         self.node_batch_size = batch_size
 
@@ -264,11 +265,8 @@ class GNNTrainer(object):
         """
         pred = []
         labels = []
-        stats= []
         total_timestamp = len(self.test_data)
         indices = torch.randperm(total_timestamp)
-
-        print(self.test_data.shape)
 
         total_loss = torch.tensor(0.0).to(self.device)
         for index in indices:
@@ -284,9 +282,7 @@ class GNNTrainer(object):
                         param.requires_grad = False
                         parameters.append(param)
             embading = self.time_stamp_model(data)
-            input_embeddings = embading
             logits = self.regression_model(embading)
-            #stats.append(self.__get_distribution_stats(input_embeddings))
             loss = torch.nn.MSELoss()(logits, label)
             loss = loss / len(self.all_nodes)
             total_loss += loss.item()
@@ -301,7 +297,7 @@ class GNNTrainer(object):
         #for stat in stats:
         #    print(stat)
 
-        return labels, pred, total_loss, stats
+        return labels, pred, total_loss
 
     def test(
             self,
@@ -321,7 +317,20 @@ class GNNTrainer(object):
         """
         self.load_model(model_path)
 
-        labels, pred, _eval_loss,stats = self.evaluate()
+        order_matrix_df = pd.DataFrame(self.raw_data_path)
+
+        stat_data = []
+
+        tmp_start = test_start
+
+        for column in order_matrix_df.columns:
+            end_date = tmp_start+num_days+1
+            data = order_matrix_df[column][tmp_start:end_date]
+            tmp_start += 1
+            stat_data.append(data)
+
+
+        labels, pred, _eval_loss = self.evaluate()
 
         _rmse, _mse = calculate_foodwise_errors(
             labels, pred, len(self.all_nodes))

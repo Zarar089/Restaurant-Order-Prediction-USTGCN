@@ -109,6 +109,7 @@ if __name__ == "__main__":
         config["logging_params"]["work_dir"],
         config["data_params"]["dish_dict_path"],
         config["data_params"]["dates_dict_path"],
+        processed_data_path= config["data_params"]["processed_data_path"]
     )
 
     if args.mode == "train":
