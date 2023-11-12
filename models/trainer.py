@@ -319,7 +319,7 @@ class GNNTrainer(object):
 
         order_matrix_df = pd.DataFrame(self.raw_data_path)
 
-        stat_data = []
+        stats = []
 
         tmp_start = test_start
 
@@ -327,7 +327,10 @@ class GNNTrainer(object):
             end_date = tmp_start+num_days+1
             data = order_matrix_df[column][tmp_start:end_date]
             tmp_start += 1
-            stat_data.append(data)
+            stat = self.__get_distribution_stats(data)
+            stats.append(stat)
+
+        print(len(stats))
 
 
         labels, pred, _eval_loss = self.evaluate()
@@ -384,10 +387,10 @@ class GNNTrainer(object):
             preds.append(actual_series)
             actuals.append(_food_actual)
 
-        df_pred['Q1'] = [stat[0] for stat in stats]
-        df_pred['Q3'] = [stat[1] for stat in stats]
-        df_pred['Median'] = [stat[2] for stat in stats]
-        df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
+        #df_pred['Q1'] = [stat[0] for stat in stats]
+        #df_pred['Q3'] = [stat[1] for stat in stats]
+        #df_pred['Median'] = [stat[2] for stat in stats]
+        #df_pred['Outlier'] = [True if actuals[i] >= stats[i][3] and actuals <= stats[i][4] else False for i in range(0, len(actuals))]
         # save the dataframe
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
@@ -437,8 +440,9 @@ class GNNTrainer(object):
         )
 
 
-    def __get_distribution_stats(self,embedding):
-        data = embedding.cpu().detach().numpy()
+    @staticmethod
+    def __get_distribution_stats(input):
+        data = input.cpu().detach().numpy()
         median = np.percentile(data, 50)
         q1 = np.percentile(data, 25)
         q3 = np.percentile(data, 75)
