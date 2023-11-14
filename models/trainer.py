@@ -269,7 +269,7 @@ class GNNTrainer(object):
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
-        for index in range(0,total_timestamp):
+        for index in indices:
             data = self.test_data[index]
             label = self.test_labels[index]
 
@@ -357,14 +357,15 @@ class GNNTrainer(object):
 
         tmp_start = test_start+num_days
 
-        for column in order_matrix_df.columns:
+        for i in range(tmp_start,end,7):
           dish_wise_stat = []
-          for i in range(tmp_start,end,7):
+          for column in order_matrix_df.columns:
+            end_date = tmp_start+num_days+1
             data = order_matrix_df[column][i:i+num_days]
             stat = self.__get_distribution_stats(data)
-            for i in range(0,7):
-              dish_wise_stat.append(stat)
-          stats.append(dish_wise_stat)
+            dish_wise_stat.append(stat)
+          for i in range(0,7):
+            stats.append(dish_wise_stat) 
 
         actuals = []
         preds = []
@@ -397,7 +398,9 @@ class GNNTrainer(object):
             median_series = pd.Series(median_values, name=median_col_name)
             lr_series = pd.Series(lr_threshold_values)
             hr_series = pd.Series(hr_threshold_values)
-            outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
+            #outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
+
+            print(lr_series,hr_series,actual_series)
 
 
             # Append the Series to the list
@@ -406,7 +409,7 @@ class GNNTrainer(object):
             preds.append(q1_series)
             preds.append(q3_series)
             preds.append(median_series)
-            preds.append(outlier_series)
+            #preds.append(outlier_series)
 
 
         # save the dataframe
