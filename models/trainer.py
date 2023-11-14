@@ -317,15 +317,11 @@ class GNNTrainer(object):
         """
         self.load_model(model_path)
 
-        order_matrix_df = pd.DataFrame(self.processed_data_path)
+        order_matrix_df = pd.read_csv(self.processed_data_path)
 
         stats = []
 
         tmp_start = test_start
-
-
-        print(len(stats))
-
 
         labels, pred, _eval_loss = self.evaluate()
 
@@ -361,14 +357,15 @@ class GNNTrainer(object):
 
         tmp_start = test_start+num_days
 
-        for i in range(tmp_start,end):
+        for i in range(tmp_start,end,7):
           dish_wise_stat = []
           for column in order_matrix_df.columns:
             end_date = tmp_start+num_days+1
             data = order_matrix_df[column][i:i+num_days]
             stat = self.__get_distribution_stats(data)
             dish_wise_stat.append(stat)
-          stats.append(dish_wise_stat) 
+          for i in range(0,7):
+            stats.append(dish_wise_stat) 
 
         print(len(stats))
 
@@ -378,6 +375,10 @@ class GNNTrainer(object):
         for i in range(len(dish_name)):
             prediction_col_name = dish_name[i] + " (Prediction)"
             actual_col_name = dish_name[i] + " (Actual)"
+            q1_col_name = dish_name[i] + " (Q1)"
+            q3_col_name = dish_name[i] + " (Q3)"
+            median_col_name = dish_name[i] + " (Median)"
+            outlier_col_name = dish_name[i] + " (Outlier)"
 
             # Extract the data for the prediction and actual columns
             _food_pred = pred[i::len(dish_name)]
@@ -386,21 +387,33 @@ class GNNTrainer(object):
             _food_actual = labels[i::len(dish_name)]
             _food_actual = [j for i in _food_actual for j in i]
 
+            q1_values = [stat[0] for dish_wise_stat in stats for stat in dish_wise_stat]
+            q3_values = [stat[1] for dish_wise_stat in stats for stat in dish_wise_stat]
+            median_values = [stat[2] for dish_wise_stat in stats for stat in dish_wise_stat]
+            lr_threshold_values = [stat[3] for dish_wise_stat in stats for stat in dish_wise_stat]
+            hr_threshold_values = [stat[4] for dish_wise_stat in stats for stat in dish_wise_stat]
+
             # Create Series for prediction and actual columns
             prediction_series = pd.Series(_food_pred, name=prediction_col_name)
             actual_series = pd.Series(_food_actual, name=actual_col_name)
-            q1_series = [stat[0] for dish_wise_stat in stats for stat in dish_wise_stat]
-            q3_series = [stat[1] for dish_wise_stat in stats for stat in dish_wise_stat]
-            median_series = [stat[2] for dish_wise_stat in stats for stat in dish_wise_stat]
-            lr_threshold_series = [stat[3] for dish_wise_stat in stats for stat in dish_wise_stat]
-            hr_threshold_series = [stat[4] for dish_wise_stat in stats for stat in dish_wise_stat]
+            q1_series = pd.Series(q1_values, name=q1_col_name)
+            q3_series = pd.Series(q3_values, name=q3_col_name)
+            median_series = pd.Series(median_values, name=median_col_name)
+            lr_series = pd.Series(lr_threshold_values, name=outlier_col_name)
+            hr_series = pd.Series(hr_threshold_values, name=outlier_col_name)
+            outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
 
             # Append the Series to the list
             preds.append(prediction_series)
             preds.append(actual_series)
-            actuals.append(_food_actual)
+            preds.append(q1_series)
+            preds.append(q3_series)
+            preds.append(median_series)
+            preds.append(outlier_series)
+
 
         # save the dataframe
+        df_pred = pd.concat([df_pred]+preds,axis=1)
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
         #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
 
@@ -451,7 +464,7 @@ class GNNTrainer(object):
 
     @staticmethod
     def __get_distribution_stats(input):
-        data = input.cpu().detach().numpy()
+        data = input
         median = np.percentile(data, 50)
         q1 = np.percentile(data, 25)
         q3 = np.percentile(data, 75)
