@@ -367,9 +367,6 @@ class GNNTrainer(object):
           for i in range(0,7):
             stats.append(dish_wise_stat) 
 
-        print(len(stats))
-
-
         actuals = []
         preds = []
         for i in range(len(dish_name)):
@@ -387,11 +384,11 @@ class GNNTrainer(object):
             _food_actual = labels[i::len(dish_name)]
             _food_actual = [j for i in _food_actual for j in i]
 
-            q1_values = [stat[0] for dish_wise_stat in stats for stat in dish_wise_stat]
-            q3_values = [stat[1] for dish_wise_stat in stats for stat in dish_wise_stat]
-            median_values = [stat[2] for dish_wise_stat in stats for stat in dish_wise_stat]
-            lr_threshold_values = [stat[3] for dish_wise_stat in stats for stat in dish_wise_stat]
-            hr_threshold_values = [stat[4] for dish_wise_stat in stats for stat in dish_wise_stat]
+            q1_values = [stat[0] for stat in stats[i]]
+            q3_values = [stat[1] for stat in stats[i]]
+            median_values = [stat[2] for stat in stats[i]]
+            lr_threshold_values = [stat[3] for stat in stats[i]]
+            hr_threshold_values = [stat[4] for stat in stats[i]]
 
             # Create Series for prediction and actual columns
             prediction_series = pd.Series(_food_pred, name=prediction_col_name)
