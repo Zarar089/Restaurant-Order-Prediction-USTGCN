@@ -24,8 +24,6 @@ from models.regression import Regression
 from utils.tools import calculate_foodwise_errors, mae, mape, rmse
 
 
-
-
 class GNNTrainer(object):
     """GNN trainer."""
 
@@ -44,7 +42,7 @@ class GNNTrainer(object):
             work_dir: str,
             dish_dict_path: str,
             dates_dict_path: str,
-            processed_data_path:str
+            processed_data_path: str
     ) -> None:
         """
         Initialize the GNNTrainer class.
@@ -294,7 +292,7 @@ class GNNTrainer(object):
 
         total_loss = total_loss / len(indices)
 
-        #for stat in stats:
+        # for stat in stats:
         #    print(stat)
 
         return labels, pred, total_loss
@@ -347,23 +345,24 @@ class GNNTrainer(object):
         date = list(dates_dict.keys())
 
         df_pred = pd.DataFrame(columns=["Date"])
-        #df_actual = pd.DataFrame(columns=["Date"] + dish_name)
+        # df_actual = pd.DataFrame(columns=["Date"] + dish_name)
 
         end = len(date)
         end = len(pred[0]) * (end // len(pred[0]))
 
         df_pred["Date"] = date[test_start + num_days:end + 1]
-        #df_actual["Date"] = date[test_start + num_days:end + 1]
+        # df_actual["Date"] = date[test_start + num_days:end + 1]
 
-        tmp_start = test_start+num_days
+        tmp_start = test_start + num_days
 
         for column in order_matrix_df.columns:
-          dish_wise_stat = []
-          for i in range(tmp_start,end,7):
-            data = order_matrix_df[column][i:i+num_days]
-            stat = self.__get_distribution_stats(data)
-            for i in range(0,)
-         stats.append(dish_wise_stat)
+            dish_wise_stat = []
+            for i in range(tmp_start, end, 7):
+                data = order_matrix_df[column][i:i + num_days]
+                stat = self.__get_distribution_stats(data)
+                for i in range(0, 7):
+                    dish_wise_stat.append(stat)
+            stats.append(dish_wise_stat)
 
         actuals = []
         preds = []
@@ -398,8 +397,7 @@ class GNNTrainer(object):
             hr_series = pd.Series(hr_threshold_values)
             outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
 
-            print(lr_series,hr_series,actual_series)
-
+            print(lr_series, hr_series, actual_series)
 
             # Append the Series to the list
             preds.append(prediction_series)
@@ -409,11 +407,10 @@ class GNNTrainer(object):
             preds.append(median_series)
             preds.append(outlier_series)
 
-
         # save the dataframe
-        df_pred = pd.concat([df_pred]+preds,axis=1)
+        df_pred = pd.concat([df_pred] + preds, axis=1)
         df_pred.to_csv(self.log_dir + "/prediction.csv", index=False)
-        #df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
+        # df_actual.to_csv(self.log_dir + "/actual.csv", index=False)
 
         # add dish name and save the rmse and mse
         df = pd.DataFrame()
@@ -458,7 +455,6 @@ class GNNTrainer(object):
             self.regression_model,
             os.path.join(self.log_dir, "regression_model.pth")
         )
-
 
     @staticmethod
     def __get_distribution_stats(input):
