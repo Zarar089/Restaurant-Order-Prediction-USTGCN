@@ -267,7 +267,7 @@ class GNNTrainer(object):
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
-        for index in indices:
+        for index in range(0,total_timestamp):
             data = self.test_data[index]
             label = self.test_labels[index]
 
@@ -351,6 +351,7 @@ class GNNTrainer(object):
         end = len(pred[0]) * (end // len(pred[0]))
 
         df_pred["Date"] = date[test_start + num_days:end + 1]
+        print(df_pred["Date"])
         # df_actual["Date"] = date[test_start + num_days:end + 1]
 
         tmp_start = test_start + num_days
@@ -396,8 +397,7 @@ class GNNTrainer(object):
             lr_series = pd.Series(lr_threshold_values)
             hr_series = pd.Series(hr_threshold_values)
             outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
-
-            print(lr_series, hr_series, actual_series)
+            outlier_series.name = outlier_col_name
 
             # Append the Series to the list
             preds.append(prediction_series)
