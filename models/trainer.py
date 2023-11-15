@@ -269,7 +269,7 @@ class GNNTrainer(object):
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
-        for index in range(0,total_timestamp):
+        for index in indices:
             data = self.test_data[index]
             label = self.test_labels[index]
 
