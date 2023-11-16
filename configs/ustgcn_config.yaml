@@ -11,9 +11,9 @@ exp_params:
   epochs: 500
   learning_rate: 0.001
   num_gnn_layers: 3
-  test_model_path: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_20
+  test_model_path: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_23
 logging_params:
-  last_saved_model: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_20
+  last_saved_model: /content/Restaurant-Sales-Prediction-USTGCN/work_dir/logs/run_23
   work_dir: /content/Restaurant-Sales-Prediction-USTGCN/work_dir
 model_params:
   num_days: 30

@@ -267,7 +267,7 @@ class GNNTrainer(object):
         indices = torch.randperm(total_timestamp)
 
         total_loss = torch.tensor(0.0).to(self.device)
-        for index in indices:
+        for index in range(0,total_timestamp):
             data = self.test_data[index]
             label = self.test_labels[index]
 
@@ -350,14 +350,15 @@ class GNNTrainer(object):
         end = len(date)
         end = len(pred[0]) * (end // len(pred[0]))
 
-        df_pred["Date"] = date[test_start + num_days:end + 2]
+        df_pred["Date"] = date[test_start + num_days:end + 1]
+        print(df_pred["Date"])
         # df_actual["Date"] = date[test_start + num_days:end + 1]
 
         tmp_start = test_start + num_days
 
         for column in order_matrix_df.columns:
             dish_wise_stat = []
-            for i in range(tmp_start+1, end, 7):
+            for i in range(tmp_start, end, 7):
                 data = order_matrix_df[column][i:i + num_days]
                 stat = self.__get_distribution_stats(data)
                 for i in range(0, 7):
