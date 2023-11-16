@@ -358,7 +358,7 @@ class GNNTrainer(object):
 
         for column in order_matrix_df.columns:
             dish_wise_stat = []
-            for i in range(tmp_start, end, 7):
+            for i in range(tmp_start+1, end, 7):
                 data = order_matrix_df[column][i:i + num_days]
                 stat = self.__get_distribution_stats(data)
                 for i in range(0, 7):
