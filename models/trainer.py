@@ -350,14 +350,14 @@ class GNNTrainer(object):
         end = len(date)
         end = len(pred[0]) * (end // len(pred[0]))
 
-        df_pred["Date"] = date[test_start + num_days:end + 1]
+        df_pred["Date"] = date[test_start + num_days:end + 2]
         # df_actual["Date"] = date[test_start + num_days:end + 1]
 
         tmp_start = test_start + num_days
 
         for column in order_matrix_df.columns:
             dish_wise_stat = []
-            for i in range(tmp_start, end, 7):
+            for i in range(tmp_start+1, end, 7):
                 data = order_matrix_df[column][i:i + num_days]
                 stat = self.__get_distribution_stats(data)
                 for i in range(0, 7):
@@ -396,8 +396,7 @@ class GNNTrainer(object):
             lr_series = pd.Series(lr_threshold_values)
             hr_series = pd.Series(hr_threshold_values)
             outlier_series = (actual_series < lr_series) & (actual_series > hr_series)
-
-            print(lr_series, hr_series, actual_series)
+            outlier_series.name = outlier_col_name
 
             # Append the Series to the list
             preds.append(prediction_series)
